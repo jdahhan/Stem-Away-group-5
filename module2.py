@@ -29,7 +29,7 @@ for line in infile:
                 gene = word
         if drug and gene:
             dependencies.append((line[:line.find('(')], (drug, gene)))
-print(dependencies)
+
 # %%
 setrelations = set()
 setpairs = set()
@@ -41,9 +41,8 @@ relations = list(setrelations)
 pairs = list(setpairs)
 
 zeroes = np.zeros(shape=(len(pairs), len(relations)))
-matrix = pd.DataFrame(zeroes, index=list(pairs.keys()), columns = list(relations.keys()))
+matrix = pd.DataFrame(zeroes, index = pairs, columns = relations)
 # %%
 for dependency in dependencies:
     matrix.at[dependency[1], dependency[0]] += 1
-print(matrix)
 # %%
