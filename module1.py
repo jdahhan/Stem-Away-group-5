@@ -30,11 +30,6 @@ genes = []
 df_drug = pd.read_csv('./drugs/drugs.tsv', sep='\t')
 df_genes = pd.read_csv('./genes/genes.tsv', sep='\t')
 
-<<<<<<< HEAD
-drugs.extend(df_drug["Name"])
-genes.extend(df_genes["Name"])
-=======
-
 drugs.extend(df_drug["Name"])
 genes.extend(df_genes["Name"])
 
@@ -42,7 +37,6 @@ genes.extend(df_genes["Name"])
 drugbank_drug= pd.read_csv('./drugs/drugbank vocabulary.csv')
 drugs.extend(drugbank_drug["Common name"])
 
->>>>>>> fc4c299f880a970e0c1258b18f72bb61d812062e
 #%%
 pubmed_df = pd.concat(parsed_files, ignore_index=True)
 #%% isolate sentences
@@ -56,7 +50,6 @@ for abstract in abstracts:
 usable_sentences = []
 set_drugs = set(drugs)
 set_genes = set(genes)
-
 
 for sentence in sentences:
     drug, gene = False, False
@@ -75,8 +68,5 @@ file = open("usable_sentences.tsv", "w", encoding='utf-8')
 file.write('\t'.join(usable_sentences))
 file.close()
 print('done')
-<<<<<<< HEAD
 # %%
-=======
 # %%
->>>>>>> fc4c299f880a970e0c1258b18f72bb61d812062e
