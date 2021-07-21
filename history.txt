@@ -1,0 +1,16 @@
+ 1258  lsc
+ 1259  ls
+ 1260  cd ..
+ 1261  ls
+ 1262  cd ..
+ 1263  ls
+ 1264  cd Stem*
+ 1265  ls
+ 1266  jython -i -J-cp /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/stanford-parser.jar /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module2/stanford_parser.py /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz
+ 1267  conda activate stemaway
+ 1268  jython -i -J-cp /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/stanford-parser.jar /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module2/stanford_parser.py /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz
+ 1269  jython
+ 1270  PATH=$HOME/jython2.7.2/bin:$PATH
+ 1271  jython
+ 1272  history
+ 1273  ls

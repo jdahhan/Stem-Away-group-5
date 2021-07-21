@@ -26,10 +26,6 @@ import pandas as pd
 matrix = pd.read_csv('../dependency_matrix.txt', sep = '\t')
 matrix.head()
 
-
-#%%
-matrix
-
 #%%
 from matrix import SparseMatrix as sm
 
@@ -40,4 +36,3 @@ ebc = EBC(sparse_matrix, n_clusters=[30, 125], max_iterations=10)
 cXY, objective, iter = ebc.run()
 
 # output coclusterings
-
