@@ -435,6 +435,12 @@ def get_common_path_example(sp):
     path = ' '.join([sentence.word[x] for x in sorted(shortest_path)])
     print('Path: %s' % path)
 
+    # apply this to my data
+    # with open('../data/sample_data.txt') as f:
+    #     sents = f.readlines()
+
+    # list_sents = [i for i in sents]
+
 
 if __name__ == '__main__':
 
