@@ -40,7 +40,11 @@ class PrepareStanfordParser:
                 gene_indices.append(i)
 
         return (sent, drug_indices, gene_indices)
-        
+
+    def apply_to_all_sentences(self, biomedical_sentences: list) -> list:
+        ''' Getting all the drug indices and tag indices of each of the pubmed sentences '''
+        return [self.tag_drug_gene(sent) for sent in biomedical_sentences]
+
 
     def parse_to_stanford(self) -> None:
         ''' Take the input of biomedical sentences CSV and parse 

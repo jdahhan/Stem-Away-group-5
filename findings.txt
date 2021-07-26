@@ -1,0 +1,8 @@
+What we found about the EBC Algorithm run
+========================================
+
+cXY outputs two lists:
+
+One is the length of 14052 (number of drug gene pairs)
+
+The other is of length 7272 (number of dependency paths)

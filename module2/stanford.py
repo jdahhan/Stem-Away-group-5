@@ -166,7 +166,7 @@ class PySentence:
         tags_at_idx = self.xmltags.get(idx)
         if tags_at_idx:
             num_tags = len(tags_at_idx)
-            for tag_i in xrange(num_tags):
+            for tag_i in range(num_tags):
                 tag_idx = (tag_i + 1) / float(num_tags + 1)
                 tag_name = tags_at_idx[tag_i].decode('latin1')
                 self.word[idx + tag_idx] = tag_name

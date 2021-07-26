@@ -1,6 +1,15 @@
+'''
+Note: This code is still incomplete and the logic needs to still be modified to meet the 
+replication requirements of the paper. 
+
+Namely, the dependency path is not represented properly yet. 
+
+'''
+
 #%%
 import pandas as pd
 import numpy as np
+
 drugs = []
 genes = []
 parsename = 'sample_dependency_output.txt'
