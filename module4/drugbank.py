@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Goal: Generate seed and test sets
 """
@@ -6,7 +5,7 @@ Goal: Generate seed and test sets
 
 def ingest_drugbank(path):
     filepath = "full database.xml"
-    file = open(filepath, 'r', encoding = "UTF-8")
+    file = open(filepath, "r", encoding="UTF-8")
     allpairs = []
 
     for line in file:
@@ -23,7 +22,6 @@ def ingest_drugbank(path):
     file.close()
 
     outfile = "drugbank_pairs.tsv"
-    file = open(outfile, "w", encoding='utf-8')
+    file = open(outfile, "w", encoding="utf-8")
     file.write("\n".join(allpairs))
     file.close()
-    >>>>>>> e1a74567018bbfe73b648e326604dc04b5d25826
