@@ -67,11 +67,7 @@ class ITCC:
 
         def make_hashtable(df, col1, col2) -> dict:
             """Creating a function to create a hashtable or dictionary from the respective mappings dataframes"""
-            hash = dict(zip(df[col1], df[col2]))
-            # switch = lambda my_dict: {
-            #     y: x for x, y in my_dict.items()
-            # }  # utility function to switch keys and values
-            return hash
+            return dict(zip(df[col1], df[col2]))
 
         path_hash = make_hashtable(path_mappings, "column_indice", "path")
         druggene_hash = make_hashtable(druggene_mappings, "row_indice", "druggene")

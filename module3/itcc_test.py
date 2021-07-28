@@ -8,13 +8,15 @@ class TestITCC(unittest.TestCase):
         i = ITCC()
         df = i.get_path_matrix()
         self.assertEqual(type(df), pd.DataFrame)
-        df.describe()
+        print(df.describe())
+        print("=" * 80)
 
     def test_getCXY(self):
         i = ITCC()
         df = i.getCXY()
         print(df.head())
         print(f"Shape: {df.shape}")
+        print("=" * 80)
 
     def test_generate_artifact(self):
         i = ITCC()
@@ -35,6 +37,7 @@ class TestITCC(unittest.TestCase):
         df.to_csv(
             "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/ebc_artifact.csv"
         )
+        print("=" * 80)
 
 
 unittest.main()
