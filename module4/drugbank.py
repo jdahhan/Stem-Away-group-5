@@ -1,12 +1,29 @@
+<<<<<<< HEAD
 """
 Goal: Generate seed and test sets
 """
 
 
 def ingest_drugbank(path):
-    """Creating a function to ingest the Drugbank XML files"""
-    drugbank = []
-    with open(path, "r") as f:
-        for line in f:
-            drugbank.append(line)
-    return drugbank
+    filepath = "full database.xml"
+    file = open(filepath, 'r', encoding = "UTF-8")
+    allpairs = []
+
+    for line in file:
+        line = line.strip()
+        if line.find("<drug type=") != -1:
+            newpairs = [f"{currdrug}\t{gene}" for gene in currgenes]
+            currdrug = ""
+            currgenes = []
+            allpairs += newpairs
+        if line.find("<name>") != -1 and currdrug == "":
+            currdrug = line[6:-7]
+        if line.find("<gene-name>") != -1:
+            currgenes.append(line[11:-12])
+    file.close()
+
+    outfile = "drugbank_pairs.tsv"
+    file = open(outfile, "w", encoding='utf-8')
+    file.write("\n".join(allpairs))
+    file.close()
+    >>>>>>> e1a74567018bbfe73b648e326604dc04b5d25826
