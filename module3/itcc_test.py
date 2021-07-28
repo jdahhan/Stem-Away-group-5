@@ -30,7 +30,6 @@ class TestITCC(unittest.TestCase):
         df = i.generate_artifact(
             druggene_mappings=druggene_mappings, path_mappings=path_mappings
         )
-
         print(df.head())
 
 
