@@ -2,9 +2,6 @@
 to help our team create the appropriate dependency matrix.
 '''
 
-
-
-
 def get_dependency_path(sentence, drug, gene):
     """
     Input: sentence, drug, gene

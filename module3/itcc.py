@@ -28,24 +28,58 @@ class ITCC:
         df = pd.read_csv(path, delimiter="\t")
         df.columns = [
             "druggene",
-            "num",
+            "row_indice",
             "path",
-            "num2",
-            "num3",
-        ]  # I am not sure what column 2, 4, 5 is
+            "column_indice",
+            "certainty_value",
+        ]
+
+        print(df.info())
+
+        df = df.sort_values(by=["column_indice"])
+
         print(df.head())
         print(f"Shape: {df.shape}")
+
+        df.to_csv(
+            "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/matrix.csv"
+        )
+
         return df
 
-    def generate_artifact(self):
+    def getCXY(
+        self,
+        path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/cXY_output.csv",
+    ):
+        df = pd.read_csv(path)
+        df = df.T
+        df.columns = ["pair_cluster", "path_cluster"]
+
+        # Schema validation
+        # df["pair_cluster"] = df["pair_cluster"].astype(int)
+        # df["path_cluster"] = df["path_cluster"].astype(int)
+
+        return df
+
+    def generate_artifact(self, druggene_mappings, path_mappings) -> pd.DataFrame:
         """This function is supposed to create a data artifact with
         dependency paths, path cluster, drug_gene pairs, and pair_clusters"""
 
-        artifact = self.get_path_matrix()
-        paths = artifact["path"].tolist()
-        drug_gene = artifact["druggene"].tolist()
+        def make_hashtable(df, col1, col2) -> dict:
+            """Creating a function to create a hashtable or dictionary from the respective mappings dataframes"""
+            hash = dict(zip(df[col1], df[col2]))
+            switch = lambda my_dict: {
+                y: x for x, y in my_dict.items()
+            }  # utility function to switch keys and values
+            return switch(hash)
 
-        df = pd.DataFrame({"dependency_paths": paths, "drug_gene_pairs": drug_gene})
+        path_hash = make_hashtable(path_mappings)
+        druggene_hash = make_hashtable(druggene_mappings)
+
+        df = self.getCXY()
+
+        df["path"] = df["path_cluster"].apply(lambda x: path_hash[x])
+        df["druggene_pair"] = df["pair_cluster"].apply(lambda x: druggene_hash[x])
 
         return df
 

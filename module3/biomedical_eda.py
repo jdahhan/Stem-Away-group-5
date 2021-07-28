@@ -39,3 +39,64 @@ class _EDA:
         v.onedim_distplot(
             data=data["Dependency Path"].dropna(), title="Dependency Paths Distribution"
         )
+
+
+#%%
+import pandas as pd
+
+df = pd.read_csv(
+    "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/matrix.csv",
+    index_col=0,
+)
+
+df["druggene"] = df["druggene"].astype(str)
+df["path"] = df["path"].astype(str)
+
+df.drop_duplicates(subset=["druggene"], keep="first", inplace=True)
+df.head()
+# %%
+df.info()
+# %%
+df.shape
+
+#%%
+
+artifact_path = "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/"
+# %%
+df.to_csv(
+    "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/filtered_matrix.csv"
+)
+df[["path", "column_indice"]].to_csv(artifact_path + "path_mappings.csv")
+
+# %%
+druggene_df = df.copy()
+
+druggene_df.sort_values("row_indice", ascending=True, inplace=True)
+
+druggene_df[["druggene", "row_indice"]].to_csv(artifact_path + "druggene_mappings.csv")
+# %%
+druggene_mappings = pd.read_csv(
+    "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/druggene_mappings.csv",
+    index_col=0,
+)
+path_mappings = pd.read_csv(
+    "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/path_mappings.csv",
+    index_col=0,
+)
+
+
+#%%
+path_mappings.head()
+
+# %%
+druggene_mappings.head()
+
+# %%
+
+make_hashtable = lambda df, col1, col2: dict(zip(df[col1], df[col2]))
+
+make_hashtable(druggene_mappings, "druggene", "row_indice")
+
+# %%
+make_hashtable(path_mappings, "path", "column_indice")
+# %%
