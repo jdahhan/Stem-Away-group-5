@@ -32,5 +32,9 @@ class TestITCC(unittest.TestCase):
         )
         print(df.head())
 
+        df.to_csv(
+            "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/ebc_artifact.csv"
+        )
+
 
 unittest.main()

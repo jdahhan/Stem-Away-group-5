@@ -81,12 +81,14 @@ class ITCC:
         # Making a column for drug gene names and dependency paths
         try:
             df["path"] = df["path_cluster"].apply(lambda x: path_hash[int(x)])
-            df["druggene_pair"] = df["pair_cluster"].apply(lambda x: druggene_hash[int(x)])
+            df["druggene_pair"] = df["pair_cluster"].apply(
+                lambda x: druggene_hash[int(x)]
+            )
         except KeyError as e:
             print(e)
 
         # save artifact
-        df.to_csv(self.artifact_path +'/ebc_artifact.csv')
+        df.to_csv(self.artifact_path + "/ebc_artifact.csv")
 
         return df
 

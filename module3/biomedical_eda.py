@@ -100,3 +100,7 @@ make_hashtable(druggene_mappings, "druggene", "row_indice")
 # %%
 make_hashtable(path_mappings, "path", "column_indice")
 # %%
+
+
+pd.read_csv("/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/ebc_artifact.csv")
+
