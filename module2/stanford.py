@@ -1,5 +1,21 @@
-"""A Jython interface to the Stanford parser (v.3.5.0). Includes various
+""" This was taken from the official stanford Jython documentation.
+
+Usage and Specific Commands to Run:
+
+* Matthew's localized version of the jython logic:
+    jython -i -J-cp /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/stanford-parser.jar /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module2/stanford.py /Users/mtaruno/Documents/DevZone/Stem-Away-group-5/stanford-parser-full-2014-10-31/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz
+
+* NOTE: Also need to add the following to the ~/.bash_profile directory BEFORE running Jython command above
+    export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+
+* And also need to set the path:
+    PATH=$HOME/jython2.7.2/bin:$PATH
+
+=====================================================================
+
+A Jython interface to the Stanford parser (v.3.5.0). Includes various
 utilities to manipulate parsed sentences:
+
 * parse text containing XML tags,
 * obtain probabilities for different analyses,
 * extract dependency relations,
@@ -39,7 +55,7 @@ import string
 import math
 
 try:
-    assert 'java' in sys.platform
+    assert "java" in sys.platform
 except AssertionError:
     raise Exception("The script should be run from Jython!")
 
@@ -59,24 +75,23 @@ def stanford2tt(sentence):
 
     for idx in sorted(sentence.word):
 
-        word = sentence.word.get(idx, '')
+        word = sentence.word.get(idx, "")
 
-        if word.startswith('<'):
-            tag, lemma = 'XML', word
+        if word.startswith("<"):
+            tag, lemma = "XML", word
         else:
-            tag = sentence.tag.get(idx, '')
-            lemma = sentence.lemma.get(idx, '')
+            tag = sentence.tag.get(idx, "")
+            lemma = sentence.lemma.get(idx, "")
 
         # correcting: TO -> IN
-        if word == 'to' and tag == 'TO':
-            tag = 'IN'
+        if word == "to" and tag == "TO":
+            tag = "IN"
 
         yield (word, tag, lemma)
 
 
 class PySentence:
-    """An interface to the grammaticalStructure object of SP
-    """
+    """An interface to the grammaticalStructure object of SP"""
 
     def __init__(self, parser, parse, xmltags={}):
         """Create a PySentence object from parse.
@@ -103,21 +118,21 @@ class PySentence:
 
     def get_lemma(self, word, tag):
         lemma = self.lemmer.lemmatize(WordTag(word, tag)).lemma()
-        return lemma.decode('latin1')
+        return lemma.decode("latin1")
 
     def get_pos_tag(self, node):
         parent = node.parent()
-        tag = 'Z' if parent == None else parent.value()
-        return tag.decode('latin1')
+        tag = "Z" if parent == None else parent.value()
+        return tag.decode("latin1")
 
     def get_word(self, node_i):
-        word = node_i.value().decode('latin1')
+        word = node_i.value().decode("latin1")
 
         # correct the appearance of parentheses
-        if word == '-RRB-':
-            word = u'('
-        elif word == '-LRB-':
-            word = u')'
+        if word == "-RRB-":
+            word = u"("
+        elif word == "-LRB-":
+            word = u")"
 
         return word
 
@@ -155,20 +170,19 @@ class PySentence:
             # if the word is unattached
             if word in string.punctuation or not self.dep.get(idx):
                 self.dep[idx] = 0
-                self.rel[idx] = 'punct'
+                self.rel[idx] = "punct"
 
             # insert xml tags, if any
             self.add_xml_tags_to_word_index(idx)
 
     def add_xml_tags_to_word_index(self, idx):
-        """@param idx: the id of the previous word
-        """
+        """@param idx: the id of the previous word"""
         tags_at_idx = self.xmltags.get(idx)
         if tags_at_idx:
             num_tags = len(tags_at_idx)
             for tag_i in range(num_tags):
                 tag_idx = (tag_i + 1) / float(num_tags + 1)
-                tag_name = tags_at_idx[tag_i].decode('latin1')
+                tag_name = tags_at_idx[tag_i].decode("latin1")
                 self.word[idx + tag_idx] = tag_name
 
     def get_head(self, node):
@@ -189,13 +203,14 @@ class PySentence:
             yield self.node[idx], self.rel[idx]
 
     def get_descendants(self, start_idx):
-        """Return all descendants of a node, including the node itself
-        """
+        """Return all descendants of a node, including the node itself"""
+
         def traverse(idx):
             global descendants
             for idx_i in self.children.get(idx, []):
                 descendants.append(idx_i)
                 traverse(idx_i)
+
         global descendants
         descendants = [start_idx]
         traverse(start_idx)
@@ -209,18 +224,23 @@ class PySentence:
             self.delete_node(idx_i)
 
     def delete_node(self, idx):
-        del self.node[idx], self.word[idx], self.tag[idx], self.lemma[idx], \
-                self.rel[idx], self.dep[idx]
+        del (
+            self.node[idx],
+            self.word[idx],
+            self.tag[idx],
+            self.lemma[idx],
+            self.rel[idx],
+            self.dep[idx],
+        )
         if idx in self.children:
             del self.children[idx]
 
     def get_plain_text(self):
-        """Output plain-text sentence.
-        """
-        text = ' '.join([self.word[x] for x in sorted(self.node)])
+        """Output plain-text sentence."""
+        text = " ".join([self.word[x] for x in sorted(self.node)])
         # remove spaces in front of commas, etc
-        for i in ',.:;!?':
-            text = text.replace(' ' + i, i)
+        for i in ",.:;!?":
+            text = text.replace(" " + i, i)
         return text
 
     def get_least_common_node(self, node_i_idx, node_j_idx):
@@ -272,23 +292,25 @@ class PySentence:
         return path
 
     def print_table(self):
-        """Print the parse as a table, FDG-style, to STDOUT
-        """
+        """Print the parse as a table, FDG-style, to STDOUT"""
+
         def get_index(id_str):
-            return '-' if '.' in id_str else id_str
+            return "-" if "." in id_str else id_str
 
         for idx in sorted(self.word):
-            line = '\t'.join([
+            line = "\t".join(
+                [
                     get_index(unicode(idx)),
-                    self.word.get(idx, ''),
-                    self.lemma.get(idx, ''),
-                    self.tag.get(idx, ''),
-                    self.rel.get(idx, ''),
-                    unicode(self.dep.get(idx, '')),
-                ])
-            print line.encode('latin1')
+                    self.word.get(idx, ""),
+                    self.lemma.get(idx, ""),
+                    self.tag.get(idx, ""),
+                    self.rel.get(idx, ""),
+                    unicode(self.dep.get(idx, "")),
+                ]
+            )
+            print(line.encode("latin1"))
 
-    def print_tree(self, mode='penn'):
+    def print_tree(self, mode="penn"):
         """Prints the parse.
         @param mode: penn/typedDependenciesCollapsed/etc
         """
@@ -298,10 +320,13 @@ class PySentence:
 
 class StanfordParser:
 
-    TAG = re.compile(r'<[^>]+>')
+    TAG = re.compile(r"<[^>]+>")
 
-    def __init__(self, parser_file,
-            parser_options=['-maxLength', '80', '-retainTmpSubcategories']):
+    def __init__(
+        self,
+        parser_file,
+        parser_options=["-maxLength", "80", "-retainTmpSubcategories"],
+    ):
 
         """@param parser_file: path to the serialised parser model
             (e.g. englishPCFG.ser.gz)
@@ -319,8 +344,7 @@ class StanfordParser:
         self.parser_query = None
 
     def get_most_probable_parses(self, text, kbest=2):
-        """Yield kbest parses of a sentence along with their probabilities.
-        """
+        """Yield kbest parses of a sentence along with their probabilities."""
         if not self.parser_query:
             self.parser_query = self.lp.parserQuery()
 
@@ -339,7 +363,7 @@ class StanfordParser:
         @param s: the sentence to be parsed, as a string
         @return: a Sentence object
         """
-        sentence = self.TAG.sub('', sentence)
+        sentence = self.TAG.sub("", sentence)
         tokens = [unicode(x) for x in self.tokenize(sentence)]
         parse = self.lp.apply(Sentence.toWordList(tokens))
         return PySentence(self, parse)
@@ -351,17 +375,16 @@ class StanfordParser:
         return tokens
 
     def parse_xml(self, text):
-        """Tokenise the XML text, remember XML positions, and then parse it.
-        """
+        """Tokenise the XML text, remember XML positions, and then parse it."""
 
         # build a plain-text token list and remember tag positions
         xml_tags = {}
         sent = []
 
         for token in self.tokenize(text):
-            token = unicode(token).replace(u'\xa0', ' ')
+            token = unicode(token).replace(u"\xa0", " ")
 
-            if token.startswith('<'):
+            if token.startswith("<"):
                 cur_size = len(sent)
                 xml_tags[cur_size] = xml_tags.get(cur_size, [])
                 xml_tags[cur_size].append(token)
@@ -375,41 +398,41 @@ class StanfordParser:
 
 
 def parse_xml_example(sp):
-    print 'Parsing XML text'
+    print("Parsing XML text")
     text = 'The quick brown <tag attr="term">fox<!-- this is a comment --></tag> jumped over the lazy dog.'
-    print'IN:', text
+    print("IN:", text)
     sentence = sp.parse_xml(text)
-    print 'OUT:'
+    print("OUT:")
     sentence.print_table()
-    print '-' * 80
+    print("-" * 80)
 
 
 def parse_probabilities_example(sp):
-    print 'Parse probabilities\n'
-    text = 'I saw a man with a telescope.'
-    print 'IN:', text
+    print("Parse probabilities\n")
+    text = "I saw a man with a telescope."
+    print("IN:", text)
     for sentence, prob in sp.get_most_probable_parses(text, kbest=2):
-        print 'Probability:', prob
-        print 'Tree:'
+        print("Probability:", prob)
+        print("Tree:")
         sentence.print_table()
-        print '-' * 50
-    print '-' * 80
+        print("-" * 50)
+    print("-" * 80)
 
 
 def subtrees_example(sp):
-    print 'Subtrees:'
-    text = 'I saw a man with a telescope.'
+    print("Subtrees:")
+    text = "I saw a man with a telescope."
     sentence = sp.parse(text)
     for subtree in sentence.parse.subTrees():
         print(subtree)
-        print('-' * 50)
-    print('-' * 80)
+        print("-" * 50)
+    print("-" * 80)
 
 
 def get_dependencies_example(sp):
-    print 'Dependencies:'
-    text = 'I saw a man with a telescope.'
-    tmpl = 'Head: %s (%d); dependent: %s (%d); relation: %s'
+    print("Dependencies:")
+    text = "I saw a man with a telescope."
+    tmpl = "Head: %s (%d); dependent: %s (%d); relation: %s"
     sentence = sp.parse(text)
     for td in sentence.gs.allTypedDependencies():
         gov = td.gov()
@@ -418,22 +441,22 @@ def get_dependencies_example(sp):
         dep_idx = dep.index()
         rel = td.reln()
         print(tmpl % (gov.value(), gov_idx, dep.value(), dep_idx, rel))
-    print('-' * 80)
+    print("-" * 80)
 
 
 def get_common_path_example(sp):
-    ''' This is the what you actually want to modify '''
+    """This is the what you actually want to modify"""
     tmpl = 'Least common node for "%s" and "%s": "%s"'
-    print 'Common path:'
-    text = 'The quick brown fox jumped over a lazy dog.'
-    print('Text:', text)
+    print("Common path:")
+    text = "The quick brown fox jumped over a lazy dog."
+    print("Text:", text)
     i = 4
     j = 9
     sentence = sp.parse(text)
     lcn, shortest_path = sentence.get_least_common_node(i, j)
     print(tmpl % (sentence.word[i], sentence.word[j], sentence.word[lcn]))
-    path = ' '.join([sentence.word[x] for x in sorted(shortest_path)])
-    print('Path: %s' % path)
+    path = " ".join([sentence.word[x] for x in sorted(shortest_path)])
+    print("Path: %s" % path)
 
     # apply this to my data
     # with open('../data/sample_data.txt') as f:
@@ -442,8 +465,7 @@ def get_common_path_example(sp):
     # list_sents = [i for i in sents]
 
 
-if __name__ == '__main__':
-
+if __name__ == "__main__":
     # full path to parser file, e.g. englishPCFG.ser.gz
     parser_file = sys.argv[1]
     sp = StanfordParser(parser_file)
