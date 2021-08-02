@@ -54,12 +54,9 @@ class ITCC:
         df = pd.read_csv(path)
         df = df.T
         df.columns = ["pair_cluster", "path_cluster"]
+        df = df.iloc[1:, :]  # getting rid of first row
 
-        # Schema validation
-        # df["pair_cluster"] = df["pair_cluster"].astype(int)
-        # df["path_cluster"] = df["path_cluster"].astype(int)
-
-        return df
+        return df["pair_cluster"].dropna(), df["path_cluster"].dropna()
 
     def generate_artifact(self, druggene_mappings, path_mappings) -> pd.DataFrame:
         """This function is supposed to create a data artifact with
@@ -72,21 +69,35 @@ class ITCC:
         path_hash = make_hashtable(path_mappings, "column_indice", "path")
         druggene_hash = make_hashtable(druggene_mappings, "row_indice", "druggene")
 
-        df = self.getCXY()
+        pair_cluster, path_cluster = self.getCXY()
+
+        druggene = pair_cluster.apply(lambda x: druggene_hash[int(x) + 1])
+        paths = [
+            path_hash.get(int(i) + 1, None) for i in path_cluster
+        ]  # NOTE: Incomplete mappings
+
+        # Diagnostics
+        print(
+            f"Pair Cluster Shape: {pair_cluster.shape}, Path Cluster Shape: {path_cluster.shape}"
+        )
 
         # Making a column for drug gene names and dependency paths
-        try:
-            df["path"] = df["path_cluster"].apply(lambda x: path_hash[int(x)])
-            df["druggene_pair"] = df["pair_cluster"].apply(
-                lambda x: druggene_hash[int(x)]
-            )
-        except KeyError as e:
-            print(e)
+
+        df = pd.DataFrame()
+
+        df["pair_cluster"] = pair_cluster
+        df["druggene_pair"] = druggene
+        df["path_cluster"] = path_cluster
+        df["path"] = paths + [None] * (df.shape[0] - len(paths))
 
         # save artifact
-        df.to_csv(self.artifact_path + "/ebc_artifact.csv")
+        # df.to_csv(self.artifact_path + "/ebc_artifact.csv")
 
         return df
+
+    def get_drugbank(path: str):
+        """Getting all the drug gene pairs in drugbank (ground truth)"""
+        pd.read_csv()
 
     def run_N_times(self):
         pass
