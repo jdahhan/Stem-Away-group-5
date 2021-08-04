@@ -5,7 +5,7 @@ from os import path
 __version__ = "0.0.1"
 
 setup(
-    name="stem-away",
+    name="stemaway",
     version=__version__,
     description="Replicating and extending research done by Percha and Altman 2015 on Learning the Structure of Biomedical Relationships from Unstructured Text”",
     url="",

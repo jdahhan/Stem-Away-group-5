@@ -60,7 +60,11 @@ class ITCC:
 
     def generate_artifact(self, druggene_mappings, path_mappings) -> pd.DataFrame:
         """This function is supposed to create a data artifact with
-        dependency paths, path cluster, drug_gene pairs, and pair_clusters"""
+        dependency paths, path cluster, drug_gene pairs, and pair_clusters
+
+        NOTE: Sourav implemented a pipeline to generate this artifact. This particular function is 90% of the way there, but
+        it is discontinued in favor of what Sourav created.
+        """
 
         def make_hashtable(df, col1, col2) -> dict:
             """Creating a function to create a hashtable or dictionary from the respective mappings dataframes"""
@@ -95,11 +99,46 @@ class ITCC:
 
         return df
 
-    def get_drugbank(path: str):
-        """Getting all the drug gene pairs in drugbank (ground truth)"""
-        pd.read_csv()
+    def get_drugbank_artifact(
+        self,
+        drugbank_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module4/drugbank_pairs.tsv",
+        pairpath_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module3/Pair_Path_Mapping.csv",
+    ) -> pd.DataFrame:
+        """This function uses the drugbank and pairpath CSV file to create a
+        consolidated dataframe with the drugbank ground truth column"""
+
+        # Get drugbank
+        drugbank = pd.read_csv(drugbank_path, delimiter="\t", header=None)
+        drugbank.columns = ["Drug", "Gene"]
+        # parsing to appropriate format
+        text_parse = [
+            f"({str(drug).lower()}/{str(gene).lower()})"
+            for drug, gene in zip(drugbank["Drug"], drugbank["Gene"])
+        ]
+
+        pair_paths = pd.read_csv(
+            pairpath_path,
+            index_col=0,
+        )
+
+        # checking for matches in the drug gene column and the drugbank genes
+        exists_mask = [i in text_parse for i in pair_paths["drug-gene"]]
+
+        pair_paths["DrugBank"] = exists_mask  # adding ground truth column
+
+        return pair_paths
+
+    def run_ITCC(self):
+        """Runs the ITCC algorithm one time"""
+        pass
+
+    def cooccurance() -> pd.DataFrame:
+        """This function is meant to create a dataframe with the cooccurance
+        matrix"""
+        df = pd.DataFrame()
 
     def run_N_times(self):
+        """Runs the ITCC algorithm N times to get the cooccurance matrix"""
         pass
 
     def _list_diagnostics(self, l):

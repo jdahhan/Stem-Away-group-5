@@ -61,19 +61,29 @@ df.shape
 
 #%%
 
-artifact_path = "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/"
-# %%
-df.to_csv(
+def create_mappings(artifact_path = "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/"):
+
+
+
+    path_cols = ['path', 'column_indice']
+    druggene_cols = ["druggene", "row_indice"]
+    path_mappings = df[path_cols].drop_duplicates()
+    druggene_mappings = df[druggene_cols].drop_duplicates()
+
+    df.to_csv(
     "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/filtered_matrix.csv"
-)
-df[["path", "column_indice"]].to_csv(artifact_path + "path_mappings.csv")
+    )
+    if save_path:
+        path_mappings.to_csv(artifact_path + "path_mappings.csv")
+    if save_druggene:
+        druggene_mappings.to_csv(artifact_path + "gruggene_mappings.csv")
 
 # %%
 druggene_df = df.copy()
 
 druggene_df.sort_values("row_indice", ascending=True, inplace=True)
 
-druggene_df[["druggene", "row_indice"]].to_csv(artifact_path + "druggene_mappings.csv")
+druggene_df[].to_csv(artifact_path + "druggene_mappings.csv")
 # %%
 druggene_mappings = pd.read_csv(
     "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/druggene_mappings.csv",
