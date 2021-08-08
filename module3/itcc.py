@@ -7,16 +7,45 @@ Goal: To generate the Co-occurance statistics
 
 from os import pathconf
 import pandas as pd
+from module3.ebc.ebc import EBC
+from module3.ebc.matrix import SparseMatrix
+import numpy as np
 
 
 class ITCC:
-    """This class is meant to be used in conjunction with the
-    EBC.py implementation repo"""
+    """This class gives you ways of getting useful data artifacts and
+    actually runs the ITCC algorithm appropriately in conjuction with
+    help from the official EBC implementation which is in the ebc directory
+    to create a co-occurance matrix of drug-gene pairs (we do not need
+    path co-occurance"""
 
-    def __init__(self):
+    def __init__(self, runs=10):
         self.artifact_path = (
             "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts"
         )
+        self.runs = runs
+        self.matrix = SparseMatrix(
+            [14052, 7272]
+        )  # want to compress this to 30 and 125 dimensions, whilst preserving as much information as possible
+
+    def get_data(
+        self,
+        resource_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/ebc/resources/matrix-ebc-paper-sparse.tsv",
+    ):
+        """Outputs a list in the form:
+        ['(rc-160,igf-i)', '[nsubj, reduced, dobj]', 1.0]
+
+        This is the format that the EBC implementation wants it in.
+        """
+        with open(resource_path, "r") as f:
+            data = []
+            for line in f:
+                sl = line.split("\t")
+                if len(sl) < 5:  # Skipping less than 5 length tokens
+                    continue
+                data.append([sl[0], sl[2], float(sl[4])])
+
+        return data
 
     def get_path_matrix(
         self,
@@ -33,18 +62,13 @@ class ITCC:
             "column_indice",
             "certainty_value",
         ]
-
         print(df.info())
-
         df = df.sort_values(by=["column_indice"])
-
         print(df.head())
         print(f"Shape: {df.shape}")
-
         df.to_csv(
             "/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/matrix.csv"
         )
-
         return df
 
     def getCXY(
@@ -105,7 +129,10 @@ class ITCC:
         pairpath_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module3/Pair_Path_Mapping.csv",
     ) -> pd.DataFrame:
         """This function uses the drugbank and pairpath CSV file to create a
-        consolidated dataframe with the drugbank ground truth column"""
+        consolidated dataframe with the drugbank ground truth column.
+
+        NOTE: Example usage is shown in the implement_itcc.py script
+        """
 
         # Get drugbank
         drugbank = pd.read_csv(drugbank_path, delimiter="\t", header=None)
@@ -130,16 +157,51 @@ class ITCC:
 
     def run_ITCC(self):
         """Runs the ITCC algorithm one time"""
-        pass
+        data = self.get_data()
+        self.matrix.read_data(data)
+        self.matrix.normalize()
 
-    def cooccurance() -> pd.DataFrame:
+        ebc = EBC(self.matrix, [30, 125], 10, 1e-10, 0.01)
+        (
+            cXY,
+            objective,
+            it,
+        ) = ebc.run()
+
+        # Transposing the list
+        map(list, map(None, *cXY))
+
+        return cXY[0]
+        # import csv
+        # write to file
+        # with open("Co-occurency.csv", "a") as f:
+        #     writer = csv.writer(f)
+        #     writer.writerows(cluster)
+
+    def run_R_times(self, R: int = 1):
+        """Runs the ITCC algorithm N times to get the cooccurance matrix.
+        Input:
+            R is the number of runs.
+        Output:
+            EBC Output Artifact
+        """
+        return [self.run_ITCC() for i in range(R)]
+
+    def get_cooccurance(self, ebc_output: list, matrix: np.array) -> pd.DataFrame:
         """This function is meant to create a dataframe with the cooccurance
         matrix"""
-        df = pd.DataFrame()
 
-    def run_N_times(self):
-        """Runs the ITCC algorithm N times to get the cooccurance matrix"""
-        pass
+        for i, row in enumerate(ebc_output):
+            temp = row[0]
+            for j, col in enumerate(row):
+                if col == temp:
+                    matrix[i][j] += 1
+
+        return matrix
+
+    # Helper methods
+    def _peek_matrix(self):
+        print(str(matrix))  # QUESTION: what does this sparse matrix represent?
 
     def _list_diagnostics(self, l):
         print(f"Length of list is: \n{len(l)}")
@@ -152,4 +214,6 @@ class ITCC:
 
 
 # Using the EBC to generate the artifacts
-itcc = ITCC()
+if __name__ == "__main__":
+    i = ITCC()
+    i.main()
