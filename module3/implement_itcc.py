@@ -13,14 +13,16 @@ from module3.itcc import ITCC
 i = ITCC()
 df = i.get_drugbank_artifact()
 
-
-
 #%%
 df
 
 #%%
+df.to_csv("/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/itcc_artifact.csv")
+df.head()
+#%%
 %time
-ebc_output = i.run_N_times(R=3)
+# running EBC algorithm R times
+ebc_output = i.run_R_times(R=3)
 
 #%%
 import numpy as np
