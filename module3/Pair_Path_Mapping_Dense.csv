@@ -1,0 +1,3515 @@
+,Drug-Gene,Drug-Gene Cluster,Dependency Path,Dependency path Cluster
+0,(flavopiridol/nf-kappab),7.0,"[prep_than, potent, nsubj]",68.0
+1,(tnf-r2/tnf-r1),7.0,"[nsubj, caused, dobj, inhibition, prep_of]",52.0
+2,(il-2/il-5),0.0,"[nsubj, reduced, dobj, expression, amod]",115.0
+3,(il-11/il-10),18.0,"[nsubj, stimulates, dobj, activity, amod]",53.0
+4,(fgf-7/fgf-2),18.0,"[nsubj, inhibits, dobj, activity, amod]",95.0
+5,(clopidogrel/p-selectin),3.0,"[nsubj, caused, prep_in, mrna, nn]",95.0
+6,(fgf-7/fgf-1),18.0,"[prep_in, absence, prep_of]",92.0
+7,(il-11/il-13),2.0,"[nn, activity, nn]",104.0
+8,(propranolol/beta2),0.0,"[nsubj, ligand, prep_for]",116.0
+9,(isoflurane/caspase-3),25.0,"[prep_of, absence, prep_in]",95.0
+10,(indomethacin/phospholipase),12.0,"[agent, induced, nsubjpass, expression, nn]",65.0
+11,(anti-il-2/cd25),11.0,"[prep_for, receptor, appos]",65.0
+12,(zuclopenthixol/cyp2d6),17.0,"[dep, hormone, appos]",9.0
+13,(doxycycline/smad7),24.0,"[nsubj, caused, prep_in, levels, nn]",104.0
+14,(il-2/il-1),0.0,"[nsubj, regulates, dobj]",94.0
+15,(corticosteroids/leukotriene),16.0,"[nsubj, antagonist, prep_of]",95.0
+16,(gliclazide/niddm),5.0,"[appos, antibody, partmod, directed, prep_against]",5.0
+17,(tolbutamide/niddm),2.0,"[appos, modulator, nn]",9.0
+18,(dipyridamole/pde5),28.0,"[prep_on, function, amod]",63.0
+19,(geldanamycin/hsp90),6.0,"[prep_by, activation, nn]",30.0
+20,(melatonin/bcl-2),8.0,"[agent, enhanced, nsubjpass, expression, prep_of]",1.0
+21,(carbamates/faah),17.0,"[nn, stimulates, nsubj]",18.0
+22,(pge2/pgd2),19.0,"[nsubj, had, dobj, effect, prep_on, activity, amod]",20.0
+23,(losartan/urat1),28.0,"[prep_such_as, ligands, nn]",18.0
+24,(aldosterone/bmp-6),13.0,"[appos, csf, appos]",89.0
+25,(gm-csf/il-13),18.0,"[nn, beta, dep]",61.0
+26,(prostacyclin/cox-1),20.0,"[appos, acid, amod]",95.0
+27,(astemizole/cyp2j2),28.0,"[agent, blocked, nsubjpass, effects, prep_of]",59.0
+28,(prostacyclin/cox-2),7.0,"[prep_of, levels, nn]",0.0
+29,(gm-csf/il-15),18.0,"[amod, metabolism, prep_in, involved, nsubjpass]",59.0
+30,(amiloride/kallikrein),0.0,"[prep_of, pharmacokinetics, prep_on]",0.0
+31,(diphenhydramine/cyp2d6),23.0,"[appos, agonists, amod]",114.0
+32,(gm-csf/il-10),4.0,"[appos, hormone, appos]",108.0
+33,(valsartan/adiponectin),9.0,"[xsubj, interact, prep_with]",102.0
+34,(forskolin/sf-1),25.0,"[amod, hormone, appos]",51.0
+35,(gm-csf/il-11),8.0,"[nsubjpass, transported, agent]",70.0
+36,(il-11/gm-csf),0.0,"[amod, secretion, appos]",4.0
+37,(capecitabine/dlts),24.0,"[nsubj, factor, appos]",70.0
+38,(pranlukast/cyslt1),0.0,"[appos, ngf, appos]",79.0
+39,(cetuximab/egfr),7.0,"[prep_as, inhibitor, amod]",70.0
+40,(gm-csf/il-18),4.0,"[nn, treatment, nsubj, increased, dobj, levels, prep_of]",7.0
+41,(cysteamine/gastrin),5.0,"[prep_such_as, inhibitors, appos]",44.0
+42,(nadh/nad1),20.0,"[agent, induction, partmod]",73.0
+43,(nadh/nad3),20.0,"[nsubj, blocked, dobj, phosphorylation, prep_of]",89.0
+44,(telmisartan/abca1),27.0,"[nsubj, inducer, amod]",72.0
+45,(abciximab/p-selectin),22.0,"[nsubj, substrate, prep_for]",0.0
+46,(capsaicin/ppargamma),3.0,"[amod, levels, nn]",0.0
+47,(mitoxantrone/abcg2),15.0,"[amod, activator, appos]",94.0
+48,(nadh/nad4),20.0,"[amod, gene, appos]",104.0
+49,(vinblastine/mdr1),14.0,"[prep_such_as, inhibitors, nn]",10.0
+50,(glyburide/cyp2c9),27.0,"[nsubj, suppressed, dobj]",95.0
+51,(pgi2/pgis),20.0,"[prep_with, inhibited, nsubjpass]",120.0
+52,(pge2/pges),22.0,"[prep_by, inhibited, nsubj, activity, prep_of]",9.0
+53,(pitavastatin/nf-kappab),11.0,"[prep_of, effect, dobj, investigate, prep_on, expression, prep_of]",17.0
+54,(glibenclamide/cftr),1.0,"[prep_in, deferentia, nn]",94.0
+55,(genistein/ifn-gamma),19.0,"[dep, antagonists, nn]",9.0
+56,(atra/mef2c),5.0,"[nsubj, regulate, dobj, expression, prep_of]",82.0
+57,(cyclosporine/statin),25.0,"[nsubj, reduced, dobj, levels, prep_of]",94.0
+58,(genistein/aromatase),17.0,"[nsubj, induce, dobj, expression, prep_of]",59.0
+59,(vardenafil/pde5),1.0,"[appos, expression, nn]",88.0
+60,(lansoprazole/ho-1),27.0,"[nsubj, induced, dobj, expression, amod]",65.0
+61,(noradrenaline/endothelin-1),19.0,"[nsubj, blocked, dobj, expression, amod]",94.0
+62,(il-2/nf-kappab),20.0,"[prep_of, levels, amod]",59.0
+63,(arsenite/parp),21.0,"[prep_with, labeled, nsubj, antibodies, num]",62.0
+64,(flutamide/lhrh),16.0,"[nsubj, had, dobj, effect, prep_on, expression, prep_of]",94.0
+65,(d-amphetamine/amph),18.0,"[nsubj, blocked, prep_in, expression, nn]",94.0
+66,(lovastatin/cyp3a4),15.0,"[prep_of, effect, dobj, examined, prep_on, expression, nn]",115.0
+67,(topotecan/dlts),24.0,"[dep, agonist, amod]",56.0
+68,(suramin/vegf),9.0,"[agent, induced, nsubjpass, expression, amod]",59.0
+69,(hydroquinone/dt-diaphorase),5.0,"[appos, antagonists, nn]",114.0
+70,(dexamethasone/lactase),0.0,"[amod, phenytoin, amod, losartan, prep_including, drugs, dobj, metabolizes, nsubj]",0.0
+71,(tamoxifen/heparanase),22.0,"[nn, treatment, amod]",43.0
+72,(tamoxifen/her-2),5.0,"[prep_of, effect, dobj, investigate, prep_on, expression, amod]",107.0
+73,(risperidone/cyp2d6),17.0,"[nsubj, had, prep_to]",69.0
+74,(staurosporine/hsp27),24.0,"[nsubj, suppresses, dobj, expression, nn]",70.0
+75,(atorvastatin/pcsk9),25.0,"[nn, binding, prep_to]",21.0
+76,(promethazine/herg),24.0,"[nsubj, produced, prep_in]",107.0
+77,(sildenafil/copd),6.0,"[agent, suppressed, nsubjpass, expression, prep_of]",13.0
+78,(rituximab/bcl-2),3.0,"[nsubj, suppresses, dobj, expression, amod]",4.0
+79,(lovastatin/p21ras),1.0,"[prep_of, activity, amod]",7.0
+80,(fenofibrate/ldlr),22.0,"[prep_such_as, agonists, amod]",116.0
+81,(pge2/pga1),4.0,"[nsubj, inhibits, dobj, expression, amod]",117.0
+82,(melatonin/gnrh),18.0,"[nsubj, antibody, partmod, directed, prep_against]",7.0
+83,(cimetidine/cyp3a),23.0,"[nsubj, stimulated, dobj, expression, amod]",21.0
+84,(5-asa/inos),24.0,"[prep_by, inhibition, appos]",13.0
+85,(rabeprazole/mucin),27.0,"[prep_like, inhibitors, amod]",70.0
+86,(dexamethasone/icam-1),1.0,"[dep, peptide, amod]",21.0
+87,(clenbuterol/beta2),16.0,"[appos, activator, appos]",7.0
+88,(rosiglitazone/pepck),20.0,"[appos, one, prep_of, inhibitors, nn]",107.0
+89,(oltipraz/nrf2),7.0,"[amod, antagonists, appos]",69.0
+90,(doxazosin/alpha1),0.0,"[amod, substrates, nn]",57.0
+91,(cyclosporin/cox-2),6.0,"[xsubj, substrate, prep_of]",21.0
+92,(ddavp/p-selectin),5.0,"[prep_with, activation, amod]",70.0
+93,(troglitazone/ppargamma),0.0,"[dobj, received, nsubj, patients, prep_with]",107.0
+94,(curcumin/ho-1),29.0,"[appos, antagonist, appos]",68.0
+95,(propofol/beta-endorphin),3.0,"[nsubj, inhibitor, prep_of, activity, amod]",13.0
+96,(dexamethasone/atrogin-1),22.0,"[nsubj, receptor, appos]",41.0
+97,(pge2/egr-1),21.0,"[appos, mrna, amod]",7.0
+98,(resveratrol/atf3),8.0,"[agent, decreased, nsubjpass, expression, nn]",7.0
+99,(indomethacin/crth2),29.0,"[nsubj, induced, dobj, phosphorylation, prep_of]",117.0
+100,(paclitaxel/tlr4),10.0,"[prep_on, receptor, appos]",98.0
+101,(pertuzumab/erbb2),7.0,"[nsubj, increased, dobj, activity, prep_of]",7.0
+102,(ethionamide/etha),20.0,"[nsubj, increased, dobj, expression, prep_of, mrna, amod]",15.0
+103,(dexamethasone/cyp2e1),22.0,"[nsubj, reduced, dobj]",7.0
+104,(gp120/ifn-gamma),8.0,"[prep_of, influence, appos]",7.0
+105,(pge2/vegf),25.0,"[nsubj, substrates, prep_of]",54.0
+106,(imatinib/hoct1),17.0,"[dobj, expression, prep_of]",54.0
+107,(filgrastim/lenograstim),2.0,"[nsubj, affect, dobj, levels, nn]",54.0
+108,(lenograstim/filgrastim),2.0,"[nsubj, increased, dobj, concentrations, nn]",116.0
+109,(pioglitazone/ppar),7.0,"[dobj, inhibitors, nsubj]",86.0
+110,(octreotide/vegf),4.0,"[prep_of, binding, amod]",41.0
+111,(geldanamycin/hsp70),9.0,"[xsubj, mice, amod]",36.0
+112,(corticosteroids/pprom),6.0,"[nsubj, inhibited, ccomp]",29.0
+113,(paclitaxel/vegf),18.0,"[appos, specific, nn]",21.0
+114,(epirubicin/filgrastim),5.0,"[dep, agonist, nn]",15.0
+115,(nebivolol/enos),29.0,"[nsubj, induce, dobj]",57.0
+116,(minocycline/fmr1),16.0,"[prep_of, administration, appos, inhibitor, amod]",70.0
+117,(il-2/csf-1),18.0,"[nsubj, increases, dobj, expression, prep_of]",7.0
+118,(gm-csf/flt3l),18.0,"[prep_to, showed, nsubj]",47.0
+119,(losartan/cyp3a4),15.0,"[amod, levels, amod]",42.0
+120,(modafinil/orexin),7.0,"[prep_with, inhibiting, dobj]",42.0
+121,(succinylcholine/nachr),10.0,"[prep_of, target, nsubj]",114.0
+122,(coumarin/cyp3a4),17.0,"[nsubj, induced, acomp]",0.0
+123,(mifepristone/cox-1),4.0,"[nsubj, inhibit, dobj, activity, amod]",92.0
+124,(quetiapine/cyp3a4),17.0,"[prep_of, expression, nn]",10.0
+125,(octreotide/calcitonin),27.0,"[prep_to, respond, nsubj]",50.0
+126,(rapamycin/pten),7.0,"[appos, blocker, amod]",38.0
+127,(il-2/il2r),20.0,"[appos, vegf, appos]",65.0
+128,(tolbutamide/cyp2c),15.0,"[appos, member, prep_of, family, nn]",28.0
+129,(imatinib/c-abl),1.0,"[nn, antibody, nn]",26.0
+130,(succinyldicholine/cholinesterase),17.0,"[nsubj, blocked, dobj, effect, prep_of]",65.0
+131,(fluvastatin/nf-kappab),23.0,"[agent, regulated, nsubjpass, expression, prep_of]",74.0
+132,(naloxone/cgrp),21.0,"[nsubj, blocked, dobj, effects, prep_of]",82.0
+133,(ng-monomethyl-l-arginine/inos),1.0,"[prep_on, levels, nn]",120.0
+134,(cisplatin/caspase-9),16.0,"[prep_of, effect, appos]",121.0
+135,(cisplatin/caspase-8),17.0,"[amod, treatment, prep_during]",120.0
+136,(resveratrol/mtor),11.0,"[agent, regulated, nsubjpass]",52.0
+137,(donepezil/igf-i),25.0,"[nsubj, inducer, nn]",104.0
+138,(hyaluronan/aggrecan),8.0,"[nsubj, increased, dobj]",15.0
+139,(nadh/sir2),13.0,"[amod, lymphotoxin, amod]",15.0
+140,(citalopram/sert),12.0,"[nn, activity, amod]",51.0
+141,(il-1rn/il-1ra),27.0,"[nn, binding, appos]",67.0
+142,(il-1ra/il-1rn),20.0,"[amod, inhibitors, appos]",87.0
+143,(estradiol/tebg),24.0,"[xsubj, decrease, dobj, levels, nn]",79.0
+144,(capsaicin/cyclooxygenase-2),4.0,"[prep_to, catalyzes, nsubj]",0.0
+145,(alendronate/mmp-9),28.0,"[appos, inhibitors, appos]",113.0
+146,(flurbiprofen/cox-1),17.0,"[nsubj, decrease, dobj, expression, nn]",120.0
+147,(flurbiprofen/cox-2),5.0,"[agent, inhibited, nsubjpass, activation, prep_of]",104.0
+148,(imipramine/fmo1),12.0,"[nsubj, increased, dobj, phosphorylation, amod]",0.0
+149,(l-dopa/ghrh),27.0,"[prep_to, response, prep_in]",75.0
+150,(azathioprine/etanercept),2.0,"[prep_for, affinity, dobj, has, nsubj]",36.0
+151,(alendronate/mmp-2),18.0,"[nsubj, stimulate, dobj]",20.0
+152,(valganciclovir/pept1),15.0,"[prep_of, activity, appos]",10.0
+153,(norepinephrine/gnrh),7.0,"[prep_for, micrograms, amod]",83.0
+154,(spermine/ck-1),29.0,"[rcmod, binds, prep_to]",0.0
+155,(cisplatin/caspase-3),25.0,"[nn, globulin, appos]",114.0
+156,(atorvastatin/oatp1b1),15.0,"[nsubj, affects, dobj, expression, prep_of]",2.0
+157,(cisplatin/caspase-2),24.0,"[nsubj, inhibited, dobj, expression, amod]",88.0
+158,(urokinase/cd87),20.0,"[dobj, using, prep_as, substrate, nn]",17.0
+159,(rapamycin/huntingtin),27.0,"[nsubj, inhibited, dobj, secretion, amod]",52.0
+160,(arsenite/hsp27),22.0,"[agent, stimulated, nsubjpass]",108.0
+161,(propofol/ho-1),19.0,"[appos, inhibitor, prep_of, activity, nn]",24.0
+162,(dexamethasone/parp),19.0,"[nsubj, inhibited, prep_in]",17.0
+163,(progestogens/gnrh),29.0,"[xsubj, substrate, prep_for]",91.0
+164,(resveratrol/ampk),10.0,"[nsubj, inhibitor, prep_of, receptor, appos]",52.0
+165,(ketoconazole/cyp51),28.0,"[nsubjpass, metabolized, agent, enzyme, nn]",47.0
+166,(pge2/ccr7),9.0,"[amod, inhibition, nn]",88.0
+167,(mirtazapine/bdnf),0.0,"[prep_in, patients, prep_with, disease, appos]",91.0
+168,(clofibrate/pparalpha),16.0,"[nn, release, amod]",68.0
+169,(captopril/kallikrein),5.0,"[nsubj, treatment, prep_for]",17.0
+170,(topiramate/cgrp),19.0,"[appos, antagonist, num]",17.0
+171,(desferrioxamine/hif-1alpha),22.0,"[prep_with, activated, nsubjpass]",88.0
+172,(g-csf/fmlp),19.0,"[nn, resistance, prep_in]",17.0
+173,(ketoconazole/cyp3a),23.0,"[prep_with, treated, nsubjpass, cells, nn]",52.0
+174,(lapatinib/her1),6.0,"[nsubj, suppressed, dobj, phosphorylation, nn]",88.0
+175,(lapatinib/her2),1.0,"[partmod, induced, dobj, activation, prep_of]",7.0
+176,(cisplatin/chk1),23.0,"[nsubj, stimulates, dobj, expression, prep_of]",7.0
+177,(bleomycin/gm-csf),24.0,"[nn, dehydrogenase, appos]",102.0
+178,(pge2/il-13),4.0,"[nsubj, had, dobj, effect, prep_on, levels, nn]",17.0
+179,(tranylcypromine/cyp2a6),28.0,"[nsubj, increased, dobj, level, prep_of]",17.0
+180,(dexamethasone/secretagogin),0.0,"[nsubj, affect, dobj, expression, prep_of]",17.0
+181,(pge2/il-15),21.0,"[nsubj, inhibit, dobj, expression, prep_of]",107.0
+182,(pge2/il-10),4.0,"[prep_by, upregulation, amod]",88.0
+183,(metformin/hoct1),15.0,"[amod, treatment, nsubj, increased, dobj]",48.0
+184,(paclitaxel/il-10),9.0,"[nsubj, increased, prep_in, mice, amod]",17.0
+185,(cisplatin/nf-kappab),8.0,"[nn, treatment, nsubj, increased, dobj, expression, amod]",52.0
+186,(pge2/il-17),8.0,"[nn, group, nn]",17.0
+187,(pge2/il-18),2.0,"[nsubj, stimulated, dobj, release, amod]",47.0
+188,(nadh/mononucleotide),18.0,"[nsubj, decreased, dobj, secretion, amod]",7.0
+189,(citrulline/inos),17.0,"[agent, affected, nsubjpass]",25.0
+190,(simvastatin/pparalpha),20.0,"[prep_to, binds, nsubj]",68.0
+191,(pge2/gm-csf),22.0,"[nsubj, inhibit, dobj, release, prep_of]",0.0
+192,(paracetamol/cyclooxygenase-2),12.0,"[dobj, activity, amod]",0.0
+193,(metformin/mate1),14.0,"[nsubj, stimulates, dobj, expression, amod]",0.0
+194,(pge2/il-27),2.0,"[prep_on, activation, nn]",83.0
+195,(nadh/oxidoreductase),0.0,"[dep, inhibitors, prep_of]",83.0
+196,(fenofibrate/rbp4),0.0,"[prep_on, gene, appos]",83.0
+197,(pge2/il-23),21.0,"[prep_to, associated, nsubjpass]",103.0
+198,(reteplase/alteplase),18.0,"[nsubj, increased, dobj, expression, amod]",113.0
+199,(alteplase/reteplase),2.0,"[nsubj, increased, dobj, release, amod]",61.0
+200,(troglitazone/cyp1a1),24.0,"[prep_by, pathway, amod]",66.0
+201,(il-2/foxp3),0.0,"[appos, antagonist, amod]",117.0
+202,(warfarin/hips),6.0,"[prep_with, treated, partmod, cells, prep_in]",109.0
+203,(corticosteroids/copd),6.0,"[nsubj, therapy, prep_for]",83.0
+204,(cisplatin/p-gp),24.0,"[prep_with, treatment, appos, inhibitor, nn]",83.0
+205,(resveratrol/pparalpha),29.0,"[nsubj, inducer, prep_of]",0.0
+206,(valsartan/at1r),0.0,"[prep_such_as, antagonists, nn]",55.0
+207,(cisplatin/yb-1),9.0,"[amod, mice, amod]",109.0
+208,(indomethacin/pghs-1),28.0,"[nsubj, inhibitors, prep_of]",39.0
+209,(g-csf/cd34),7.0,"[amod, antagonist, amod]",83.0
+210,(g-csf/bfgf),2.0,"[nsubj, inhibited, dobj, effect, prep_of]",76.0
+211,(5-asa/egfr),23.0,"[amod, treatment, prep_of]",51.0
+212,(trastuzumab/cd44),1.0,"[appos, inducer, prep_of]",51.0
+213,(venlafaxine/sert),9.0,"[appos, inhibitor, prep_of, receptor, appos]",11.0
+214,(fibrates/pparalpha),29.0,"[nsubj, increased, dobj, levels, amod]",14.0
+215,(ranitidine/gastrin),5.0,"[amod, treatment, prep_on]",51.0
+216,(ketoconazole/cyp17),28.0,"[amod, activity, nn]",16.0
+217,(tropisetron/cyp2d6),17.0,"[nsubj, bound, prep_to]",71.0
+218,(gp120/gp160),2.0,"[prep_by, protein, nn]",0.0
+219,(riluzole/hsf1),5.0,"[prep_with, treated, rcmod]",49.0
+220,(rituximab/fsgs),0.0,"[amod, group, prep_in]",53.0
+221,(noradrenaline/inositol),9.0,"[appos, blocker, nn]",110.0
+222,(gm-csf/vegf),18.0,"[nsubj, activator, prep_of]",110.0
+223,(rifabutin/cyp3a),22.0,"[nsubj, reduced, dobj, expression, prep_of]",105.0
+224,(prasugrel/cyp2b6),22.0,"[dobj, receptor, appos]",107.0
+225,(miglitol/alpha-glucosidase),12.0,"[agent, upregulated, nsubjpass]",107.0
+226,(il-2/cd122),0.0,"[xsubj, induce, dobj, expression, amod]",71.0
+227,(pgi2/pgd2),2.0,"[prep_by, inactivation, nn]",107.0
+228,(gm-csf/tlr2),17.0,"[amod, agonists, appos]",107.0
+229,(il-2/cd132),20.0,"[amod, protein, appos]",107.0
+230,(mexiletine/cyp2d6),17.0,"[prep_of, effect, dep]",67.0
+231,(torsemide/cyp2c9),17.0,"[nsubj, decreased, dobj, mrna, amod]",109.0
+232,(l-histidine/hnmt),20.0,"[agent, suppressed, nsubjpass, expression, amod]",34.0
+233,(cabergoline/igf-i),9.0,"[nsubj, induced, dobj, release, prep_of]",124.0
+234,(atra/trkb),4.0,"[amod, beta, dep]",93.0
+235,(rapamycin/mmp-9),28.0,"[prep_of, metabolism, amod]",70.0
+236,(tranylcypromine/bdnf),22.0,"[amod, substrates, num]",0.0
+237,(curcumin/herg),23.0,"[xsubj, expression, nn]",77.0
+238,(gm-csf/flt-3),7.0,"[nsubj, induced, dobj, activity, amod]",0.0
+239,(fk506/sp-a),6.0,"[agent, blocked, nsubjpass, effect, prep_of]",95.0
+240,(riluzole/cyp1a2),17.0,"[dep, factor, dep]",66.0
+241,(gm-csf/egr-1),8.0,"[appos, factor, appos, factor, appos]",72.0
+242,(rivastigmine/cholinesterase),1.0,"[agent, induced, partmod, phosphates, amod]",0.0
+243,(furafylline/cyp1a2),28.0,"[prep_of, effects, prep_on]",0.0
+244,(l-dopa/mao-b),28.0,"[dep, inhibitor, prep_of]",69.0
+245,(l-dopa/mao-a),25.0,"[prep_to, required, nsubjpass]",96.0
+246,(terbutaline/beta2),16.0,"[prep, plus, dep]",5.0
+247,(dexamethasone/nhe3),25.0,"[amod, receptor, appos]",0.0
+248,(capsaicin/cyp1a1),0.0,"[amod, inhibition, prep_of]",73.0
+249,(noscapine/nf-kappab),23.0,"[appos, analog, amod]",72.0
+250,(collagenase/mmp-13),20.0,"[prep_such_as, inhibitor, amod]",0.0
+251,(papaverine/pde10a),6.0,"[dep, activity, amod]",124.0
+252,(fenofibrate/ppargamma),29.0,"[nsubj, enhances, dobj, activity, amod]",0.0
+253,(etoposide/bcl-2),1.0,"[xsubj, increase, dobj]",43.0
+254,(galantamine/cholinesterase),28.0,"[nsubj, analog, prep_of]",84.0
+255,(isoflurane/ho-1),1.0,"[nsubjpass, activated, agent]",118.0
+256,(bortezomib/ikappabalpha),13.0,"[amod, type, appos]",70.0
+257,(cisplatin/ercc1),8.0,"[dobj, expression, amod]",8.0
+258,(fibrates/apoc-iii),27.0,"[nsubj, induced, dobj, translocation, prep_of]",78.0
+259,(chlorambucil/mrp1),24.0,"[nsubjpass, metabolised, agent]",78.0
+260,(forskolin/ampk),23.0,"[nn, stimulation, prep_of]",76.0
+261,(cilomilast/pde4),28.0,"[nsubj, induces, dobj, expression, nn]",33.0
+262,(goserelin/lhrh),16.0,"[nn, gene, amod]",88.0
+263,(roflumilast/pde4),1.0,"[nn, oxidase, appos]",89.0
+264,(efalizumab/cd11a),7.0,"[agent, affected, nsubjpass, expression, prep_of]",20.0
+265,(alprazolam/cyp3a),15.0,"[prep_of, synthesis, appos]",12.0
+266,(isoproterenol/cgrp),19.0,"[amod, factor, appos]",0.0
+267,(bupropion/cyp2d6),12.0,"[prep_to, confers, nsubj]",103.0
+268,(ndga/leukotriene),12.0,"[nn, resistance, dobj, confers, nsubj]",82.0
+269,(haloperidol/bdnf),22.0,"[amod, activity, appos]",67.0
+270,(liraglutide/glp-1),16.0,"[nn, transporter, appos]",118.0
+271,(tofisopam/cyp3a4),13.0,"[amod, antagonists, amod]",0.0
+272,(theophylline/leukotriene),0.0,"[amod, treatment, nsubj, decreased, dobj, mrna, nn]",50.0
+273,(paclitaxel/cyp3a),15.0,"[nn, hormone, appos]",93.0
+274,(isoprenaline/pepck),22.0,"[prep_in, patients, nn]",121.0
+275,(temsirolimus/mtor),1.0,"[prep_of, effects, nsubj]",68.0
+276,(rizatriptan/5-ht1b),16.0,"[agent, inhibited, nsubjpass, effect, prep_of]",122.0
+277,(novobiocin/bcrp),5.0,"[nsubj, inhibited, prep_by]",117.0
+278,(dexamethasone/ngfr),24.0,"[prep_with, support, nn]",0.0
+279,(cyclosporin/inos),3.0,"[prep_with, induced, nsubjpass, expression, amod]",34.0
+280,(norepinephrine/comt),28.0,"[nsubj, form, prep_of]",114.0
+281,(metformin/lkb1),9.0,"[amod, valproic, amod, acid, prep_of, clearances, dep, treatment, prep_of, influence, xsubj, determine, ccomp, induces, dobj]",83.0
+282,(anticholinergics/beta2),16.0,"[nn, metabolism, prep_in]",93.0
+283,(zafirlukast/leukotriene),0.0,"[prep_on, cells, nn]",93.0
+284,(elacridar/p-gp),28.0,"[dobj, using, nsubj]",19.0
+285,(troglitazone/cox-2),0.0,"[nsubj, inhibited, dobj, expression, nn]",35.0
+286,(estradiol/aromatase),0.0,"[dep, factor, appos]",114.0
+287,(ribavirin/ent1),15.0,"[partmod, induced, dobj, expression, prep_of]",52.0
+288,(icil-1ra/il-1),0.0,"[nsubj, increased, dobj, activity, amod]",34.0
+289,(indomethacin/abcc1),25.0,"[agent, increased, nsubjpass]",114.0
+290,(metyrapone/cyp1a1),22.0,"[appos, inhibitors, prep_of]",34.0
+291,(5-asa/cox-2),13.0,"[nsubj, enhanced, dobj, expression, nn]",93.0
+292,(indomethacin/icam-1),1.0,"[nsubj, decreased, dobj, protein, nn]",46.0
+293,(fludarabine/g-csf),18.0,"[appos, gene, nn]",89.0
+294,(aldosterone/ace2),22.0,"[nsubj, inhibited, dobj, secretion, prep_of]",64.0
+295,(fentanyl/p-gp),15.0,"[prep_of, clearance, appos]",34.0
+296,(menadione/egfr),7.0,"[amod, binds, prep_to]",93.0
+297,(losartan/mmp-2),11.0,"[dep, antagonist, amod]",88.0
+298,(riluzole/bcrp),15.0,"[nsubj, inhibit, dobj]",124.0
+299,(miconazole/herg),0.0,"[agent, reduced, nsubjpass, expression, prep_of]",34.0
+300,(quetiapine/abcb1),23.0,"[nsubj, downregulated, dobj]",93.0
+301,(furosemide/talh),12.0,"[prep_such_as, antagonists, num]",34.0
+302,(lapatinib/p-gp),12.0,"[nsubj, enhanced, dobj, activity, nn]",5.0
+303,(gefitinib/her3),20.0,"[nsubj, reduced, dobj, levels, nn]",76.0
+304,(genistein/hif-1),28.0,"[prep_with, cells, prep_of, treatment, appos, inhibitor, prep_of]",13.0
+305,(cisplatin/nm23-h1),7.0,"[nsubj, analog, nn]",92.0
+306,(gefitinib/her2),28.0,"[prep_on, synthase, appos]",92.0
+307,(clarithromycin/cyp3a),1.0,"[prep_in, expression, amod]",116.0
+308,(spermine/ssat),20.0,"[amod, antagonists, num]",13.0
+309,(diclofenac/cyp2c9),15.0,"[appos, eg, dep]",6.0
+310,(capsaicin/igf-i),5.0,"[xsubj, levels, prep_of]",61.0
+311,(arsenite/hsp72),29.0,"[prep_with, blockade, amod]",101.0
+312,(aldosterone/nedd4-2),5.0,"[nsubj, potent, prep_than]",6.0
+313,(telmisartan/ppar-gamma),0.0,"[nsubj, inhibit, dobj, expression, amod]",99.0
+314,(pge2/cyp19),25.0,"[xsubj, polymorphism, nn]",100.0
+315,(icatibant/kallikrein),28.0,"[prep_of, effects, dobj, examined, prep_on]",90.0
+316,(curcumin/il-1),3.0,"[nsubj, agonist, appos]",90.0
+317,(norepinephrine/cort),24.0,"[amod, concentration, nn]",90.0
+318,(dextromethorphan/cyp2d6),15.0,"[appos, theophylline, appos]",10.0
+319,(dasatinib/stat3),0.0,"[nsubj, effective, prep_than]",26.0
+320,(capsaicin/glp-1),5.0,"[prep_of, effect, dobj, evaluate, prep_on]",26.0
+321,(clomiphene/gnrh),2.0,"[nsubj, induced, dobj, expression, prep_of]",16.0
+322,(tacrolimus/p-gp),28.0,"[nsubj, reduced, dobj, phosphorylation, prep_of]",49.0
+323,(hyaluronidase/phospholipase),2.0,"[nn, hydroxylase, appos]",20.0
+324,(creatine/asat),12.0,"[nsubj, induces, dobj, activation, prep_of]",101.0
+325,(naloxone/alpha-msh),18.0,"[nsubj, decreased, dobj, activity, prep_of]",49.0
+326,(erythromycin/nadph),21.0,"[appos, production, amod]",111.0
+327,(dasatinib/stat5),1.0,"[nsubj, reduced, dobj, level, prep_of]",26.0
+328,(celecoxib/vegf),18.0,"[nsubjpass, associated, prep_with]",106.0
+329,(oxycodone/cyp2d6),17.0,"[nsubj, decreases, dobj, expression, nn]",106.0
+330,(celecoxib/tcf-1),1.0,"[nsubj, decreased, dobj, levels, amod]",19.0
+331,(lactulose/beta-galactosidase),21.0,"[nsubj, decreased, dobj, level, nn]",29.0
+332,(rosiglitazone/cyp2c8),15.0,"[nsubj, downregulated, dobj, expression, prep_of, mrna, nn]",19.0
+333,(fenofibrate/ppar-alpha),7.0,"[appos, inhibitor, nn]",29.0
+334,(curcumin/caspase-3),25.0,"[agent, inhibited, nsubjpass, effects, prep_of]",29.0
+335,(imipramine/ugt1a4),15.0,"[appos, pdgfa, appos]",61.0
+336,(arsenite/hsp70),8.0,"[prep_such_as, agonists, nn]",27.0
+337,(capsaicin/cox-2),3.0,"[nsubj, suppressed, dobj, activation, nn]",0.0
+338,(taxanes/bcl-2),10.0,"[nsubj, blocked, dobj, expression, nn]",13.0
+339,(tetrahydrobiopterin/enos),0.0,"[nsubj, inactivator, prep_of]",18.0
+340,(aprotinin/par1),23.0,"[nsubj, inhibited, dobj, effects, prep_of]",73.0
+341,(dexfenfluramine/niddm),2.0,"[nsubj, stimulates, dobj, expression, nn]",0.0
+342,(tolcapone/catechol-o-methyltransferase),12.0,"[prep_of, effect, dobj, investigated, prep_on, expression, amod]",6.0
+343,(corticotropin/crh-r1),20.0,"[appos, inhibitor, prep_of]",29.0
+344,(paclitaxel/pi3k),17.0,"[appos, rantes, appos]",0.0
+345,(spermine/phospholipase),2.0,"[prep_including, antagonists, nn]",66.0
+346,(staurosporine/phospholipase),25.0,"[appos, inhibitor, prep_for]",3.0
+347,(calcitriol/fgf-23),16.0,"[amod, resistance, appos]",78.0
+348,(pge2/mpges-1),8.0,"[appos, inhibitors, nn]",89.0
+349,(infliximab/icer),24.0,"[xsubj, inhibit, dobj, activation, amod]",68.0
+350,(hydroxyurea/cds1),29.0,"[amod, therapy, appos]",52.0
+351,(troglitazone/ent1),28.0,"[nn, a, appos]",79.0
+352,(paracetamol/cox-2),28.0,"[nsubjpass, metabolized, agent, enzymes, appos]",0.0
+353,(cisapride/herg),12.0,"[nsubj, reduced, dobj, mrna, nn]",4.0
+354,(paracetamol/cox-1),12.0,"[xsubj, inhibit, dobj, activity, amod]",100.0
+355,(il-2/nkg2d),0.0,"[nsubj, inhibitors, amod]",11.0
+356,(collagenase/timp),1.0,"[appos, substrate, nn]",11.0
+357,(pyridostigmine/igf-i),0.0,"[prep_with, treated, nsubjpass]",80.0
+358,(curcumin/p-gp),17.0,"[amod, concentrations, appos]",42.0
+359,(irinotecan/ces2),22.0,"[nsubj, increased, dobj, expression, prep_of]",29.0
+360,(simvastatin/cyr61),3.0,"[dep, inhibitor, nn]",102.0
+361,(lamotrigine/ugt1a4),17.0,"[appos, inhibitors, num]",49.0
+362,(naringenin/tslp),3.0,"[prep_than, effective, nsubj]",0.0
+363,(hemin/nrf2),29.0,"[nsubj, effective, prep_as]",0.0
+364,(dexamethasone/phospholipase),23.0,"[prep_of, addition, nsubj]",108.0
+365,(raloxifene/ki-67),13.0,"[nsubj, reduced, dobj, production, prep_of]",0.0
+366,(anticholinesterases/cholinesterase),25.0,"[appos, ligand, prep_for]",39.0
+367,(curcumin/nf-kappab),23.0,"[prep_of, effects, dobj, investigate, prep_on, expression, prep_of]",80.0
+368,(fk506/fkbp-12),6.0,"[appos, beta, appos, beta, nn]",0.0
+369,(quinacrine/phospholipase),23.0,"[nsubj, decreased, dobj, expression, nn]",27.0
+370,(salbutamol/copd),0.0,"[amod, induced, nsubj]",107.0
+371,(haloperidol/cyp2d6),0.0,"[nn, gene, appos]",87.0
+372,(dhea/factor-1),16.0,"[amod, production, dobj, inhibited, nsubj]",0.0
+373,(dexamethasone/pepck),22.0,"[nn, treatment, prep_of]",109.0
+374,(rosiglitazone/icam-1),1.0,"[nn, expression, nn]",45.0
+375,(daunorubicin/dt-diaphorase),17.0,"[appos, factor, nn]",106.0
+376,(il-2/cx3cr1),27.0,"[appos, inhibitor, prep_of, activation, amod]",82.0
+377,(cisplatin/ho-1),13.0,"[nsubj, showed, prep_on]",104.0
+378,(anakinra/il-1),1.0,"[amod, decarboxylase, appos]",87.0
+379,(debrisoquin/cyp2d6),20.0,"[nsubj, modulates, dobj, expression, prep_of]",66.0
+380,(promethazine/calmodulin),28.0,"[nsubj, inhibited, dobj, release, prep_of]",34.0
+381,(isoproterenol/beta-glucuronidase),21.0,"[amod, peptide, amod]",93.0
+382,(cyclophosphamide/cyp2b6),19.0,"[xsubj, cells, amod]",89.0
+383,(g-csf/lenograstim),18.0,"[nsubj, inhibited, dobj, upregulation, prep_of]",49.0
+384,(lenograstim/g-csf),8.0,"[dep, inhibitor, appos]",102.0
+385,(buserelin/lhrh),29.0,"[dep, alpha, dep]",68.0
+386,(simvastatin/mcp-1),13.0,"[nsubj, reversed, dobj, effects, prep_of]",68.0
+387,(genistein/mmp-9),17.0,"[prep_to, sensitive, nsubj]",102.0
+388,(resveratrol/mcp-1),3.0,"[agent, involved, nsubjpass]",0.0
+389,(epirubicin/g-csf),18.0,"[prep_with, treated, nsubjpass, patients, prep_with]",23.0
+390,(fasudil/rhoa),1.0,"[nsubj, inhibit, dobj, activation, amod]",23.0
+391,(sunitinib/abcg2),15.0,"[amod, release, nn]",28.0
+392,(oxytocin/gnrh),0.0,"[nsubj, had, dobj]",35.0
+393,(doxorubicin/survivin),3.0,"[prep_with, inhibitor, nn]",5.0
+394,(verapamil/nm23),17.0,"[nsubj, increased, dobj, secretion, amod]",77.0
+395,(tamoxifen/nadph),8.0,"[nsubj, increases, dobj, phosphorylation, prep_of]",0.0
+396,(apap/sulfotransferase),20.0,"[appos, therapy, amod]",6.0
+397,(theophylline/copd),6.0,"[nn, sulfate, appos]",99.0
+398,(secretin/calcitonin),27.0,"[prep_of, concentrations, nsubj]",20.0
+399,(phenprocoumon/cyp2c9),17.0,"[nsubj, inhibited, dobj, factor, appos]",3.0
+400,(curcumin/caspase-8),3.0,"[appos, drug, amod]",37.0
+401,(dextromethorphan/cyp2c9),24.0,"[nsubj, reduces, dobj, expression, amod]",93.0
+402,(carbamazepine/cyp3a),8.0,"[nsubj, increases, dobj]",0.0
+403,(dexamethasone/pghs-2),1.0,"[nsubj, induces, dobj, expression, prep_of]",0.0
+404,(fluvoxamine/cyp3a4),28.0,"[prep_of, presence, prep_in, activity, amod]",26.0
+405,(calcitriol/cyp24a1),4.0,"[amod, mrna, nn]",97.0
+406,(fenofibrate/enos),29.0,"[dep, agonists, nn]",13.0
+407,(colchicine/mdr1),15.0,"[nsubj, inhibits, dobj, activity, nn]",116.0
+408,(protamine/tfpi),20.0,"[appos, activity, amod]",10.0
+409,(metoclopramide/gastrin),23.0,"[prep_with, increased, nsubj]",121.0
+410,(prednisone/p-gp),15.0,"[amod, blocks, nsubj]",58.0
+411,(calcein/mrp1),15.0,"[amod, block, prepc_of]",91.0
+412,(il-2/p-selectin),25.0,"[nn, production, prep_of]",1.0
+413,(hyaluronate/habp),6.0,"[appos, receptor, appos]",91.0
+414,(imipramine/cyp2c19),24.0,"[dep, corticosteroids, amod, plasmapheresis, appos]",97.0
+415,(pamidronate/calcitonin),2.0,"[amod, expression, amod]",0.0
+416,(cisplatin/hmg1),0.0,"[dep, inhibitors, appos]",27.0
+417,(resveratrol/nadph),28.0,"[prep_with, induced, nsubjpass]",27.0
+418,(prostacyclin/cyclooxygenase-1),20.0,"[nn, concentration, nsubj]",75.0
+419,(prostacyclin/cyclooxygenase-2),18.0,"[appos, factor, dep]",27.0
+420,(hemin/bach1),5.0,"[dep, antibody, prep_against]",27.0
+421,(nafarelin/lhrh),16.0,"[prep_by, induction, nn]",27.0
+422,(aldosterone/a-ii),9.0,"[prep_with, incubated, nsubjpass]",75.0
+423,(lenalidomide/amyloidosis),2.0,"[amod, genes, appos]",58.0
+424,(pravastatin/abca1),0.0,"[amod, system, appos]",10.0
+425,(doxycycline/mmp-8),12.0,"[nsubj, inhibit, prep_by]",10.0
+426,(carnitine/octn2),26.0,"[appos, inducer, nn]",117.0
+427,(carnitine/octn1),26.0,"[acomp, using, partmod]",95.0
+428,(doxycycline/mmp-9),1.0,"[dep, agonists, amod]",90.0
+429,(nateglinide/cyp2c9),17.0,"[amod, synthase, appos]",98.0
+430,(doxycycline/mmp-3),17.0,"[appos, alpha, appos]",36.0
+431,(corticosteroids/fsgs),6.0,"[prep_with, synergized, nsubj]",113.0
+432,(doxycycline/mmp-2),1.0,"[nsubj, stimulated, dobj, secretion, nn]",0.0
+433,(bethanechol/gastrin),0.0,"[nsubj, inhibited, dobj, activity, appos]",118.0
+434,(ranibizumab/vegf-a),12.0,"[nsubj, inhibitor, prep_of]",118.0
+435,(l-tryptophan/rna-binding),7.0,"[dobj, binds, nsubj]",83.0
+436,(cetrorelix/lhrh),0.0,"[prep_of, micrograms, amod]",9.0
+437,(cilostazol/cd62p),0.0,"[nsubj, inhibit, dobj, activity, prep_of]",56.0
+438,(il-2/ifn-alpha),2.0,"[prep_as, inhibitor, nn]",25.0
+439,(tramadol/cyp2d6),17.0,"[nsubj, suppressed, dobj, activation, amod]",44.0
+440,(propranolol/vegf),0.0,"[nsubj, regulates, dobj, activity, amod]",83.0
+441,(riluzole/gdnf),18.0,"[nsubj, synergized, prep_with]",83.0
+442,(osi-774/egfr),12.0,"[prep_on, activity, prep_of]",25.0
+443,(dexamethasone/gilz),6.0,"[nsubj, inhibit, dobj, activity, nn]",83.0
+444,(sn-38/abcg2),5.0,"[agent, increased, nsubjpass, levels, nn]",55.0
+445,(moclobemide/cyp2c19),17.0,"[infmod, inhibit, dobj]",94.0
+446,(rivastigmine/butyrylcholinesterase),3.0,"[prep_of, protein, appos]",64.0
+447,(dapsone/cyp2c9),10.0,"[nsubjpass, metabolized, agent]",11.0
+448,(raloxifene/enos),10.0,"[nsubj, caused, dobj, induction, prep_of]",0.0
+449,(estradiol/cyp3a4),15.0,"[nsubj, analog, appos]",35.0
+450,(imipenem/ml-1),24.0,"[nsubj, upregulated, dobj, expression, prep_of]",95.0
+451,(aldosterone/as160),22.0,"[amod, gene, nn]",59.0
+452,(g-csf/filgrastim),0.0,"[agent, induced, partmod, mrna, amod]",106.0
+453,(filgrastim/g-csf),0.0,"[nsubj, attenuated, dobj, expression, amod]",0.0
+454,(halothane/calmodulin),6.0,"[nsubj, increases, dobj, expression, amod]",0.0
+455,(tamoxifen/mcp-1),3.0,"[xsubj, induce, dobj, expression, prep_of]",45.0
+456,(lovastatin/pten),13.0,"[nsubj, reduce, dobj, expression, prep_of]",103.0
+457,(il-1ra/il1rn),20.0,"[nsubj, increased, dobj, phosphorylation, nn]",81.0
+458,(doxorubicin/bcl-2),25.0,"[nn, acetate, nn]",81.0
+459,(vincristine/mrp1),26.0,"[prep_of, effect, dobj, study, prep_on]",87.0
+460,(buspirone/5-ht1a),16.0,"[rcmod, inhibits, acomp]",13.0
+461,(vatalanib/vegf),28.0,"[prep_by, expression, amod]",81.0
+462,(perindopril/vegf),24.0,"[nsubj, decreased, dobj, activity, amod]",81.0
+463,(delavirdine/cyp3a4),28.0,"[prep_by, production, nn]",81.0
+464,(raloxifene/igf-i),22.0,"[amod, inhibitor, appos]",84.0
+465,(propafenone/cyp2d6),17.0,"[prep_of, target, dep]",43.0
+466,(bupropion/cyp2b6),9.0,"[prep_by, gene, amod]",0.0
+467,(thioridazine/calmodulin),25.0,"[amod, sulfate, appos]",64.0
+468,(vasopressin/beta-endorphin),16.0,"[nsubj, caused, prep_in, activity, amod]",34.0
+469,(n-acetylcysteine/nadph),9.0,"[appos, acid, appos]",56.0
+470,(dexamethasone/aromatase),12.0,"[nsubj, enhanced, dobj]",0.0
+471,(topotecan/bcrp),22.0,"[partmod, bound, prep_to]",107.0
+472,(aldosterone/per1),5.0,"[amod, receptor, nsubj]",17.0
+473,(taurine/kallikrein),3.0,"[agent, inhibited, nsubjpass, expression, prep_of]",59.0
+474,(paclitaxel/nfkappab),22.0,"[prep_of, expression, amod]",0.0
+475,(dexamethasone/ifn-gamma),0.0,"[amod, antagonists, nn]",3.0
+476,(estradiol/creb),0.0,"[nsubj, enhanced, dobj, expression, prep_of]",3.0
+477,(pge2/ml-1),5.0,"[prep_on, secretion, nn]",0.0
+478,(ribavirin/eif4e),1.0,"[appos, agonist, appos]",21.0
+479,(losartan/cyp2c9),17.0,"[prep_on, production, prep_of]",0.0
+480,(tolcapone/comt),28.0,"[amod, activation, appos]",43.0
+481,(amitriptyline/trka),7.0,"[agent, regulated, nsubjpass, expression, nn]",113.0
+482,(colchicine/p-gp),15.0,"[agent, signaling, partmod]",0.0
+483,(fk506/nf-kappab),23.0,"[nsubj, increased, dobj, release, nn]",108.0
+484,(capsaicin/pi3k),3.0,"[appos, inhibitor, amod, selective, amod]",123.0
+485,(aldosterone/dheas),5.0,"[prep_with, received, dobj]",0.0
+486,(g-csf/il-1),0.0,"[prep_such_as, inhibitors, prep_of]",11.0
+487,(quinidine/herg),12.0,"[nsubj, potentiated, dobj, effect, prep_of]",68.0
+488,(metformin/alpha-glucosidase),12.0,"[prep_of, effects, appos]",86.0
+489,(aripiprazole/5-ht1a),16.0,"[prep_of, effects, dobj, investigated, prep_on, expression, nn]",24.0
+490,(forskolin/raf-1),28.0,"[appos, levels, amod]",0.0
+491,(etoposide/brca1),23.0,"[nn, fasr, appos]",10.0
+492,(taurine/glyrs),10.0,"[nsubj, induces, dobj, phosphorylation, prep_of]",7.0
+493,(il-2/g-csf),18.0,"[amod, palmitoyltransferase, appos]",91.0
+494,(forskolin/nachr),19.0,"[nn, production, prep_by]",58.0
+495,(g-csf/il-5),18.0,"[nn, az, nn]",101.0
+496,(hyaluronan/adiponectin),24.0,"[prep_with, treatment, nsubj, increased, dobj, expression, amod]",108.0
+497,(carbachol/cgrp),5.0,"[appos, factor, nsubj]",33.0
+498,(metyrapone/adrenocorticotropin),5.0,"[nsubj, upregulates, dobj]",23.0
+499,(doxazosin/pc-3),7.0,"[amod, treatment, nsubj, increased, dobj, expression, prep_of]",83.0
+500,(tcgf/lymphokine),18.0,"[nsubj, inhibited, dobj, induction, prep_of]",0.0
+501,(il-2/cd86),20.0,"[appos, cortisol, appos]",91.0
+502,(il-2/cd80),18.0,"[nsubj, increased, dobj, mrna, amod]",107.0
+503,(clopidogrel/cyp2c19),17.0,"[nsubj, antibody, amod]",22.0
+504,(sunitinib/abcb1),15.0,"[prep_by, inhibited, nsubj, expression, prep_of]",0.0
+505,(zileuton/leukotriene),0.0,"[nsubj, increased, dobj, mrna, nn]",92.0
+506,(melphalan/amyloidosis),17.0,"[agent, induced, partmod, phosphorylation, amod]",103.0
+507,(troglitazone/cyp3a),24.0,"[prep_with, treated, partmod, patients, amod]",0.0
+508,(pge2/cox-2),0.0,"[appos, blocker, prep_of]",107.0
+509,(pioglitazone/ampk),29.0,"[nsubj, targets, dobj]",93.0
+510,(pge2/cox-1),4.0,"[prep_including, inhibitors, nn]",93.0
+511,(fk506/il-5),3.0,"[appos, csf, nn]",93.0
+512,(vasopressin/v1br),20.0,"[appos, antibody, amod]",93.0
+513,(tacrolimus/fkbp-12),7.0,"[dobj, received, nsubj]",93.0
+514,(paclitaxel/cox-2),10.0,"[nn, alpha, appos]",107.0
+515,(raloxifene/menin),23.0,"[xsubj, inhibit, dobj, activity, prep_of]",71.0
+516,(genistein/pc-3),28.0,"[prep_of, target, xsubj]",0.0
+517,(corticotropin/adrenocorticotropin),16.0,"[rcmod, metabolized, agent]",66.0
+518,(coumarin/cyp2a6),15.0,"[amod, i, appos]",30.0
+519,(fk506/caspase-3),23.0,"[amod, antagonist, nn]",93.0
+520,(colchicine/il-1),0.0,"[nsubj, inhibits, xcomp]",93.0
+521,(artemisinin/cdk2),1.0,"[appos, activation, amod]",29.0
+522,(bleomycin/cox-2),15.0,"[nsubj, stimulates, dobj]",93.0
+523,(artemisinin/cdk4),1.0,"[xcomp, inhibit, dobj]",93.0
+524,(minocycline/caspase-3),23.0,"[appos, scf, appos]",71.0
+525,(hpth/pthrp),2.0,"[amod, agonist, nn]",50.0
+526,(octreotide/igf-i),0.0,"[xsubj, expression, prep_of]",29.0
+527,(pge2/igf-i),10.0,"[prep_of, effect, appos, inhibitor, nn]",0.0
+528,(gp120/icam-1),25.0,"[nn, administration, nn]",0.0
+529,(vorinostat/hdac),28.0,"[amod, gene, prep_to, fused, partmod, promoter, amod]",29.0
+530,(prostacyclin/calcitonin),5.0,"[prep_with, treatment, nsubj, increased, dobj, levels, nn]",114.0
+531,(isoflurane/lfa-1),10.0,"[amod, treatment, nsubj, increased, dobj, expression, amod]",2.0
+532,(paroxetine/cyp2d6),28.0,"[prep_with, reduced, nsubjpass]",114.0
+533,(coxibs/cox-2),28.0,"[nsubj, induce, dobj, expression, nn]",64.0
+534,(coxibs/cox-1),17.0,"[nsubj, had, dobj, effect, prep_on, levels, amod]",60.0
+535,(diclofenac/ugt2b7),12.0,"[prep_with, treated, partmod, cells, nn]",56.0
+536,(atra/bcl-2),0.0,"[amod, inhibition, prep_of, activity, amod]",114.0
+537,(hemin/ho-2),23.0,"[prep_on, expression, amod]",37.0
+538,(arsenite/cyp3a4),8.0,"[dep, micrograms, amod]",22.0
+539,(hemin/ho-1),0.0,"[nsubj, agonists, nn]",2.0
+540,(etanercept/il-1),2.0,"[prep_of, metabolism, prep_to, contributes, nsubj]",41.0
+541,(il-2/lfa-1),13.0,"[nsubj, agonist, amod]",121.0
+542,(cisplatin/cd44),5.0,"[pobj, with, pcomp, combined, prep]",101.0
+543,(urokinase/pai-1),0.0,"[amod, treatment, nsubj, increased, dobj, expression, nn]",25.0
+544,(urokinase/kallikrein),10.0,"[prep_of, effects, dobj, investigate, prep_on]",27.0
+545,(urokinase/pai-2),28.0,"[prep_of, effects, dobj, studied, prep_on]",9.0
+546,(ru486/aromatase),24.0,"[nsubj, inhibited, dobj, release, nn]",31.0
+547,(dexamethasone/gastrin),3.0,"[agent, inhibited, nsubjpass, mrna, nn]",18.0
+548,(capsaicin/trpv1),7.0,"[nsubj, inhibits, dobj, phosphorylation, prep_of]",74.0
+549,(creatine/transamidinase),13.0,"[amod, hydroxylase, appos]",8.0
+550,(vildagliptin/dpp-4),28.0,"[nsubj, downregulated, dobj, expression, prep_of]",66.0
+551,(sulindac/survivin),15.0,"[nn, clearance, appos]",0.0
+552,(rosiglitazone/mmp-9),23.0,"[amod, stimulates, nsubj]",66.0
+553,(triiodothyronine/shbg),5.0,"[amod, activities, nn]",37.0
+554,(resveratrol/fasl),18.0,"[nsubj, blocked, dobj]",108.0
+555,(cyclophosphamide/srbc),2.0,"[nn, induction, prep_of]",97.0
+556,(carvedilol/sapk),11.0,"[prep_such_as, agonists, appos]",100.0
+557,(pge2/il-1ra),4.0,"[prep_of, effect, nsubjpass, mediated, agent]",68.0
+558,(troglitazone/niddm),2.0,"[nsubj, regulate, dobj]",12.0
+559,(atra/irs-1),3.0,"[prep_on, expression, appos]",23.0
+560,(zonisamide/cyp3a4),1.0,"[appos, activity, nn]",72.0
+561,(rapamycin/aicar),2.0,"[nsubjpass, used, prep_in, treatment, prep_of]",66.0
+562,(axitinib/vegf),0.0,"[nsubj, decreases, dobj, expression, prep_of]",0.0
+563,(norepinephrine/catechol-o-methyltransferase),6.0,"[prep, combined, pcomp, with, pobj]",0.0
+564,(pge2/mpges),20.0,"[nn, inhibitors, amod]",52.0
+565,(dexamethasone/cpla2),22.0,"[amod, transcription, nn]",121.0
+566,(genistein/icam-1),3.0,"[amod, phosphorylation, prep_of]",47.0
+567,(metoprolol/copd),6.0,"[nsubj, antagonist, prep_of, receptor, nn]",0.0
+568,(oxytocin/sf-1),27.0,"[dep, substrate, prep_for]",0.0
+569,(bezafibrate/l-fabp),6.0,"[dep, ligands, amod]",66.0
+570,(lovastatin/icam-1),13.0,"[amod, mrna, appos]",66.0
+571,(estradiol/hsp90),21.0,"[nsubj, inhibited, dobj, synthesis, nn]",7.0
+572,(pimozide/gnrh),9.0,"[amod, expression, nn]",106.0
+573,(scopolamine/scop),19.0,"[nn, activities, nn]",0.0
+574,(curcumin/hlj1),29.0,"[prep_of, effect, dobj, investigate, prep_on]",0.0
+575,(cisplatin/g-csf),18.0,"[agent, induced, nsubjpass, expression, prep_of]",44.0
+576,(cyclosporine/hnf4alpha),24.0,"[nsubj, inhibits, dobj]",42.0
+577,(fluorescein/cd14),9.0,"[nsubj, inhibits, prep_by]",0.0
+578,(carvedilol/il-10),27.0,"[nsubj, induces, dobj, expression, amod]",77.0
+579,(methylprednisolone/g-csf),11.0,"[prep_of, effects, dep]",18.0
+580,(cholestyramine/acat),10.0,"[prep_such_as, antagonists, amod]",10.0
+581,(genistein/sulfotransferase),23.0,"[dobj, converts, nsubj]",75.0
+582,(moclobemide/mao-b),17.0,"[nsubj, affect, dobj, activity, amod]",93.0
+583,(dexamethasone/mkp-1),15.0,"[dobj, transports, nsubj]",41.0
+584,(gm-csf/cox-2),27.0,"[prep_of, effects, prep_for, required, nsubjpass]",68.0
+585,(simvastatin/rhoa),1.0,"[nsubj, increased, acomp]",85.0
+586,(simvastatin/rhob),27.0,"[prep_to, enhanced, nsubj]",25.0
+587,(neostigmine/cholinesterase),12.0,"[dep, inhibitors, nn]",41.0
+588,(4-methylpyrazole/cyp2e1),12.0,"[nsubj, reduced, dobj, activation, amod]",11.0
+589,(melphalan/hilp),6.0,"[dep, plus, prep]",61.0
+590,(moclobemide/mao-a),12.0,"[prep_of, target, amod]",94.0
+591,(mivacurium/cholinesterase),17.0,"[nsubj, regulate, dobj, expression, amod]",11.0
+592,(resveratrol/survivin),21.0,"[appos, protocol, nn]",7.0
+593,(risperidone/cyp3a4),6.0,"[dep, substrate, prep_of]",72.0
+594,(aldosterone/mcp-1),27.0,"[agent, inhibited, nsubjpass, activation, nn]",16.0
+595,(fk-506/fkbp12),7.0,"[agent, induced, partmod, expression, nn]",121.0
+596,(oltipraz/pai-1),0.0,"[nsubj, inhibited, prep_to]",10.0
+597,(mannitol/m6pr),26.0,"[nsubj, decreased, prep_in]",0.0
+598,(il-2/cd30),20.0,"[prep_with, mice, nn]",38.0
+599,(tamoxifen/er-beta),9.0,"[nsubj, inhibitor, nn]",69.0
+600,(fibrates/ppar),16.0,"[nsubj, suppressed, dobj, activation, prep_of]",108.0
+601,(phenformin/ampk),0.0,"[prep_of, expression, appos]",42.0
+602,(perazine/cyp1a2),0.0,"[xsubj, induce, dobj]",108.0
+603,(il-2/cd23),13.0,"[amod, inhibitors, num]",0.0
+604,(estradiol/gnrh-r),29.0,"[nsubj, suppressed, dobj, expression, nn]",105.0
+605,(il-2/cd25),7.0,"[nsubj, reversed, dobj, effect, prep_of]",39.0
+606,(il-1rn/il-1b),0.0,"[prep_on, production, nn]",61.0
+607,(il-2/cd28),2.0,"[amod, levels, prep_of]",6.0
+608,(rolipram/pde4),1.0,"[nsubj, affect, dobj, expression, amod]",118.0
+609,(carnitine/crat),20.0,"[nn, complex, nn]",3.0
+610,(doxepin/cyp2d6),23.0,"[prep_of, presence, prep_in]",97.0
+611,(resveratrol/xbp1),17.0,"[nsubj, inhibited, dobj, activity, amod]",53.0
+612,(chlorpromazine/herg),0.0,"[nsubj, antibody, partmod, targeted, prep_against]",7.0
+613,(ticagrelor/p2y12),0.0,"[prep_than, inhibitor, nn]",74.0
+614,(bambuterol/bche),23.0,"[nsubj, inhibits, dobj, expression, prep_of]",124.0
+615,(vasopressin/lhrh),16.0,"[agent, increased, nsubjpass, expression, amod]",102.0
+616,(nitrofurantoin/bcrp),15.0,"[prep_with, interacts, nsubj]",100.0
+617,(ketoprofen/cox-1),1.0,"[amod, disease, appos]",12.0
+618,(cisplatin/cmoat),5.0,"[prep_in, treatment, prep_of]",102.0
+619,(estradiol/shbg),4.0,"[nsubj, blocked, dobj, induction, prep_of]",68.0
+620,(varenicline/icer),24.0,"[amod, effects, prep_on]",84.0
+621,(nifedipine/cyp3a),14.0,"[nsubj, increases, dobj, activity, amod]",117.0
+622,(adomet/trna),2.0,"[appos, interleukin, appos]",117.0
+623,(aldosterone/sf-1),24.0,"[nn, substrates, nn]",44.0
+624,(gm-csf/ml-1),4.0,"[prep_with, treated, nsubjpass, mice, amod]",44.0
+625,(itraconazole/cyp3a4),1.0,"[amod, alpha, dep]",67.0
+626,(doxorubicin/tace),6.0,"[nsubj, stimulated, dobj, activity, amod]",10.0
+627,(indomethacin/mmp-2),17.0,"[amod, activators, nn]",29.0
+628,(propofol/ugt1a9),22.0,"[amod, resistance, prep_in]",118.0
+629,(pgi2/ml-1),24.0,"[nn, pathway, nn]",103.0
+630,(bortezomib/noxa),8.0,"[appos, antibody, prep_to]",92.0
+631,(resveratrol/bcl-2),17.0,"[nsubj, substrate, nn]",67.0
+632,(indomethacin/mmp-9),17.0,"[agent, inhibited, nsubjpass, expression, nn]",39.0
+633,(celecoxib/egfr),12.0,"[prep_of, amounts, amod]",15.0
+634,(indomethacin/pla2),12.0,"[appos, tnf, appos]",39.0
+635,(celecoxib/cyclooxygenase-2),12.0,"[nsubj, substrates, prep_for]",0.0
+636,(clopidogrel/p2y12),0.0,"[nsubj, inhibited, dobj]",80.0
+637,(octreotide/igfbp-1),18.0,"[prep_for, target, nsubj]",0.0
+638,(pge2/igfbp-5),27.0,"[amod, inhibitors, prep_of]",36.0
+639,(ibandronate/rankl),22.0,"[nn, complex, amod]",95.0
+640,(rc-160/nnos),27.0,"[dobj, transport, nsubj]",93.0
+641,(simvastatin/bcl-2),21.0,"[prep_to, play, nsubj]",72.0
+642,(curcumin/irak),3.0,"[nsubj, decreased, dobj, levels, prep_of]",61.0
+643,(dexamethasone/gamma-glutamyltransferase),22.0,"[amod, sensitivity, prep_of]",33.0
+644,(chlorambucil/amyloidosis),17.0,"[nsubj, enhanced, dobj, expression, amod]",33.0
+645,(il-1ra/il-10),0.0,"[nsubj, activated, dobj]",106.0
+646,(methotrexate/mrp2),14.0,"[appos, inhibitor, prep_of, kinase, amod]",85.0
+647,(il-2/cd40),8.0,"[appos, inhibitor, amod]",59.0
+648,(cimetidine/cyp1a2),12.0,"[nsubj, increased, dobj, phosphorylation, prep_of]",61.0
+649,(sorafenib/mcl-1),21.0,"[nsubj, reduced, iobj]",38.0
+650,(prostacyclin/pgl2),20.0,"[nn, isothiocyanate, dep]",43.0
+651,(il-2/ap-1),0.0,"[appos, agonists, nn]",78.0
+652,(paroxetine/bdnf),27.0,"[agent, inhibited, nsubjpass, activity, amod]",0.0
+653,(aldosterone/leu-enkephalin),5.0,"[appos, activator, nn]",0.0
+654,(hyaluronan/inter-alpha-trypsin),17.0,"[prep_with, expression, nn]",0.0
+655,(methotrexate/mrp4),15.0,"[prep_to, cells, nn]",119.0
+656,(imatinib/cxcr4),22.0,"[prep_for, protein, appos]",33.0
+657,(gm-csf/il-1ra),3.0,"[nn, group, prep_in]",0.0
+658,(n-acetyl-d-glucosamine/lectin),24.0,"[nsubj, agonist, nn]",6.0
+659,(tamoxifen/hoxb13),17.0,"[prep_of, administration, nsubj, increased, dobj, levels, amod]",6.0
+660,(everolimus/nets),2.0,"[nsubj, inhibited, dobj, secretion, nn]",122.0
+661,(prostacyclin/pgis),20.0,"[prep_of, binding, prep_to]",66.0
+662,(selegiline/cyp2b6),24.0,"[partmod, produced, agent]",49.0
+663,(il-2/bfgf),18.0,"[appos, form, prep_of]",106.0
+664,(clozapine/cyp1a2),17.0,"[nn, cells, nn]",63.0
+665,(il-2/cd71),7.0,"[prep_on, release, amod]",70.0
+666,(misoprostol/cox-2),5.0,"[dep, inhibitors, num]",123.0
+667,(ivermectin/p-gp),17.0,"[dobj, using, partmod]",0.0
+668,(exenatide/dpp-4),28.0,"[appos, ligands, amod]",0.0
+669,(dexamethasone/ppar-gamma),22.0,"[amod, fibroblasts, amod]",92.0
+670,(pgi2/cox-2),25.0,"[nsubj, reduced, dobj, expression, nn]",36.0
+671,(dexamethasone/cyp3a4),17.0,"[nsubj, alter, dobj, levels, nn]",36.0
+672,(il-2/cd69),19.0,"[nsubj, has, dobj, effect, prep_on]",36.0
+673,(aldosterone/ctrp1),4.0,"[amod, receptors, appos]",36.0
+674,(eserine/cholinesterase),12.0,"[nsubj, one, prep_of, inhibitors, nn]",36.0
+675,(sevoflurane/caspase-3),26.0,"[dobj, expression, nn]",118.0
+676,(everolimus/cyp3a),8.0,"[amod, enzyme, appos]",119.0
+677,(tamoxifen/survivin),13.0,"[prep_of, effect, dobj, investigated, prep_on, expression, nn]",112.0
+678,(g-csf/csf3r),20.0,"[prep_for, receptor, nsubj]",74.0
+679,(g-csf/cd11b),9.0,"[nsubj, suppressed, dobj, expression, amod]",6.0
+680,(doxorubicin/nadph),8.0,"[appos, gamma, appos]",28.0
+681,(clofibrate/ppar),7.0,"[prep_on, content, amod]",121.0
+682,(cytarabine/g-csf),18.0,"[prep_for, receptor, prep_as, identified, nsubjpass]",44.0
+683,(nadh/reticulum),11.0,"[nsubj, increase, dobj, expression, nn]",72.0
+684,(atorvastatin/nf-kappab),23.0,"[amod, treatment, prep_after]",103.0
+685,(rosiglitazone/pten),27.0,"[xsubj, treat, dobj]",61.0
+686,(hyaluronidase/ph-20),26.0,"[amod, gene, prep_to, linked, partmod, promoter, amod]",0.0
+687,(fluorescein/cd45),9.0,"[nsubj, increased, dobj, expression, appos]",102.0
+688,(il-2/cd56),17.0,"[prep_of, effect, dobj, examined, prep_on, expression, amod]",41.0
+689,(octreotide/ghrelin),5.0,"[prep_of, metabolism, prep_in, involved, nsubjpass]",0.0
+690,(il-2/cd54),20.0,"[amod, transport, prep_by]",0.0
+691,(lansoprazole/cyp2c19),15.0,"[prep_of, metabolism, nsubjpass, catalyzed, agent]",90.0
+692,(creatine/igf-i),22.0,"[appos, antibody, partmod, targeting, dobj]",14.0
+693,(sunitinib/pdgfr),12.0,"[amod, nitrendipine, amod]",0.0
+694,(cyclophosphamide/ifn-gamma),5.0,"[prep_with, activity, nn]",84.0
+695,(vasopressin/kallikrein),29.0,"[nsubj, inhibited, dobj, expression, prep_of]",95.0
+696,(trimethoprim/nadph),6.0,"[prep_with, inhibitor, amod]",85.0
+697,(creatine/glut4),24.0,"[prep_of, effect, amod]",86.0
+698,(bortezomib/cip2a),0.0,"[prep_of, effect, dobj, examined, prep_on, expression, prep_of]",0.0
+699,(duloxetine/cyp2d6),17.0,"[nsubj, upregulates, dobj, expression, amod]",29.0
+700,(propranolol/egr1),29.0,"[nsubj, stimulated, dobj]",29.0
+701,(fk506/rotamase),25.0,"[nsubj, specific, prep_for]",29.0
+702,(chlorpromazine/calmodulin),0.0,"[nsubj, agonist, num]",114.0
+703,(hydralazine/ssao),28.0,"[amod, increases, nsubj]",29.0
+704,(atra/gnt-v),9.0,"[appos, substrate, prep_for]",29.0
+705,(phenytoin/cyp2c19),17.0,"[nsubj, induced, dobj, activation, prep_of]",24.0
+706,(amd3100/cxcl12),0.0,"[nsubj, inhibited, dobj, activity, prep_of]",113.0
+707,(capsaicin/trpa1),16.0,"[prep_of, effects, dobj, investigated, prep_on]",72.0
+708,(forskolin/gnrh),9.0,"[nsubj, binds, dobj]",62.0
+709,(indomethacin/akr1c3),6.0,"[prep_with, combined, partmod]",0.0
+710,(prednisolone/p-gp),15.0,"[appos, inhibition, nn]",35.0
+711,(omeprazole/cyp2c19),15.0,"[nsubj, blocked, xcomp]",0.0
+712,(dexamethasone/eotaxin),17.0,"[prep_with, synergizes, nsubj]",90.0
+713,(cyclosporin/cyp-d),6.0,"[nsubj, inhibited, dobj, production, prep_of]",0.0
+714,(berberine/mmp-9),0.0,"[dep, receptor, appos]",95.0
+715,(betaine/igf-i),5.0,"[appos, therapy, nn]",3.0
+716,(capsaicin/calcitonin),9.0,"[nn, production, nn]",0.0
+717,(celecoxib/cox-1),28.0,"[dobj, transported, nsubj]",113.0
+718,(celecoxib/cox-2),17.0,"[amod, selective, amod]",107.0
+719,(naltrexone/beta-endorphin),0.0,"[prep_with, inhibition, amod]",22.0
+720,(temozolomide/top2a),12.0,"[appos, receptor, nn]",26.0
+721,(aminoglutethimide/p450scc),12.0,"[nn, production, amod]",0.0
+722,(abacavir/p-gp),15.0,"[amod, regulation, prep_of]",0.0
+723,(triacetyloleandomycin/cyp3a),12.0,"[appos, activator, amod]",0.0
+724,(haloperidol/cyp3a4),15.0,"[appos, agonist, amod]",0.0
+725,(rosiglitazone/vldlr),27.0,"[prep_to, sensitive, nsubj, cells, nn]",88.0
+726,(isoprenaline/mmp-9),21.0,"[appos, antagonist, dep]",72.0
+727,(bisphosphonates/rankl),0.0,"[amod, release, amod]",72.0
+728,(clozapine/5-ht1c),0.0,"[amod, synthase, amod]",98.0
+729,(forskolin/cftr),7.0,"[prep_such_as, receptor, appos]",107.0
+730,(rapamycin/ogg1),17.0,"[nsubj, has, dobj, effects, prep_on]",7.0
+731,(clozapine/5-ht1a),16.0,"[prep_such_as, inhibitors, num]",40.0
+732,(glyburide/abca1),6.0,"[prep_in, patients, prep_with]",43.0
+733,(fluvoxamine/cyp2d6),22.0,"[appos, receptor, amod]",121.0
+734,(simvastatin/statin),0.0,"[amod, synthase, dep]",121.0
+735,(carboplatin/vegf),5.0,"[nsubj, inhibits, dobj, production, nn]",28.0
+736,(indomethacin/beta-catenin),22.0,"[amod, treatment, appos]",121.0
+737,(triflusal/nf-kappab),23.0,"[amod, activation, amod]",32.0
+738,(estradiol/spinophilin),27.0,"[nsubj, selective, prep_for]",6.0
+739,(metformin/mtor),28.0,"[nn, receptors, amod]",33.0
+740,(lovastatin/e-selectin),21.0,"[nsubj, inhibited, prep_with]",34.0
+741,(naringenin/pon1),25.0,"[amod, gene, prep_to, linked, partmod, promoter, nn]",11.0
+742,(rolipram/cd11b),5.0,"[nsubj, increased, dobj, activity, nn]",5.0
+743,(rosiglitazone/cyp3a4),15.0,"[prep_of, concentration, nsubj]",0.0
+744,(sevoflurane/p-selectin),3.0,"[nsubj, decreased, dobj, expression, amod]",94.0
+745,(celecoxib/nfkappab),28.0,"[nsubj, affect, dobj, levels, amod]",5.0
+746,(rosiglitazone/ppar-gamma),7.0,"[nsubj, downregulated, dobj, expression, amod]",0.0
+747,(gm-csf/rankl),8.0,"[agent, inactivated, nsubjpass]",37.0
+748,(colchicine/mefv),13.0,"[agent, inhibited, nsubjpass, expression, amod]",46.0
+749,(bleomycin/ifn-beta),2.0,"[agent, increased, nsubjpass, expression, nn]",50.0
+750,(pge2/inositol),24.0,"[nn, protein, appos]",0.0
+751,(idarubicin/aida),29.0,"[dep, globulin, appos]",66.0
+752,(quinacrine/pla2),1.0,"[prep_with, treatment, prep_after]",107.0
+753,(arsenite/ikappabalpha),1.0,"[nsubj, suppresses, dobj, expression, prep_of]",22.0
+754,(doxorubicin/mtor),17.0,"[xsubj, activity, nn]",22.0
+755,(prednisone/cholinesterase),20.0,"[amod, receptor, nn]",107.0
+756,(topotecan/ube3a),29.0,"[agent, induced, partmod, activation, amod]",16.0
+757,(prostacyclin/cyp8a1),20.0,"[prep_in, presence, prep_of]",5.0
+758,(pge2/socs3),13.0,"[agent, induced, partmod, activity, amod]",74.0
+759,(fibrates/statin),2.0,"[prep_of, action, prep_in]",5.0
+760,(fluoroquinolones/copd),2.0,"[amod, gamma, appos]",92.0
+761,(estrone/udp-glucuronosyltransferase),14.0,"[prep_of, effect, dobj, studied, prep_on]",73.0
+762,(corticotropin/pro-opiomelanocortin),16.0,"[nn, a, amod]",92.0
+763,(l-leucine/lat1),14.0,"[appos, amphetamine, appos]",49.0
+764,(celecoxib/nag-1),3.0,"[agent, activation, partmod]",50.0
+765,(candesartan/pai-1),29.0,"[amod, inhibitors, nn]",5.0
+766,(genistein/phospholipase),23.0,"[prep_by, mrna, nn]",0.0
+767,(hyaluronan/habp),6.0,"[appos, ligand, nn]",34.0
+768,(risedronate/fpps),1.0,"[amod, secretion, nn]",0.0
+769,(etoposide/cyr61),8.0,"[amod, protein, dep]",0.0
+770,(rapamycin/pc-3),7.0,"[nsubj, inhibited, dobj, activation, amod]",0.0
+771,(troglitazone/vegf),25.0,"[amod, cells, appos]",89.0
+772,(panitumumab/kras),2.0,"[prep_with, used, nsubjpass]",86.0
+773,(hydroxyurea/il-13),18.0,"[nsubj, suppressed, dobj, production, nn]",17.0
+774,(gm-csf/stat1),1.0,"[prep_with, combination, prep_in]",88.0
+775,(gm-csf/stat3),7.0,"[prep_by, blockade, amod]",34.0
+776,(lmwh/tfpi),24.0,"[appos, agonists, num]",108.0
+777,(cisplatin/habp1),4.0,"[prep_by, inhibition, xsubj]",52.0
+778,(curcumin/nrf2),20.0,"[prep_with, support, amod]",68.0
+779,(diazepam/egr-1),4.0,"[prep_with, treated, partmod, patients, nn]",74.0
+780,(docetaxel/bcl-2),0.0,"[appos, inhibitor, prep_of, activity, amod]",47.0
+781,(glucosamine/lectin),28.0,"[prep_by, activation, amod]",43.0
+782,(gemcitabine/mir-21),11.0,"[prep_of, effect, dobj, study, prep_on, expression, prep_of]",106.0
+783,(cyclosporin/cyp3a),15.0,"[xsubj, inhibitor, nn]",94.0
+784,(phosphatidylserine/marcks),10.0,"[nn, gene, nn]",100.0
+785,(pge2/inos),0.0,"[agent, inhibited, nsubjpass, activity, nn]",95.0
+786,(vildagliptin/dpp4),28.0,"[dep, receptor, amod]",0.0
+787,(thymalfasin/tace),24.0,"[prep_of, effects, dobj, investigated, prep_on, expression, amod]",74.0
+788,(gm-csf/lymphokine),4.0,"[agent, activated, partmod]",74.0
+789,(alfentanil/cyp3a5),17.0,"[dep, inhibition, prep_of]",74.0
+790,(alfentanil/cyp3a4),15.0,"[nsubj, antibody, appos]",0.0
+791,(sulfaphenazole/cyp2c9),12.0,"[dep, antagonists, num]",18.0
+792,(pravastatin/lox-1),8.0,"[nn, activity, appos]",0.0
+793,(troglitazone/adiponectin),22.0,"[dep, beta, nn]",103.0
+794,(il-11/stat3),7.0,"[amod, levels, appos]",3.0
+795,(genistein/fgf-2),5.0,"[prep_in, patients, amod]",53.0
+796,(clozapine/tspo),16.0,"[prep_with, treated, partmod]",117.0
+797,(sulfonamides/dhps),1.0,"[prep_by, levels, amod]",58.0
+798,(estradiol/igf-ii),18.0,"[nsubj, antagonist, nn]",12.0
+799,(carnitine/acyltransferase),0.0,"[dep, hormone, dep]",0.0
+800,(naloxone/beta-endorphin),0.0,"[xsubj, overexpression, prep_of]",57.0
+801,(oxytocin/rgs2),9.0,"[prep_of, effect, dobj, investigate, prep_on, expression, nn]",35.0
+802,(gm-csf/stat5),10.0,"[agent, induced, partmod]",29.0
+803,(estradiol/apoe),29.0,"[appos, ligands, prep_for]",32.0
+804,(lapatinib/erbb),28.0,"[nsubj, blocked, dobj, activation, amod]",31.0
+805,(rapamycin/reticulum),21.0,"[nsubj, decreased, dobj, activity, nn]",83.0
+806,(dexamethasone/aqp1),2.0,"[nsubj, attenuated, dobj, expression, nn]",0.0
+807,(mivacurium/butyrylcholinesterase),9.0,"[nsubj, induced, dobj, expression, nn]",0.0
+808,(pazopanib/b-raf),1.0,"[amod, pathway, nn]",0.0
+809,(atra/cx43),22.0,"[amod, agonists, amod]",112.0
+810,(irap/il-1),0.0,"[nsubj, had, dobj, effect, prep_on, activity, nn]",72.0
+811,(furosemide/nkcc1),12.0,"[nsubjpass, produced, agent]",0.0
+812,(fibrates/sr-bi),22.0,"[nsubj, prevented, prep_in]",10.0
+813,(5-asa/sasp),12.0,"[prep_on, activity, nn]",45.0
+814,(trastuzumab/her2),0.0,"[amod, treatment, nsubj, increased, dobj, levels, amod]",74.0
+815,(metyrapone/cyp3a),29.0,"[prep_to, expression, nn]",45.0
+816,(sucralfate/bfgf),7.0,"[dobj, increased, nsubj]",40.0
+817,(propranolol/ml-1),24.0,"[agent, induced, partmod, mrna, nn]",107.0
+818,(carbamazepine/eaat3),3.0,"[amod, inhibitors, amod]",31.0
+819,(resveratrol/hif-1alpha),4.0,"[appos, substrate, prep_of]",59.0
+820,(gemcitabine/nf-kappab),10.0,"[nsubj, decreased, prep_with]",46.0
+821,(tenecteplase/alteplase),2.0,"[agent, induced, nsubjpass]",0.0
+822,(hyaluronidase/neuraminidase),2.0,"[nsubj, decreased, dobj, expression, prep_of]",103.0
+823,(staurosporine/timp-1),8.0,"[prep_of, effect, prep_in, role, dobj, plays, nsubj]",80.0
+824,(plerixafor/cxcr4),1.0,"[nsubjpass, administered, prep_to, mice, amod]",8.0
+825,(montelukast/cyp2c8),28.0,"[nn, receptors, appos]",61.0
+826,(pge2/rankl),4.0,"[rcmod, inhibitor, prep_of]",56.0
+827,(duloxetine/bdnf),3.0,"[dep, substrates, nn]",10.0
+828,(quinidine/p-gp),17.0,"[amod, treatment, nsubj, reduced, dobj, expression, prep_of]",80.0
+829,(hemin/prpc),29.0,"[nn, treatment, prep_during]",23.0
+830,(nadh/tnox),20.0,"[nsubj, blocked, prep_by]",37.0
+831,(ampicillin/ml-1),9.0,"[nn, resistance, prep_in, involved, nsubjpass]",103.0
+832,(dexamethasone/beta-induced),11.0,"[agent, inhibited, nsubjpass]",35.0
+833,(coxibs/cyclooxygenase-2),1.0,"[prep_to, reduced, nsubj]",0.0
+834,(gentamicin/phospholipase),13.0,"[nsubj, increased, dobj, levels, nn]",72.0
+835,(curcumin/ap-1),0.0,"[prep_of, activity, nn]",83.0
+836,(tamoxifen/sr-bi),8.0,"[agent, reduced, nsubjpass]",0.0
+837,(estradiol/sulfotransferase),0.0,"[amod, metabolism, prep_in]",72.0
+838,(efalizumab/etanercept),27.0,"[prep_such_as, inhibitors, amod]",72.0
+839,(berberine/nat1),3.0,"[nsubj, has, dobj, effect, prep_on, activity, amod]",33.0
+840,(raloxifene/vegf),25.0,"[nsubjpass, shown, prep_to]",50.0
+841,(l-leucine/mtor),1.0,"[nsubj, suppressed, dobj, expression, prep_of]",0.0
+842,(triiodothyronine/apob),29.0,"[amod, phosphorylation, appos]",0.0
+843,(nevirapine/cyp2b6),17.0,"[dep, antagonists, amod]",0.0
+844,(doxorubicin/ampk),25.0,"[prep_with, treated, partmod, mice, amod]",1.0
+845,(epirubicin/p-gp),15.0,"[appos, probe, nn]",0.0
+846,(suramin/egfr),19.0,"[prep_by, inhibited, nsubj, activity, amod]",99.0
+847,(metronidazole/cyp3a),15.0,"[appos, agonists, appos]",54.0
+848,(fenofibrate/paraoxonase),25.0,"[amod, inhibitor, amod]",92.0
+849,(dexamethasone/mmp-2),0.0,"[nsubj, decrease, dobj, expression, prep_of]",2.0
+850,(dexamethasone/mmp-3),4.0,"[agent, blocked, nsubjpass, expression, nn]",96.0
+851,(dexamethasone/mmp-9),3.0,"[amod, transferase, appos]",62.0
+852,(trimetrexate/dhfr),28.0,"[amod, activation, prep_of]",0.0
+853,(urokinase/upar),7.0,"[dep, activator, nn]",72.0
+854,(arsenite/hif-1),5.0,"[nsubj, blocked, dobj, activation, prep_of]",35.0
+855,(dexamethasone/pla2),23.0,"[dobj, bind, nsubj]",0.0
+856,(efalizumab/lfa-1),7.0,"[nsubj, inhibited, dobj, activation, nn]",61.0
+857,(vinblastine/p-gp),15.0,"[prep_such_as, substrates, nn]",74.0
+858,(rosuvastatin/pcsk9),20.0,"[prep_of, effects, appos, inhibitor, nn]",117.0
+859,(thyroglobulin/factor-1),24.0,"[xsubj, inhibitor, prep_of]",33.0
+860,(creatine/ctnt),12.0,"[nsubj, increased, dobj, expression, prep_of, mrna, nn]",14.0
+861,(nateglinide/pept1),6.0,"[prep_on, production, amod]",62.0
+862,(glcnac/mucin),2.0,"[amod, cells, nn]",50.0
+863,(amiodarone/ncx1),1.0,"[xsubj, knockdown, prep_of]",89.0
+864,(bleomycin/blmh),20.0,"[nsubj, upregulated, dobj]",32.0
+865,(propranolol/5-ht1b),23.0,"[prep_to, resistant, nsubj, cells, nn]",71.0
+866,(metformin/ampk),10.0,"[prep_to, response, prep_in, expression, amod]",40.0
+867,(propranolol/5-ht1a),16.0,"[amod, expression, appos]",24.0
+868,(isoproterenol/il-1),13.0,"[nn, factor, appos]",50.0
+869,(naloxone/lhrh),21.0,"[nsubj, had, dobj, effect, prep_on, expression, amod]",63.0
+870,(aldosterone/osteopontin),22.0,"[dep, inhibitor, amod]",60.0
+871,(lamivudine/ifn-alpha),19.0,"[amod, production, prep_by]",103.0
+872,(creatine/ctni),12.0,"[prep_with, inhibitors, num]",39.0
+873,(methacholine/copd),6.0,"[nsubj, antibody, rcmod, binds, prep_to]",15.0
+874,(gm-csf/jak2),25.0,"[appos, inhibitor, prep_of, target, prep_of, rapamycin, appos]",0.0
+875,(vasopressin/calmodulin),29.0,"[nsubj, reduced, dobj, secretion, prep_of]",0.0
+876,(octreotide/stat3),11.0,"[appos, antibody, prep_against]",5.0
+877,(pge2/stat3),3.0,"[prep_with, associated, nsubjpass]",11.0
+878,(arsenite/nqo1),11.0,"[amod, dehydrogenase, amod]",46.0
+879,(rolipram/il-5),27.0,"[nsubjpass, used, prep_with]",88.0
+880,(fenofibrate/adiponectin),27.0,"[prep_after, increased, nsubj]",74.0
+881,(gp120/lectin),24.0,"[prep_with, treatment, appos]",61.0
+882,(estradiol/hsd17b7),29.0,"[nsubj, affects, dobj, activity, amod]",22.0
+883,(clenbuterol/ml-1),9.0,"[nn, promoter, prep_to, binds, nsubj]",91.0
+884,(sumatriptan/5-ht1d),16.0,"[nsubj, affect, dobj]",77.0
+885,(acitretin/etanercept),2.0,"[amod, phosphorylation, amod]",100.0
+886,(bortezomib/mcl-1),1.0,"[prep_in, patients, appos]",59.0
+887,(sumatriptan/5-ht1b),16.0,"[nsubj, reduced, dobj, production, nn]",55.0
+888,(sumatriptan/5-ht1a),16.0,"[appos, inhibitors, amod]",47.0
+889,(gefitinib/rad51),23.0,"[rcmod, targets, dobj]",86.0
+890,(atorvastatin/tsp-1),22.0,"[amod, activity, prep_of]",91.0
+891,(paclitaxel/stat3),21.0,"[nsubj, decreased, dobj, levels, nn]",117.0
+892,(dexamethasone/ikappabalpha),24.0,"[nsubj, stimulated, dobj, release, nn]",119.0
+893,(adalimumab/tace),12.0,"[amod, phosphorylation, nn]",95.0
+894,(il-2/erk2),1.0,"[nsubj, blocks, dobj]",99.0
+895,(cyclophosphamide/cyp3a4),25.0,"[nsubjpass, inactivated, agent]",27.0
+896,(noradrenaline/calcitonin),24.0,"[agent, reduced, nsubjpass, expression, nn]",0.0
+897,(erlotinib/mtor),1.0,"[xsubj, inhibit, dobj]",53.0
+898,(ouabain/adenosinetriphosphatase),21.0,"[nsubj, stimulated, dobj, activity, prep_of]",16.0
+899,(clenbuterol/igf-i),27.0,"[prep_by, suppression, nn]",0.0
+900,(sevoflurane/ho-1),8.0,"[prep_such_as, substrates, num]",101.0
+901,(phylloquinone/osteocalcin),13.0,"[dep, agonists, num]",0.0
+902,(sildenafil/pde5a),28.0,"[nsubj, caused, dobj, translocation, prep_of]",0.0
+903,(fenofibrate/tlr4),9.0,"[prep_of, effects, nsubjpass, mediated, agent]",58.0
+904,(apap/cyp3a4),0.0,"[prep_of, addition, appos, inhibitor, prep_of]",0.0
+905,(cefadroxil/pept2),9.0,"[prep_of, toxicities, appos]",16.0
+906,(lansoprazole/bfgf),18.0,"[prep_of, levels, appos]",0.0
+907,(pge2/cyclooxygenase-2),22.0,"[prep_to, inhibited, nsubj]",74.0
+908,(carboplatin/gm-csf),2.0,"[prep_with, complex, prep_in]",85.0
+909,(paclitaxel/egfr),12.0,"[appos, lt, appos]",46.0
+910,(estradiol/bdnf),8.0,"[amod, production, appos]",47.0
+911,(gemfibrozil/cyp2c8),28.0,"[prep_by, inducible, nsubj]",39.0
+912,(cisplatin/rad51),7.0,"[nsubj, decreased, dobj, phosphorylation, prep_of]",64.0
+913,(simvastatin/sr-bi),20.0,"[appos, beta, nn]",42.0
+914,(dexamethasone/ap-1),23.0,"[amod, acetyltransferase, appos]",103.0
+915,(simvastatin/vegf),0.0,"[prep_to, resulted, nsubj, expression, prep_of]",88.0
+916,(muraglitazar/ppar),16.0,"[prep_by, inhibited, nsubj]",52.0
+917,(melatonin/5-ht2a),11.0,"[prep_with, treatment, nsubj, increased, dobj, levels, amod]",61.0
+918,(tnf-r2/traf2),18.0,"[prep_such_as, inhibitor, nn]",0.0
+919,(bortezomib/nf-kappab),6.0,"[prep_towards, activity, amod]",78.0
+920,(danazol/sulfatase),17.0,"[nsubj, induces, dobj, phosphorylation, amod]",39.0
+921,(erlotinib/egfr),20.0,"[appos, antagonists, amod]",67.0
+922,(isoproterenol/creb),10.0,"[prep_on, hormone, appos]",67.0
+923,(d-tubocurarine/nachr),0.0,"[appos, activator, prep_of]",27.0
+924,(et743/top1),3.0,"[nsubj, induces, dobj, activity, amod]",102.0
+925,(imatinib/egfr),20.0,"[nsubjpass, bound, prep_to]",19.0
+926,(dexamethasone/bfgf),18.0,"[nsubj, inhibited, dobj, production, amod]",89.0
+927,(rapamycin/her2),23.0,"[nsubj, induced, dobj]",39.0
+928,(resveratrol/vegf),18.0,"[nsubj, inhibitor, appos]",102.0
+929,(dexamethasone/cd38),29.0,"[prep_by, inhibited, nsubj, activity, nn]",46.0
+930,(estradiol/beta-endorphin),18.0,"[nsubj, increase, dobj, activity, amod]",66.0
+931,(rolipram/creb),9.0,"[nsubj, had, dobj, effect, prep_on, expression, nn]",62.0
+932,(fk506/bdnf),9.0,"[prep_of, target, appos]",61.0
+933,(dexamethasone/factor-1),7.0,"[nsubj, upregulated, dobj, expression, amod]",58.0
+934,(dexamethasone/sp-a),4.0,"[prep_on, levels, amod]",0.0
+935,(dexamethasone/sp-c),5.0,"[dep, parnaparin, dep]",23.0
+936,(dexamethasone/sp-b),22.0,"[nsubj, reduced, dobj, activity, nn]",52.0
+937,(dexamethasone/sp-d),9.0,"[nn, activation, prep_of]",0.0
+938,(nadh/nicotinamide),9.0,"[nsubj, inhibited, dobj, phosphorylation, amod]",7.0
+939,(saha/hdac),1.0,"[nsubjpass, hydrolyzed, agent]",100.0
+940,(dexamethasone/iapp),24.0,"[amod, dehydrogenase, appos]",113.0
+941,(sn-38/ugt1a1),17.0,"[nsubj, augmented, dobj, expression, amod]",3.0
+942,(genistein/pai-1),4.0,"[nn, ratio, nn]",3.0
+943,(diltiazem/ml-1),9.0,"[prep_with, treated, prep_with]",52.0
+944,(perhexiline/cyp2d6),17.0,"[nsubj, increased, dobj, expression, nn]",80.0
+945,(bortezomib/caspase-3),13.0,"[amod, ziprasidone, amod, neuroleptics, amod, aripiprazole, dep, inhibitors, amod]",0.0
+946,(adomet/mat1a),2.0,"[amod, production, dobj, stimulates, nsubj]",103.0
+947,(pentamidine/rgds),2.0,"[partmod, catalyzed, agent]",0.0
+948,(propranolol/nadph),8.0,"[prep_by, inhibition, amod]",0.0
+949,(aldosterone/ctgf),18.0,"[appos, analog, prep_of]",58.0
+950,(lovastatin/p-gp),9.0,"[amod, production, prep_on]",75.0
+951,(curcumin/gadd153),22.0,"[nsubj, induced, dobj, phosphorylation, amod]",0.0
+952,(resveratrol/adiponectin),22.0,"[prep_of, inhibition, amod]",80.0
+953,(ajmaline/herg),24.0,"[prep_with, inhibition, nn]",16.0
+954,(curcumin/pla2),22.0,"[amod, production, prep_of]",11.0
+955,(imipramine/bdnf),9.0,"[prep_on, secretion, prep_of]",4.0
+956,(curcumin/mmp-9),4.0,"[nsubj, affect, dobj, expression, nn]",83.0
+957,(curcumin/mmp-2),3.0,"[prep_for, patients, prep_with]",18.0
+958,(nelfinavir/cyp3a4),25.0,"[pobj, with, dep, with, pobj]",12.0
+959,(gentamicin/caspase-3),3.0,"[nn, receptors, nn]",61.0
+960,(curcumin/mmp-3),5.0,"[prep_by, release, nn]",1.0
+961,(selegiline/mao-b),28.0,"[appos, beta, appos]",0.0
+962,(dicoumarol/hsp90),12.0,"[appos, antibody, nn]",0.0
+963,(paclitaxel/her-2),2.0,"[nsubj, inhibited, dobj, release, amod]",0.0
+964,(oltipraz/cyp2b6),23.0,"[partmod, followed, agent]",101.0
+965,(melatonin/gdnf),18.0,"[agent, blocked, nsubjpass]",72.0
+966,(resveratrol/egr-1),4.0,"[nn, a, appos, inhibitor, prep_of]",0.0
+967,(vardenafil/abcb1),9.0,"[prep_with, cells, nn]",74.0
+968,(aldosterone/inos),3.0,"[appos, protein, appos]",26.0
+969,(cyclophosphamide/filgrastim),2.0,"[amod, production, dobj, increased, nsubj]",112.0
+970,(selegiline/mao-a),28.0,"[prep_by, mrna, amod]",0.0
+971,(carbachol/gastrin),4.0,"[appos, alpha, nn]",74.0
+972,(metformin/resistin),28.0,"[nsubj, antibody, prep_against]",112.0
+973,(propofol/hif-1),21.0,"[amod, binding, prep_to]",7.0
+974,(picrotoxin/glyrs),6.0,"[appos, agonist, prep_of]",59.0
+975,(nimesulide/aromatase),23.0,"[appos, analog, nn]",0.0
+976,(il-2/p21ras),22.0,"[prep_of, doses, appos]",27.0
+977,(digoxin/hif-1alpha),4.0,"[infmod, cells, nn]",0.0
+978,(chloroquine/phospholipase),23.0,"[prep_by, induction, amod]",75.0
+979,(raltegravir/ugt1a1),17.0,"[prep_in, combination, prep_with]",0.0
+980,(atra/il-10),17.0,"[nsubj, had, dobj, effect, prep_on]",113.0
+981,(miconazole/aromatase),12.0,"[prep_in, cells, amod]",70.0
+982,(benzbromarone/urat1),15.0,"[nsubj, binds, prep_to]",35.0
+983,(albuterol/copd),6.0,"[prep_on, release, prep_of]",0.0
+984,(fk506/fkbp5),6.0,"[appos, protein, amod]",0.0
+985,(budesonide/icam-1),22.0,"[agent, followed, partmod]",1.0
+986,(aldosterone/wnk4),24.0,"[prep_with, inhibitors, nn]",103.0
+987,(diethylcarbamazine/leukotriene),12.0,"[prep_by, unaffected, nsubj]",0.0
+988,(n-acetylcysteine/egfr),28.0,"[xsubj, cells, nn]",77.0
+989,(amlodipine/egfr),27.0,"[dep, expression, amod]",80.0
+990,(melatonin/12-lox),24.0,"[amod, receptor, amod]",0.0
+991,(etodolac/cyclooxygenase-2),12.0,"[amod, activity, amod]",90.0
+992,(midazolam/cyp3a),15.0,"[nsubj, inhibited, dobj, phosphorylation, nn]",74.0
+993,(omeprazole/gastrin),27.0,"[nn, mrna, nn]",0.0
+994,(progestogens/igf-i),10.0,"[prep_of, metabolism, nsubjpass, mediated, agent]",22.0
+995,(taxanes/mapt),17.0,"[prep_with, increased, nsubjpass, levels, nn]",111.0
+996,(atra/gm-csf),5.0,"[nsubj, stabilizes, dobj]",0.0
+997,(atorvastatin/pltp),2.0,"[nsubj, activates, dobj]",74.0
+998,(cyclophosphamide/lenograstim),2.0,"[prep_with, receptor, appos]",60.0
+999,(estrone/aromatase),20.0,"[appos, expression, amod]",46.0
+1000,(dexamethasone/fmlp),2.0,"[prep_in, mice, amod]",68.0
+1001,(suramin/heparanase),6.0,"[prep_of, effect, dobj, investigated, prep_on, activity, nn]",113.0
+1002,(talinolol/p-gp),15.0,"[nsubj, inhibited, dobj, production, nn]",112.0
+1003,(tamoxifen/vegf),22.0,"[nsubj, inhibits, acomp]",85.0
+1004,(losartan/nf-kappab),3.0,"[prep_of, metabolism, prep_in, involved, partmod, enzyme, nsubj]",105.0
+1005,(fluconazole/cyp3a4),28.0,"[nsubj, increase, dobj, expression, amod]",83.0
+1006,(isoproterenol/phospholipase),21.0,"[prep_on, induction, prep_of]",112.0
+1007,(isoniazid/nat2),17.0,"[appos, agonist, num]",96.0
+1008,(hyaluronate/versican),6.0,"[nsubj, increased, dobj, amount, prep_of]",0.0
+1009,(rifampin/mrp2),4.0,"[nn, production, dobj, inhibited, nsubj]",31.0
+1010,(pargyline/lsd1),28.0,"[amod, inhibitor, nn]",104.0
+1011,(hyaluronan/hyal2),20.0,"[nsubj, decreased, dobj]",0.0
+1012,(exenatide/glp-1r),16.0,"[nsubj, inhibits, dobj, expression, nn]",87.0
+1013,(olanzapine/bdnf),25.0,"[agent, suppressed, nsubjpass]",87.0
+1014,(docetaxel/mrp2),17.0,"[prep_with, increased, nsubjpass]",10.0
+1015,(vasopressin/phospholipase),22.0,"[prep_on, secretion, amod]",20.0
+1016,(hydrocortisone/gm-csf),25.0,"[prep_on, release, nn]",95.0
+1017,(curcumin/ikappabalpha),1.0,"[nn, treatment, nn]",16.0
+1018,(atorvastatin/apoe),10.0,"[amod, peptide, appos]",78.0
+1019,(pentagastrin/calcitonin),21.0,"[nsubj, inhibited, dobj, binding, prep_of]",10.0
+1020,(disulfiram/aldh2),12.0,"[agent, caused, partmod]",95.0
+1021,(ciprofloxacin/cyp3a4),13.0,"[amod, activator, amod]",75.0
+1022,(melatonin/igf-i),16.0,"[prep_of, concentrations, amod]",0.0
+1023,(gefitinib/cyp3a4),15.0,"[appos, substrate, amod]",0.0
+1024,(methotrexate/leukotriene),0.0,"[partmod, mediated, agent]",94.0
+1025,(amitriptyline/gdnf),22.0,"[appos, antagonist, nn]",0.0
+1026,(verapamil/calcitonin),9.0,"[nsubj, caused, dobj, increase, prep_of]",79.0
+1027,(corticosteroids/inos),24.0,"[nsubj, increased, iobj]",116.0
+1028,(gp120/nf-kappab),0.0,"[nsubj, block, dobj]",24.0
+1029,(prostacyclin/ppar),11.0,"[nsubj, induce, dobj, expression, amod]",22.0
+1030,(urokinase/u-par),20.0,"[prep_by, expression, nn]",0.0
+1031,(atra/vegf),17.0,"[amod, group, prep_in, increased, nsubj]",0.0
+1032,(losartan/pai-1),28.0,"[nsubj, antibody, rcmod, targets, dobj]",72.0
+1033,(curcumin/hif-1),21.0,"[amod, kinase, appos]",71.0
+1034,(indomethacin/cox2),28.0,"[nn, levels, appos]",0.0
+1035,(dexamethasone/c-fms),13.0,"[prep_on, levels, prep_of]",97.0
+1036,(l-dopa/zif-268),0.0,"[prep_with, treated, nsubjpass, patients, nn]",6.0
+1037,(melatonin/cox-2),23.0,"[nsubj, binds, prep_to, receptor, nn]",106.0
+1038,(diclofenac/smct1),3.0,"[nsubj, decreases, dobj, expression, amod]",86.0
+1039,(isoprenaline/cgrp),19.0,"[nsubj, antagonists, amod]",98.0
+1040,(thyroxine/mrp2),7.0,"[nn, secretion, nn]",22.0
+1041,(capecitabine/larc),2.0,"[prep_as, inhibitor, prep_of]",0.0
+1042,(doxorubicin/xiap),0.0,"[prep_on, factor, appos]",0.0
+1043,(rapamycin/ho-1),29.0,"[agent, required, nsubjpass]",37.0
+1044,(succinylcholine/bche),6.0,"[nsubj, inhibited, dobj, activity, nn]",54.0
+1045,(estradiol/lhrh),7.0,"[amod, genes, amod]",119.0
+1046,(vigabatrin/swds),19.0,"[nsubj, inhibits, dobj, activation, amod]",101.0
+1047,(mifepristone/gnrh),11.0,"[prep_in, cells, nn]",0.0
+1048,(aldosterone/egfr),29.0,"[nsubj, antagonist, amod]",0.0
+1049,(cyclosporine/lymphokine),12.0,"[prep_of, effects, dobj, investigated, prep_on, expression, prep_of]",23.0
+1050,(hydrocortisone/tlr2),22.0,"[nsubj, enhanced, dobj, activity, amod]",71.0
+1051,(arsenite/ap-1),13.0,"[nsubj, increases, dobj, mrna, nn]",0.0
+1052,(fk506/icam-1),22.0,"[nn, induced, nsubj]",6.0
+1053,(rimonabant/acat),22.0,"[nsubj, reduced, dobj, activity, amod]",71.0
+1054,(nitroprusside/beta-galactosidase),10.0,"[amod, patients, appos]",0.0
+1055,(il-11/interleukin-11),0.0,"[nsubj, downregulated, dobj, expression, nn]",26.0
+1056,(tanespimycin/hsp90),7.0,"[nsubj, inhibited, dobj, mrna, nn]",0.0
+1057,(hyaluronidase/beta-glucuronidase),16.0,"[nsubj, induces, acomp]",62.0
+1058,(alefacept/lfa-3),27.0,"[appos, ligand, amod]",63.0
+1059,(chlorpromazine/phospholipase),12.0,"[nsubj, interacts, prep_with]",22.0
+1060,(melatonin/ml-1),5.0,"[prep_on, expression, prep_of]",0.0
+1061,(carnitine/cact),20.0,"[nsubj, caused, prep_in]",0.0
+1062,(imipramine/cyp2d6),17.0,"[amod, therapy, amod]",53.0
+1063,(berberine/ap-1),17.0,"[nsubj, activate, dobj]",0.0
+1064,(dexamethasone/osteocalcin),27.0,"[nsubj, increased, dobj, level, amod]",0.0
+1065,(nitroprusside/cgrp),1.0,"[amod, production, nn]",90.0
+1066,(loratadine/cyp2d6),17.0,"[partmod, stimulated, dobj, phosphorylation, prep_of]",103.0
+1067,(resveratrol/il-18),0.0,"[nn, receptor, amod]",0.0
+1068,(levodopa/comt),23.0,"[prep_on, mrna, amod]",30.0
+1069,(dexamethasone/g-csf),18.0,"[appos, antagonist, prep_of, receptor, nn]",67.0
+1070,(sn-38/udp-glucuronosyltransferase),9.0,"[prep_with, treatment, nsubj, increased, dobj, expression, prep_of]",30.0
+1071,(rifampin/cyp3a),0.0,"[prep_to, involved, nsubjpass]",95.0
+1072,(dexamethasone/rasd1),18.0,"[appos, agonist, nn]",0.0
+1073,(sulindac/egr-1),13.0,"[appos, production, nn]",119.0
+1074,(dydrogesterone/akr1c1),17.0,"[prep_of, effect, prep_on]",75.0
+1075,(genistein/nf-kappab),23.0,"[nsubj, enhances, dobj, expression, amod]",8.0
+1076,(pegaptanib/vegf),1.0,"[partmod, induced, dobj, expression, amod]",20.0
+1077,(sildenafil/endothelin-1),0.0,"[nsubj, reduced, dobj, levels, amod]",16.0
+1078,(calcitriol/cyp24),27.0,"[prep_by, inhibition, nn]",62.0
+1079,(saha/waf1),5.0,"[prep_with, combining, dobj]",6.0
+1080,(dhea/g6pd),1.0,"[nsubj, inhibited, acomp]",68.0
+1081,(cangrelor/p2y12),0.0,"[amod, treatment, nsubj, decreased, dobj, levels, nn]",0.0
+1082,(docetaxel/cyp3a),23.0,"[prep_on, synthesis, nn]",22.0
+1083,(azelastine/il-1),0.0,"[prep_of, effects, dobj, investigated, prepc_on]",14.0
+1084,(fenofibrate/statin),18.0,"[nn, alpha, dep]",0.0
+1085,(haloperidol/alpha-msh),19.0,"[appos, probe, amod]",37.0
+1086,(cephalexin/pept1),15.0,"[prep_for, ratio, appos]",0.0
+1087,(il-2/ifn-gamma),0.0,"[nsubj, caused, prep_in, activity, nn]",35.0
+1088,(estradiol/ho-1),4.0,"[amod, treatment, prep_with]",59.0
+1089,(cisplatin/mkp-1),17.0,"[dobj, compared, prep_with]",104.0
+1090,(ara-c/p-gp),9.0,"[nsubj, alter, dobj, expression, amod]",26.0
+1091,(trifluoperazine/mcat),3.0,"[prep_to, sensitive, nsubj, cells, amod]",43.0
+1092,(phenytoin/cyp3a4),5.0,"[nsubj, activated, acomp]",68.0
+1093,(gm-csf/stat5a),10.0,"[nsubj, blocked, prep_to]",61.0
+1094,(amd3100/g-csf),18.0,"[appos, factor, appos]",0.0
+1095,(genistein/caspase-3),21.0,"[xsubj, expression, amod]",0.0
+1096,(clotrimazole/cyp3a),28.0,"[appos, viii, appos]",37.0
+1097,(minocycline/hmgb1),5.0,"[prep_on, expression, nn]",113.0
+1098,(omeprazole/cyp3a4),0.0,"[nn, expression, amod]",26.0
+1099,(metformin/stat3),23.0,"[agent, inhibited, nsubjpass, activity, prep_of]",99.0
+1100,(pioglitazone/enos),7.0,"[prep_by, induction, prep_of]",14.0
+1101,(metformin/glut1),5.0,"[amod, channels, appos]",25.0
+1102,(pazopanib/vegf),18.0,"[prep_of, administration, nsubj, increased, dobj]",118.0
+1103,(il-2/m-csf),18.0,"[prep_by, production, amod]",118.0
+1104,(vanillin/nf-kappab),22.0,"[nn, receptor, nn]",0.0
+1105,(aldosterone/endothelin-1),2.0,"[appos, analog, appos]",0.0
+1106,(resveratrol/at1r),1.0,"[prep_in, management, prep_of]",11.0
+1107,(cisapride/cyp3a4),14.0,"[prep_of, use, appos]",95.0
+1108,(indomethacin/5-lipoxygenase),12.0,"[prep_of, metabolism, prep_in]",0.0
+1109,(cilastatin/dehydropeptidase-i),28.0,"[amod, metabolism, appos]",74.0
+1110,(dtic/cyp1a1),17.0,"[prep_of, effect, dobj, examined, prep_on]",42.0
+1111,(genistein/il-1),20.0,"[agent, induced, partmod, expression, amod]",100.0
+1112,(cilostazol/mcp-1),3.0,"[nsubj, increased, dobj, levels, prep_of]",109.0
+1113,(mitoxantrone/g-csf),18.0,"[nsubj, increased, prep_to]",34.0
+1114,(theophylline/ml-1),9.0,"[amod, activation, nn]",111.0
+1115,(genistein/chk2),10.0,"[amod, selective, dep]",0.0
+1116,(cisplatin/octn2),9.0,"[nsubj, antagonist, appos]",78.0
+1117,(celecoxib/vegf-c),22.0,"[prep_with, mice, amod]",106.0
+1118,(fluconazole/ugt2b7),28.0,"[xsubj, increase, dobj, activity, amod]",74.0
+1119,(metformin/igf-i),2.0,"[nsubj, decreased, dobj, secretion, nn]",56.0
+1120,(lidocaine/cyp3a4),22.0,"[nn, knockdown, prep_of]",0.0
+1121,(rapamycin/foxo1),29.0,"[prep_of, concentrations, appos]",0.0
+1122,(resveratrol/pi3k),12.0,"[prep_including, inhibitors, amod]",14.0
+1123,(fk506/hsp70),25.0,"[appos, inhibitor, num]",14.0
+1124,(rimonabant/adiponectin),27.0,"[prep_like, inhibitors, nn]",0.0
+1125,(forskolin/nnos),8.0,"[pobj, to, dep, to, pobj]",0.0
+1126,(cisplatin/plaa),13.0,"[nsubj, interact, prep_with]",0.0
+1127,(metformin/glp-1),27.0,"[prep_of, effect, dobj, investigated, prep_on, expression, prep_of]",0.0
+1128,(arsenite/cgl-2),7.0,"[dobj, mrna, nn]",72.0
+1129,(estradiol/kallikrein),21.0,"[nsubj, stimulate, dobj, expression, amod]",56.0
+1130,(trabectedin/p-gp),15.0,"[nn, receptor, dep]",4.0
+1131,(ceftriaxone/glt-1),25.0,"[nsubj, increases, dobj, levels, amod]",15.0
+1132,(quinidine/cyp2d6),28.0,"[nsubj, inhibits, dobj, activation, nn]",123.0
+1133,(pyridoxal/gad65),9.0,"[agent, inhibition, partmod]",40.0
+1134,(fulvestrant/egfr),12.0,"[prep_of, administration, appos, inhibitor, prep_of]",56.0
+1135,(sorafenib/flt3),28.0,"[prep_by, phosphorylation, nn]",16.0
+1136,(ziprasidone/bdnf),18.0,"[nsubj, influence, dobj, expression, nn]",48.0
+1137,(sorafenib/p-gp),15.0,"[prep_with, therapy, nn]",36.0
+1138,(estradiol/ghrh),11.0,"[nsubj, inhibitor, prep_for]",100.0
+1139,(methylphenidate/darpp-32),9.0,"[nsubj, inhibited, dobj, activation, prep_of]",89.0
+1140,(ara-c/ifn-alpha),2.0,"[prep_by, inhibition, prep_of]",0.0
+1141,(taurine/lox-1),8.0,"[prep_on, activity, amod]",0.0
+1142,(daunorubicin/p-gp),9.0,"[nsubj, regulates, dobj, expression, amod]",8.0
+1143,(fenofibrate/ppar),7.0,"[partmod, induced, dobj, expression, nn]",95.0
+1144,(permethrin/nets),17.0,"[nsubj, suppressed, dobj, production, amod]",86.0
+1145,(lapatinib/cyp3a4),1.0,"[nsubj, inhibited, xcomp]",10.0
+1146,(captopril/mmp-9),0.0,"[amod, kinase, nn]",27.0
+1147,(dexamethasone/myostatin),29.0,"[npadvmod, inhibitors, num]",93.0
+1148,(vasopressin/hsp27),29.0,"[amod, administration, appos]",98.0
+1149,(captopril/mmp-2),23.0,"[dep, inhibitors, amod]",72.0
+1150,(dhea/sulfotransferase),0.0,"[amod, a, amod]",111.0
+1151,(calcitriol/il-10),5.0,"[agent, induced, nsubjpass, mrna, nn]",0.0
+1152,(amitriptyline/eaat3),23.0,"[amod, production, amod]",91.0
+1153,(staurosporine/pkc-zeta),29.0,"[pobj, by, dep, by, pobj]",58.0
+1154,(piperazine/5-ht1a),16.0,"[nn, inhibition, prep_of]",0.0
+1155,(piperazine/5-ht1b),16.0,"[nsubj, reduced, prep_to]",101.0
+1156,(simvastatin/niddm),2.0,"[amod, agonist, appos]",0.0
+1157,(fk506/hsp56),6.0,"[amod, activated, nsubj]",103.0
+1158,(rapamycin/foxp3),6.0,"[nsubj, inhibitor, amod]",66.0
+1159,(melatonin/cyp1a2),28.0,"[prep_with, treatment, nsubj, increased, dobj, expression, nn]",23.0
+1160,(fentanyl/cyp3a4),23.0,"[nn, levels, nn]",17.0
+1161,(warfarin/vkor),1.0,"[agent, reversed, nsubjpass, effect, prep_of]",79.0
+1162,(norepinephrine/inositol),25.0,"[appos, a, nn]",22.0
+1163,(chloramphenicol/beta-actin),5.0,"[nsubj, substrate, amod]",60.0
+1164,(gm-csf/mcp-1),22.0,"[amod, block, prep_of]",5.0
+1165,(sn-38/beta-glucuronidase),9.0,"[nsubj, inhibits, dobj, activity, prep_of]",0.0
+1166,(carvedilol/cx43),22.0,"[nn, study, appos]",13.0
+1167,(fasudil/enos),29.0,"[nsubj, reduced, dobj, activity, prep_of]",10.0
+1168,(gefitinib/pten),7.0,"[prep_with, activity, amod]",60.0
+1169,(citalopram/cyp2d6),23.0,"[nsubj, upregulated, dobj, expression, nn]",14.0
+1170,(gemcitabine/hsp27),24.0,"[nn, receptor, nsubj]",35.0
+1171,(mexiletine/lqt3),0.0,"[appos, genes, amod]",82.0
+1172,(verapamil/mrp1),28.0,"[prep_to, associated, nsubjpass, expression, prep_of]",14.0
+1173,(il-2/timp-1),15.0,"[prep_on, activation, amod]",77.0
+1174,(ndga/indo),12.0,"[nn, therapy, nn]",5.0
+1175,(tacrolimus/cyp3a4),17.0,"[nsubj, inhibit, dobj, expression, nn]",39.0
+1176,(tacrolimus/cyp3a5),17.0,"[prep_by, activity, nn]",97.0
+1177,(memantine/nachr),16.0,"[nn, kinase, appos]",97.0
+1178,(eletriptan/5-ht1b),16.0,"[nn, system, nn]",0.0
+1179,(norepinephrine/rbp4),8.0,"[amod, expression, prep_of]",0.0
+1180,(rapamycin/pai-1),3.0,"[nsubj, attenuated, dobj]",0.0
+1181,(rapamycin/pdk1),27.0,"[nsubj, increases, dobj, levels, nn]",99.0
+1182,(cisplatin/nat1),24.0,"[prep_to, resistant, nsubj]",22.0
+1183,(fenfluramine/5-ht2c),16.0,"[nsubj, inhibited, dobj, autophosphorylation, prep_of]",16.0
+1184,(thyroxine/calcitonin),16.0,"[prep_with, factor, appos]",101.0
+1185,(tamoxifen/artn),13.0,"[dep, protein, appos]",0.0
+1186,(cetuximab/kras),17.0,"[agent, inhibited, rcmod]",103.0
+1187,(phencyclidine/nachr),20.0,"[prep_by, activity, amod]",61.0
+1188,(propofol/p2x7),23.0,"[amod, activities, amod]",5.0
+1189,(temsirolimus/vegf),2.0,"[appos, protein, nn]",58.0
+1190,(noradrenaline/gnrh),20.0,"[nsubj, increases, dobj, expression, nn]",0.0
+1191,(venlafaxine/bdnf),25.0,"[nsubj, alter, dobj, expression, nn]",28.0
+1192,(aldosterone/igf-i),21.0,"[appos, factor, amod]",90.0
+1193,(doxorubicin/skp2),22.0,"[amod, agonists, nn]",68.0
+1194,(corticosteroids/hips),24.0,"[nn, neurofilament, appos]",0.0
+1195,(l-citrulline/ddah),17.0,"[prep_of, ratio, appos]",100.0
+1196,(pitavastatin/abca1),27.0,"[nsubj, induced, dobj, degradation, prep_of]",100.0
+1197,(doxorubicin/cox-2),0.0,"[xsubj, inhibit, dobj, activity, nn]",42.0
+1198,(cyclophosphamide/cholinesterase),13.0,"[nn, inhibitors, nn]",95.0
+1199,(azithromycin/copd),2.0,"[amod, induction, prep_of]",0.0
+1200,(theophylline/cyp1a2),15.0,"[nsubj, reduces, dobj, expression, nn]",0.0
+1201,(aldosterone/cox-2),4.0,"[nsubj, increased, dobj, secretion, nn]",109.0
+1202,(ramipril/aire),5.0,"[nsubj, induces, dobj, activation, nn]",0.0
+1203,(curcumin/ppar-gamma),25.0,"[appos, antagonist, prep_of]",48.0
+1204,(aldosterone/romk),5.0,"[nsubj, inhibited, dobj, phosphorylation, prep_of]",67.0
+1205,(tadalafil/pde5),1.0,"[nsubj, induced, dobj, activation, amod]",0.0
+1206,(genistein/her2),23.0,"[rcmod, inhibitor, nn]",0.0
+1207,(gemfibrozil/pai-1),1.0,"[nn, inhibitor, nn]",95.0
+1208,(indomethacin/cgrp),11.0,"[prep_of, metabolism, prep_for, responsible, amod, enzyme, nsubj]",95.0
+1209,(simvastatin/cyp3a),12.0,"[amod, transporter, appos]",0.0
+1210,(indomethacin/bfgf),0.0,"[appos, ligand, prep_of]",0.0
+1211,(chloramphenicol/pomc),9.0,"[nn, receptor, appos]",0.0
+1212,(troglitazone/ppar),7.0,"[partmod, stimulated, dobj, activity, amod]",15.0
+1213,(leuprolide/gnrh),0.0,"[nsubj, inhibited, dobj, induction, nn]",49.0
+1214,(acetazolamide/copd),6.0,"[nn, acetate, appos, agonist, nn]",0.0
+1215,(hyaluronan/stabilin-2),20.0,"[prep_to, cells, amod]",48.0
+1216,(dexamethasone/5-lipoxygenase),29.0,"[nsubj, induced, dobj, mrna, nn]",2.0
+1217,(n-acetylcysteine/cox-2),0.0,"[xsubj, inhibit, dobj, expression, nn]",0.0
+1218,(atra/pi3k),17.0,"[nsubj, inhibitors, nn]",49.0
+1219,(fluorescein/srbc),17.0,"[prep_to, response, nn]",37.0
+1220,(flutamide/aromatase),12.0,"[nn, subunit, nn]",63.0
+1221,(cci-779/mtor),1.0,"[nsubj, inhibits, dobj, activation, prep_of]",76.0
+1222,(ranibizumab/vegf),18.0,"[nsubj, antibody, partmod, targeting, dobj]",48.0
+1223,(etodolac/cox-2),28.0,"[nsubj, substrate, prep_of]",0.0
+1224,(cyclophosphamide/etanercept),2.0,"[nsubj, induces, dobj]",56.0
+1225,(ornithine/inos),6.0,"[appos, inhibitor, appos]",90.0
+1226,(beta-estradiol/gnrh),9.0,"[xsubj, metabolized, agent]",101.0
+1227,(hyaluronan/mmp-13),4.0,"[nsubj, has, dobj, affinity, prep_for]",63.0
+1228,(oxytocin/ghrelin),9.0,"[nsubj, antagonized, dobj, effect, prep_of]",103.0
+1229,(atra/irf-1),13.0,"[agent, activated, nsubjpass]",72.0
+1230,(forskolin/vegf),3.0,"[nn, synthase, appos]",106.0
+1231,(cyclosporine/rapa),19.0,"[nsubj, reduce, dobj]",0.0
+1232,(etoposide/xiap),24.0,,
+1233,(prasugrel/p2y12),0.0,,
+1234,(ezetimibe/niemann-pick),28.0,,
+1235,(docetaxel/dlts),9.0,,
+1236,(forskolin/egr-1),9.0,,
+1237,(bacitracin/lhrh),1.0,,
+1238,(nicardipine/cyp3a),17.0,,
+1239,(tacrolimus/ifn-gamma),24.0,,
+1240,(vasopressin/v1ar),20.0,,
+1241,(pioglitazone/ctgf),23.0,,
+1242,(metyrapone/cort),12.0,,
+1243,(norepinephrine/maoa),26.0,,
+1244,(atra/cyp26),27.0,,
+1245,(imatinib/bcrp),12.0,,
+1246,(cisplatin/ikappabalpha),2.0,,
+1247,(glutaraldehyde/srbc),17.0,,
+1248,(atra/fr-beta),22.0,,
+1249,(cisplatin/napa),24.0,,
+1250,(geldanamycin/grp94),7.0,,
+1251,(moxifloxacin/herg),5.0,,
+1252,(pioglitazone/ppargamma),0.0,,
+1253,(sertindole/5-ht2c),24.0,,
+1254,(rapamycin/nf-kappab),23.0,,
+1255,(propofol/cyp3a4),1.0,,
+1256,(cerivastatin/cyp2c8),17.0,,
+1257,(novobiocin/tfiiia),28.0,,
+1258,(n-hydroxyurea/5-lipoxygenase),12.0,,
+1259,(isoproterenol/reticulum),21.0,,
+1260,(hydrazide/cftr),28.0,,
+1261,(iloprost/ctgf),13.0,,
+1262,(curcumin/beta-catenin),27.0,,
+1263,(pioglitazone/mitoneet),10.0,,
+1264,(levonorgestrel/shbg),18.0,,
+1265,(corticosteroids/cox-2),13.0,,
+1266,(estradiol/il-1),3.0,,
+1267,(piperazine/5-ht2c),16.0,,
+1268,(cyclophosphamide/g-csf),18.0,,
+1269,(simvastatin/rac1),29.0,,
+1270,(dextran/icam-1),26.0,,
+1271,(doxorubicin/p300),24.0,,
+1272,(debrisoquine/cyp2d),17.0,,
+1273,(citalopram/bdnf),5.0,,
+1274,(sevoflurane/hsp70),24.0,,
+1275,(melatonin/inos),1.0,,
+1276,(forskolin/pomc),13.0,,
+1277,(estradiol/caspase-3),21.0,,
+1278,(imatinib/cox-2),13.0,,
+1279,(ndga/5-lo),25.0,,
+1280,(chlorzoxazone/cyp2e1),15.0,,
+1281,(norepinephrine/endothelin-1),18.0,,
+1282,(ridaforolimus/mtor),1.0,,
+1283,(nitroprusside/edrf),18.0,,
+1284,(dexamethasone/edn1),4.0,,
+1285,(leflunomide/nf-kappab),23.0,,
+1286,(irinotecan/vegf),18.0,,
+1287,(trastuzumab/erbb2),7.0,,
+1288,(tamoxifen/acat),28.0,,
+1289,(erythromycin/cyp3a),17.0,,
+1290,(dexamethasone/ugt1a1),25.0,,
+1291,(asparaginase/eif2),10.0,,
+1292,(irinotecan/dlts),24.0,,
+1293,(melatonin/pacap),26.0,,
+1294,(verapamil/cyp3a),23.0,,
+1295,(fluoxetine/5-htt),28.0,,
+1296,(olaparib/parp),28.0,,
+1297,(estradiol/p-gp),4.0,,
+1298,(pge2/mcp-1),18.0,,
+1299,(sulphasalazine/sasp),11.0,,
+1300,(cilostazol/ampk),27.0,,
+1301,(pargyline/hnmt),13.0,,
+1302,(venlafaxine/cyp2d6),17.0,,
+1303,(indinavir/cyp3a),23.0,,
+1304,(estradiol/nf-kappab),1.0,,
+1305,(thiotepa/cyp2b6),23.0,,
+1306,(calcitriol/calcitonin),16.0,,
+1307,(auranofin/tlr4),21.0,,
+1308,(clopidogrel/cyp3a4),17.0,,
+1309,(atorvastatin/e-selectin),22.0,,
+1310,(dexamethasone/ghrh),22.0,,
+1311,(nifedipine/nadph),22.0,,
+1312,(pertuzumab/her2),0.0,,
+1313,(pertuzumab/her3),27.0,,
+1314,(nilotinib/pdgfr),21.0,,
+1315,(resveratrol/nag-1),4.0,,
+1316,(sorafenib/ugt1a1),28.0,,
+1317,(fluconazole/cyp2c9),12.0,,
+1318,(sparteine/cyp2d6),22.0,,
+1319,(danazol/gnrh),16.0,,
+1320,(diclofenac/ho-1),27.0,,
+1321,(colchicine/cyp3a4),15.0,,
+1322,(glimepiride/enos),9.0,,
+1323,(dexamethasone/pai-1),0.0,,
+1324,(sibutramine/cyp2b6),17.0,,
+1325,(dexamethasone/kallikrein),9.0,,
+1326,(lopinavir/cyp3a4),17.0,,
+1327,(rosiglitazone/ho-1),18.0,,
+1328,(sargramostim/gm-csf),18.0,,
+1329,(gm-csf/sargramostim),18.0,,
+1330,(panitumumab/egfr),7.0,,
+1331,(gm-csf/bcl-2),3.0,,
+1332,(fluvastatin/cyp2c9),17.0,,
+1333,(cisplatin/bcl-xl),25.0,,
+1334,(triazolam/cyp3a4),15.0,,
+1335,(il-11/il-17f),13.0,,
+1336,(tacrine/cyp1a2),15.0,,
+1337,(glutaraldehyde/reticulum),22.0,,
+1338,(genistein/bfgf),3.0,,
+1339,(staurosporine/caspase-9),7.0,,
+1340,(quinacrine/il-1),20.0,,
+1341,(atra/igfbp-3),15.0,,
+1342,(cisplatin/abcc2),24.0,,
+1343,(tamoxifen/cox-2),1.0,,
+1344,(vinorelbine/g-csf),18.0,,
+1345,(oxaliplatin/chk2),17.0,,
+1346,(vasopressin/gpcr),20.0,,
+1347,(bepridil/calmodulin),3.0,,
+1348,(chloramphenicol/cyp1a1),13.0,,
+1349,(sulfinpyrazone/mrp2),17.0,,
+1350,(genistein/ap-1),4.0,,
+1351,(genistein/grp78),26.0,,
+1352,(indomethacin/15-pgdh),5.0,,
+1353,(dhea/g6pase),1.0,,
+1354,(resveratrol/gli1),27.0,,
+1355,(docetaxel/cyclooxygenase-2),23.0,,
+1356,(genistein/sp-a),4.0,,
+1357,(apomorphine/gastrin),18.0,,
+1358,(tamoxifen/igf-i),21.0,,
+1359,(cyclophosphamide/ifn-alpha),18.0,,
+1360,(estradiol/e2dh),20.0,,
+1361,(aldosterone/nhe-1),9.0,,
+1362,(retigabine/kcnq2),10.0,,
+1363,(rofecoxib/cox2),28.0,,
+1364,(simvastatin/cox-2),25.0,,
+1365,(arsenite/nf-kappab),23.0,,
+1366,(cephalexin/hpept1),15.0,,
+1367,(hpth/pth1r),0.0,,
+1368,(resveratrol/enos),0.0,,
+1369,(cisplatin/nox3),24.0,,
+1370,(pilocarpine/cyp2a6),17.0,,
+1371,(dexamethasone/cd163),13.0,,
+1372,(ketorolac/cox-2),28.0,,
+1373,(gm-csf/survivin),13.0,,
+1374,(ketorolac/cox-1),23.0,,
+1375,(theophylline/gm-csf),11.0,,
+1376,(gefitinib/abcg2),17.0,,
+1377,(melatonin/nnos),23.0,,
+1378,(simvastatin/enos),29.0,,
+1379,(resveratrol/cox-1),0.0,,
+1380,(resveratrol/cox-2),22.0,,
+1381,(temozolomide/nf-kappab),20.0,,
+1382,(cisplatin/pc-3),7.0,,
+1383,(nutlin-3/hdm2),0.0,,
+1384,(benzbromarone/cyp2c9),28.0,,
+1385,(il-11/survivin),27.0,,
+1386,(theophylline/il-10),27.0,,
+1387,(nifedipine/mcp-1),17.0,,
+1388,(il-2/b7-1),0.0,,
+1389,(oxycodone/herg),9.0,,
+1390,(lovastatin/lfa-1),27.0,,
+1391,(estradiol/tgf-alpha),22.0,,
+1392,(maraviroc/cyp3a4),17.0,,
+1393,(fluvoxamine/cyp2c19),28.0,,
+1394,(acarbose/maltase-glucoamylase),28.0,,
+1395,(clonidine/beta-endorphin),1.0,,
+1396,(bosentan/endothelin-1),0.0,,
+1397,(beta-glucocerebrosidase/limp-2),6.0,,
+1398,(berberine/nf-kappab),23.0,,
+1399,(loratadine/cyp3a4),5.0,,
+1400,(ritonavir/adiponectin),1.0,,
+1401,(rituximab/gm-csf),18.0,,
+1402,(mucolytics/copd),6.0,,
+1403,(rivaroxaban/p-gp),15.0,,
+1404,(ciclesonide/mcp-1),1.0,,
+1405,(curcumin/hsp70),8.0,,
+1406,(bortezomib/ubiquitin),12.0,,
+1407,(cisplatin/hsp27),1.0,,
+1408,(cisplatin/hsp25),0.0,,
+1409,(corticosteroids/beta2),7.0,,
+1410,(nefazodone/5-ht2a),27.0,,
+1411,(metformin/niddm),2.0,,
+1412,(chlorpromazine/pla2),28.0,,
+1413,(dexamethasone/l-selectin),1.0,,
+1414,(metformin/vaspin),0.0,,
+1415,(buprenorphine/cyp3a),1.0,,
+1416,(cyclosporine/p170),28.0,,
+1417,(l-ser/3pgdh),20.0,,
+1418,(irinotecan/egfr),29.0,,
+1419,(genistein/fmlp),21.0,,
+1420,(analgesics/p-gp),15.0,,
+1421,(nutlin-3/mdm2),0.0,,
+1422,(tiagabine/gat1),28.0,,
+1423,(rapamycin/mdm2),21.0,,
+1424,(oxaliplatin/yb-1),9.0,,
+1425,(inulin/cpah),24.0,,
+1426,(doxycycline/beta-galactosidase),12.0,,
+1427,(cyclosporine/cyp3a),15.0,,
+1428,(abciximab/alteplase),2.0,,
+1429,(doxycycline/sp-b),24.0,,
+1430,(il-2/icam-1),8.0,,
+1431,(melatonin/aa-nat),20.0,,
+1432,(phenytoin/cyp2c9),15.0,,
+1433,(montelukast/5-lipoxygenase),28.0,,
+1434,(haloperidol/herg),24.0,,
+1435,(clotrimazole/ikca1),20.0,,
+1436,(fk506/fk506-binding),27.0,,
+1437,(theophylline/calcitonin),27.0,,
+1438,(ketamine/ml-1),5.0,,
+1439,(latanoprost/mmp-3),0.0,,
+1440,(sunitinib/ifn-alpha),2.0,,
+1441,(forskolin/ctgf),24.0,,
+1442,(bevacizumab/ifn-alpha),2.0,,
+1443,(neomycin/phospholipase),0.0,,
+1444,(infliximab/etanercept),2.0,,
+1445,(vasopressin/aqp2),18.0,,
+1446,(nadh/methemoglobin),0.0,,
+1447,(deferoxamine/hif-1),0.0,,
+1448,(estrone/hsd17b1),5.0,,
+1449,(atra/rar-beta),9.0,,
+1450,(pioglitazone/adiponectin),0.0,,
+1451,(voriconazole/abpa),2.0,,
+1452,(pranlukast/leukotriene),0.0,,
+1453,(telithromycin/mrp2),7.0,,
+1454,(forskolin/inos),23.0,,
+1455,(bosentan/bsep),28.0,,
+1456,(aprotinin/thrombomodulin),3.0,,
+1457,(curcumin/blys),3.0,,
+1458,(paclitaxel/bcl-2),4.0,,
+1459,(forskolin/pacap),5.0,,
+1460,(pge2/bcl-2),23.0,,
+1461,(aminopyrine/demethylase),0.0,,
+1462,(sulindac/cox-2),28.0,,
+1463,(indomethacin/ho-1),3.0,,
+1464,(sulindac/cox-1),28.0,,
+1465,(tamoxifen/ki-67),4.0,,
+1466,(ornithine/ornt1),26.0,,
+1467,(docetaxel/cyp1b1),17.0,,
+1468,(naloxone/met-enkephalin),0.0,,
+1469,(l-dopa/fosb),4.0,,
+1470,(daunorubicin/mdr1),19.0,,
+1471,(pioglitazone/vegf),5.0,,
+1472,(leuprorelin/gnrh),29.0,,
+1473,(bleomycin/bcl-2),25.0,,
+1474,(chloramphenicol/inos),14.0,,
+1475,(nifedipine/mnsod),4.0,,
+1476,(papain/kininogen),28.0,,
+1477,(geldanamycin/her2),17.0,,
+1478,(melatonin/mt-1),0.0,,
+1479,(abatacept/ctla4),16.0,,
+1480,(abciximab/reteplase),2.0,,
+1481,(staurosporine/chk1),7.0,,
+1482,(dexamethasone/caspase-3),23.0,,
+1483,(risperidone/htr2c),23.0,,
+1484,(troglitazone/mcp-1),19.0,,
+1485,(staurosporine/calmodulin),0.0,,
+1486,(spermine/calmodulin),24.0,,
+1487,(acarbose/iddm),2.0,,
+1488,(g-csf/ifn-gamma),0.0,,
+1489,(atra/cox-1),24.0,,
+1490,(troglitazone/kip1),21.0,,
+1491,(atra/cox-2),0.0,,
+1492,(tetrahydrobiopterin/nadph),8.0,,
+1493,(rasagiline/mao-b),28.0,,
+1494,(dexamethasone/il-5),0.0,,
+1495,(staurosporine/caspase-3),7.0,,
+1496,(trastuzumab/aromatase),12.0,,
+1497,(rapamycin/fkbp-12),7.0,,
+1498,(dexamethasone/il-1),1.0,,
+1499,(iloprost/vegf),0.0,,
+1500,(zileuton/5-lo),28.0,,
+1501,(carboplatin/tace),6.0,,
+1502,(docetaxel/aipc),2.0,,
+1503,(sulfamethazine/nat2),15.0,,
+1504,(melatonin/vegf),4.0,,
+1505,(losartan/fmlp),28.0,,
+1506,(itraconazole/p-gp),28.0,,
+1507,(dicoumarol/nqo1),12.0,,
+1508,(norepinephrine/orexin),8.0,,
+1509,(fibrates/ppar-alpha),7.0,,
+1510,(amiloride/nhe1),1.0,,
+1511,(protamine/prm1),20.0,,
+1512,(protamine/prm2),20.0,,
+1513,(enalapril/nf-kappab),21.0,,
+1514,(doxorubicin/mrp1),8.0,,
+1515,(dexamethasone/nf-kappab),23.0,,
+1516,(g-csf/m-csf),0.0,,
+1517,(atra/ml-1),0.0,,
+1518,(sitagliptin/dpp4),28.0,,
+1519,(estrone/sulfotransferase),0.0,,
+1520,(amiloride/nhe3),28.0,,
+1521,(vincristine/bcl-2),9.0,,
+1522,(hydrocortisone/enos),21.0,,
+1523,(desvenlafaxine/cyp2d6),12.0,,
+1524,(ara-c/g-csf),18.0,,
+1525,(dextran/srbc),2.0,,
+1526,(dexamethasone/p-gp),13.0,,
+1527,(atorvastatin/cyp3a4),15.0,,
+1528,(estradiol/ugt1a1),14.0,,
+1529,(atra/rar-alpha),9.0,,
+1530,(spermine/irk1),21.0,,
+1531,(pge2/survivin),13.0,,
+1532,(hyaluronan/versican),9.0,,
+1533,(efavirenz/cyp3a),15.0,,
+1534,(paclitaxel/survivin),20.0,,
+1535,(propafenone/herg),28.0,,
+1536,(ciprofloxacin/parc),10.0,,
+1537,(camptothecin/bcrp),17.0,,
+1538,(chloramphenicol/ifn-beta),24.0,,
+1539,(sulindac/nag-1),10.0,,
+1540,(estradiol/lactogen),8.0,,
+1541,(lapatinib/erbb2),12.0,,
+1542,(fk506/ifn-gamma),11.0,,
+1543,(lapatinib/erbb1),23.0,,
+1544,(erythromycin/ml-1),24.0,,
+1545,(simvastatin/mucin),5.0,,
+1546,(amiodarone/cyp3a),12.0,,
+1547,(propofol/icam-1),23.0,,
+1548,(resveratrol/inos),0.0,,
+1549,(cyclosporine/vegf),13.0,,
+1550,(cetuximab/larc),2.0,,
+1551,(phenylephrine/endothelin-1),24.0,,
+1552,(estradiol/beta-galactosidase),0.0,,
+1553,(sildenafil/vegf),18.0,,
+1554,(estradiol/factor-1),26.0,,
+1555,(urokinase/plau),20.0,,
+1556,(ritonavir/cyp3a),12.0,,
+1557,(fexofenadine/p-gp),15.0,,
+1558,(nitroprusside/lhrh),29.0,,
+1559,(budesonide/eotaxin),22.0,,
+1560,(simvastatin/ctgf),21.0,,
+1561,(estradiol/bfgf),5.0,,
+1562,(corticosteroids/abpa),17.0,,
+1563,(glimepiride/caveolin-1),9.0,,
+1564,(estradiol/cgrp),9.0,,
+1565,(resveratrol/cyp1b1),22.0,,
+1566,(isoniazid/cyp2e1),0.0,,
+1567,(fk506/ikappabalpha),9.0,,
+1568,(ziprasidone/cyp3a4),6.0,,
+1569,(melatonin/aanat),20.0,,
+1570,(vemurafenib/braf),17.0,,
+1571,(rosiglitazone/apoa5),9.0,,
+1572,(aldosterone/adiponectin),21.0,,
+1573,(captopril/iddm),2.0,,
+1574,(albendazole/cyp3a4),15.0,,
+1575,(benzocaine/methemoglobin),18.0,,
+1576,(neomycin/reticulum),13.0,,
+1577,(clofibrate/inos),3.0,,
+1578,(rapamycin/cd25),27.0,,
+1579,(indinavir/glut4),12.0,,
+1580,(estradiol/cyp19a1),20.0,,
+1581,(rosiglitazone/nf-kappab),18.0,,
+1582,(doxorubicin/vegf),4.0,,
+1583,(dicoumarol/oxidoreductase),23.0,,
+1584,(diltiazem/cyp3a),28.0,,
+1585,(forskolin/igfbp-1),20.0,,
+1586,(forskolin/igfbp-3),4.0,,
+1587,(aldosterone/alpha-enac),0.0,,
+1588,(aldosterone/vegf),27.0,,
+1589,(orlistat/fasn),13.0,,
+1590,(promethazine/cyp2d6),17.0,,
+1591,(tariquidar/p-gp),28.0,,
+1592,(zolpidem/alpha1),0.0,,
+1593,(atra/stat3),5.0,,
+1594,(carnitine/cpt2),20.0,,
+1595,(carnitine/cpt1),20.0,,
+1596,(curcumin/reticulum),28.0,,
+1597,(midazolam/ml-1),5.0,,
+1598,(dexamethasone/15-pgdh),15.0,,
+1599,(genistein/osteoprotegerin),3.0,,
+1600,(probenecid/mrp1),12.0,,
+1601,(pentoxifylline/nf-kappab),23.0,,
+1602,(probenecid/mrp2),0.0,,
+1603,(sulindac/stat3),21.0,,
+1604,(curcumin/gstp1-1),17.0,,
+1605,(rapamycin/factor-1),6.0,,
+1606,(ctla4ig/ctla-4),27.0,,
+1607,(minocycline/mmp-9),1.0,,
+1608,(isoproterenol/gastrin),8.0,,
+1609,(resveratrol/p66shc),10.0,,
+1610,(sunitinib/flt3),28.0,,
+1611,(fenofibrate/pparalpha),0.0,,
+1612,(minocycline/mmp-2),25.0,,
+1613,(estrone/hoat3),26.0,,
+1614,(rapamycin/bfgf),25.0,,
+1615,(fluorescein/lectin),5.0,,
+1616,(laronidase/alpha-l-iduronidase),27.0,,
+1617,(thioridazine/cyp2d6),15.0,,
+1618,(salbutamol/beta2),16.0,,
+1619,(ifosfamide/g-csf),18.0,,
+1620,(pgi2/ptgis),20.0,,
+1621,(phenylephrine/egfr),4.0,,
+1622,(nadh/enox2),20.0,,
+1623,(gm-csf/raf-1),29.0,,
+1624,(fenofibrate/cetp),20.0,,
+1625,(troleandomycin/cyp3a),1.0,,
+1626,(pirenzepine/gastrin),2.0,,
+1627,(il-2/iddm),21.0,,
+1628,(clonidine/ghrh),16.0,,
+1629,(carnitine/cpti),20.0,,
+1630,(gefitinib/erbb3),21.0,,
+1631,(corticosteroids/gm-csf),19.0,,
+1632,(rapamycin/cd40),7.0,,
+1633,(lopinavir/abcb1),15.0,,
+1634,(dexamethasone/muc5ac),4.0,,
+1635,(carbachol/phospholipase),12.0,,
+1636,(nadh/dhpr),6.0,,
+1637,(arsenite/ho-1),0.0,,
+1638,(milnacipran/bdnf),9.0,,
+1639,(hydrocortisone/endothelin-1),29.0,,
+1640,(corticosteroids/adrenocorticotropin),27.0,,
+1641,(geldanamycin/nf-kappab),23.0,,
+1642,(g-csf/mmp-9),4.0,,
+1643,(theophylline/beta2),16.0,,
+1644,(astemizole/herg),12.0,,
+1645,(11beta/hsd-1),20.0,,
+1646,(metformin/adiponectin),27.0,,
+1647,(nitroprusside/ho-1),0.0,,
+1648,(g-csf/mmp-2),13.0,,
+1649,(gm-csf/mmp-12),2.0,,
+1650,(lubiprostone/clc-2),7.0,,
+1651,(minocycline/5-lox),3.0,,
+1652,(paroxetine/sert),26.0,,
+1653,(timolol/cyp2d6),17.0,,
+1654,(imatinib/abl1),0.0,,
+1655,(curcumin/bdnf),9.0,,
+1656,(indomethacin/kallikrein),28.0,,
+1657,(menadione/nadph),5.0,,
+1658,(atra/inos),3.0,,
+1659,(propranolol/lcat),12.0,,
+1660,(doxorubicin/foxo3a),29.0,,
+1661,(gm-csf/pi3-kinase),1.0,,
+1662,(quinidine/cyp3a4),28.0,,
+1663,(corticosteroids/vegf),22.0,,
+1664,(clopidogrel/cyp2b6),28.0,,
+1665,(pioglitazone/niddm),8.0,,
+1666,(gefitinib/hsp70),13.0,,
+1667,(metoclopramide/cholinesterase),20.0,,
+1668,(noradrenaline/catechol-o-methyltransferase),17.0,,
+1669,(resveratrol/cyclooxygenase-1),23.0,,
+1670,(resveratrol/cyclooxygenase-2),3.0,,
+1671,(digoxin/oatp2),26.0,,
+1672,(indomethacin/nf-kappab),11.0,,
+1673,(zafirlukast/cyslt1),0.0,,
+1674,(forskolin/rap1a),3.0,,
+1675,(imatinib/vegf),18.0,,
+1676,(il-1ra/mcp-1),16.0,,
+1677,(celecoxib/bcl-2),13.0,,
+1678,(diazoxide/bcl-2),8.0,,
+1679,(thiopental/nf-kappab),11.0,,
+1680,(leflunomide/etanercept),2.0,,
+1681,(isradipine/midas),9.0,,
+1682,(thyrotropin/tshr),20.0,,
+1683,(indomethacin/il-1),0.0,,
+1684,(dexamethasone/pref-1),9.0,,
+1685,(troglitazone/osteopontin),11.0,,
+1686,(estradiol/osteocalcin),13.0,,
+1687,(il-2/phospholipase),17.0,,
+1688,(vinblastine/cyp3a4),25.0,,
+1689,(atorvastatin/mmp-9),21.0,,
+1690,(atorvastatin/abca1),0.0,,
+1691,(bupivacaine/ml-1),2.0,,
+1692,(levodopa/catechol-o-methyltransferase),17.0,,
+1693,(glibenclamide/niddm),2.0,,
+1694,(calcitriol/cox-2),0.0,,
+1695,(staurosporine/e-cadherin),24.0,,
+1696,(imatinib/adiponectin),18.0,,
+1697,(orphenadrine/cyp2b6),23.0,,
+1698,(topotecan/hif-1alpha),1.0,,
+1699,(forskolin/proenkephalin),24.0,,
+1700,(pefloxacin/il-1),23.0,,
+1701,(resveratrol/stat3),28.0,,
+1702,(imiquimod/ifn-alpha),9.0,,
+1703,(atorvastatin/abcb1),4.0,,
+1704,(dexamethasone/e-cadherin),15.0,,
+1705,(curcumin/abcg2),22.0,,
+1706,(olmesartan/at1r),20.0,,
+1707,(forskolin/igf-i),3.0,,
+1708,(troglitazone/ampk),10.0,,
+1709,(celecoxib/survivin),5.0,,
+1710,(il-2/gab2),10.0,,
+1711,(il-2/creb),10.0,,
+1712,(rapamycin/klf4),25.0,,
+1713,(il-2/crem),27.0,,
+1714,(anticholinergics/copd),2.0,,
+1715,(curcumin/icam-1),3.0,,
+1716,(dicoumarol/dt-diaphorase),1.0,,
+1717,(melatonin/ccl4),0.0,,
+1718,(vinorelbine/filgrastim),9.0,,
+1719,(haloperidol/drd2),9.0,,
+1720,(aldosterone/adrenocorticotropin),17.0,,
+1721,(cisplatin/hsp90),17.0,,
+1722,(il-2/tgfbeta),0.0,,
+1723,(forskolin/cox-2),27.0,,
+1724,(erythromycin/demethylase),0.0,,
+1725,(rosiglitazone/pai-1),0.0,,
+1726,(flavopiridol/mcl-1),13.0,,
+1727,(oltipraz/nqo1),18.0,,
+1728,(il-2/aicar),4.0,,
+1729,(rapamycin/s6k1),12.0,,
+1730,(rapamycin/s6k2),23.0,,
+1731,(nadh/gapdh),1.0,,
+1732,(phenylephrine/inositol),19.0,,
+1733,(etoposide/mrp3),24.0,,
+1734,(paclitaxel/raf-1),20.0,,
+1735,(fluphenazine/calmodulin),25.0,,
+1736,(il-2/apcs),2.0,,
+1737,(sitagliptin/dpp-4),28.0,,
+1738,(urokinase/mmp-9),20.0,,
+1739,(hemin/neudesin),4.0,,
+1740,(ru486/lhrh),6.0,,
+1741,(resveratrol/cyp1a1),22.0,,
+1742,(glimepiride/glut1),26.0,,
+1743,(aprotinin/kallikrein),0.0,,
+1744,(theophylline/cyp3a),24.0,,
+1745,(docetaxel/cox-2),3.0,,
+1746,(troglitazone/pparalpha),17.0,,
+1747,(estrone/shbg),5.0,,
+1748,(sulindac/ppargamma),5.0,,
+1749,(nimesulide/pghs-2),12.0,,
+1750,(halothane/reticulum),0.0,,
+1751,(lidocaine/acyltransferase),9.0,,
+1752,(calcitriol/pthrp),19.0,,
+1753,(terfenadine/cyp3a),20.0,,
+1754,(probucol/sr-bi),17.0,,
+1755,(everolimus/mtor),1.0,,
+1756,(hyaluronan/lyve-1),20.0,,
+1757,(rosuvastatin/apoe),0.0,,
+1758,(haloperidol/kallikrein),27.0,,
+1759,(rosuvastatin/apob),13.0,,
+1760,(dexamethasone/mcp-1),0.0,,
+1761,(rapamycin/cdc25b),17.0,,
+1762,(dipyridamole/ent1),28.0,,
+1763,(vasopressin/nnos),20.0,,
+1764,(fluvastatin/inos),29.0,,
+1765,(gm-csf/tgf-alpha),18.0,,
+1766,(il-2/perforin),25.0,,
+1767,(benzphetamine/demethylase),0.0,,
+1768,(desipramine/herg),11.0,,
+1769,(creatine/agat),8.0,,
+1770,(hemin/tlr4),10.0,,
+1771,(etoposide/top2a),28.0,,
+1772,(lopinavir/cyp3a),13.0,,
+1773,(flurbiprofen/15-pgdh),19.0,,
+1774,(eletriptan/cyp3a4),15.0,,
+1775,(isoflurane/eaat3),0.0,,
+1776,(atomoxetine/cyp2d6),1.0,,
+1777,(il-2/cdk4),9.0,,
+1778,(bambuterol/cholinesterase),17.0,,
+1779,(atra/tgfbeta),29.0,,
+1780,(creatine/mib-ck),20.0,,
+1781,(primaquine/herg),12.0,,
+1782,(triazolam/cyp3a),17.0,,
+1783,(losartan/cx43),3.0,,
+1784,(estradiol/gnrh),0.0,,
+1785,(ciprofloxacin/cyp1a2),28.0,,
+1786,(phenylephrine/phospholipase),0.0,,
+1787,(resveratrol/pghs-1),28.0,,
+1788,(troglitazone/nf-kappab),28.0,,
+1789,(imatinib/m-csf),23.0,,
+1790,(rapamycin/irs-1),12.0,,
+1791,(flavopiridol/cdk9),28.0,,
+1792,(imatinib/pdgfra),16.0,,
+1793,(fentanyl/ml-1),9.0,,
+1794,(propranolol/fmlp),28.0,,
+1795,(flavopiridol/cdk2),22.0,,
+1796,(levodopa/mao-b),12.0,,
+1797,(estradiol/cftr),27.0,,
+1798,(ng-monomethyl-l-arginine/il-1),15.0,,
+1799,(mithramycin/calcitonin),2.0,,
+1800,(tranilast/bfgf),18.0,,
+1801,(candesartan/at1r),7.0,,
+1802,(fluoxetine/s100b),27.0,,
+1803,(genistein/hif-1alpha),15.0,,
+1804,(gp120/dc-sign),7.0,,
+1805,(pantoprazole/gastrin),0.0,,
+1806,(rimonabant/cb1r),25.0,,
+1807,(rosiglitazone/atgl),25.0,,
+1808,(infliximab/cvid),2.0,,
+1809,(sorafenib/c-raf),22.0,,
+1810,(telithromycin/cyp3a4),28.0,,
+1811,(gemfibrozil/ppar),16.0,,
+1812,(edrophonium/cholinesterase),28.0,,
+1813,(docetaxel/pc-3),1.0,,
+1814,(ptk787/vegf),25.0,,
+1815,(captopril/kininogen),1.0,,
+1816,(methotrexate/il-1),17.0,,
+1817,(l-citrulline/inos),20.0,,
+1818,(aprepitant/cyp3a4),23.0,,
+1819,(rosuvastatin/enos),17.0,,
+1820,(il-2/jak3),4.0,,
+1821,(estradiol/bcl-2),0.0,,
+1822,(glcnac/udp-galnac),24.0,,
+1823,(il-2/jak1),3.0,,
+1824,(chloramphenicol/acyltransferase),20.0,,
+1825,(estradiol/er-beta),8.0,,
+1826,(il-2/inos),20.0,,
+1827,(trastuzumab/pi3k),17.0,,
+1828,(atra/aida),29.0,,
+1829,(curcumin/cox-2),0.0,,
+1830,(nimesulide/cyclooxygenase-2),12.0,,
+1831,(curcumin/cox-1),25.0,,
+1832,(ketanserin/5-ht2c),20.0,,
+1833,(clomiphene/aromatase),12.0,,
+1834,(rolipram/il-10),9.0,,
+1835,(ketanserin/5-ht2a),7.0,,
+1836,(testolactone/aromatase),28.0,,
+1837,(clozapine/g-csf),27.0,,
+1838,(metoprolol/cyp2d6),15.0,,
+1839,(doxycycline/mmp-13),6.0,,
+1840,(melatonin/hif-1),17.0,,
+1841,(tetrahydrobiopterin/calmodulin),11.0,,
+1842,(repaglinide/cyp2c8),17.0,,
+1843,(tamoxifen/shbg),18.0,,
+1844,(tranylcypromine/lsd1),1.0,,
+1845,(rapamycin/survivin),0.0,,
+1846,(albendazole/vegf),21.0,,
+1847,(isoflurane/inos),13.0,,
+1848,(atorvastatin/rac1),1.0,,
+1849,(il-2/socs-3),25.0,,
+1850,(arsenite/securin),17.0,,
+1851,(melatonin/gpcr),7.0,,
+1852,(fenofibrate/pai-1),20.0,,
+1853,(curcumin/nfkappab),17.0,,
+1854,(escitalopram/sert),28.0,,
+1855,(salmeterol/beta2ar),16.0,,
+1856,(tamoxifen/nppb),5.0,,
+1857,(il-2/inositol),20.0,,
+1858,(sumatriptan/cgrp),24.0,,
+1859,(pgi2/edrf),18.0,,
+1860,(gefitinib/egfr),1.0,,
+1861,(lovastatin/statin),27.0,,
+1862,(atra/dhand),0.0,,
+1863,(carboplatin/il-1),4.0,,
+1864,(capsaicin/nf-kappab),17.0,,
+1865,(arsenite/ang-1),8.0,,
+1866,(omeprazole/cyp1a2),12.0,,
+1867,(fgf-7/fgf-10),18.0,,
+1868,(phenytoin/inap),28.0,,
+1869,(omeprazole/cyp1a1),29.0,,
+1870,(cisplatin/xiap),17.0,,
+1871,(verapamil/phospholipase),23.0,,
+1872,(coxibs/cox2),28.0,,
+1873,(vasopressin/adrenocorticotropin),24.0,,
+1874,(propranolol/cgrp),27.0,,
+1875,(cyclosporine/cyp3a4),15.0,,
+1876,(bevacizumab/vegf-a),7.0,,
+1877,(acarbose/glp-1),21.0,,
+1878,(lubiprostone/cftr),19.0,,
+1879,(cisplatin/cdk2),23.0,,
+1880,(tamoxifen/phospholipase),23.0,,
+1881,(fenofibrate/nf-kappab),23.0,,
+1882,(vasopressin/calcitonin),9.0,,
+1883,(propofol/enos),22.0,,
+1884,(ketamine/hsp70),20.0,,
+1885,(abarelix/gnrh),0.0,,
+1886,(noradrenaline/vasa),27.0,,
+1887,(il-2/gammac),24.0,,
+1888,(bezafibrate/ppar),7.0,,
+1889,(trastuzumab/rac1),15.0,,
+1890,(isoproterenol/calcitonin),21.0,,
+1891,(cisplatin/rpa2),21.0,,
+1892,(mk-571/leukotriene),0.0,,
+1893,(nadh/coq1),20.0,,
+1894,(pioglitazone/mmp-9),22.0,,
+1895,(pertuzumab/her-2),7.0,,
+1896,(mephenytoin/cyp2c19),15.0,,
+1897,(levetiracetam/sv2a),10.0,,
+1898,(carbachol/inositol),0.0,,
+1899,(rapamycin/mcm6),17.0,,
+1900,(prednisolone/il-18),9.0,,
+1901,(protamine/heparan),27.0,,
+1902,(pyridostigmine/ghrh),2.0,,
+1903,(rifampin/cyp2c9),15.0,,
+1904,(bisphosphonate/hebp),11.0,,
+1905,(chloroquine/tlr9),12.0,,
+1906,(carvedilol/herg),24.0,,
+1907,(voglibose/glp-1),27.0,,
+1908,(propofol/ml-1),5.0,,
+1909,(cyclosporin/cyclophilin),26.0,,
+1910,(digoxin/p-gp),15.0,,
+1911,(paclitaxel/mdr1),12.0,,
+1912,(resveratrol/erbb2),29.0,,
+1913,(rapamycin/hgps),2.0,,
+1914,(infliximab/copd),6.0,,
+1915,(nifedipine/nf-kappab),23.0,,
+1916,(dexamethasone/dheas),24.0,,
+1917,(prednisolone/transcortin),7.0,,
+1918,(fk506/fkbp51),7.0,,
+1919,(isoproterenol/beta2ar),7.0,,
+1920,(fk506/fkbp52),15.0,,
+1921,(fk506/fkbp59),6.0,,
+1922,(metformin/dpp-4),1.0,,
+1923,(octreotide/sstr2),7.0,,
+1924,(pge2/tgf-alpha),4.0,,
+1925,(celecoxib/grp78),29.0,,
+1926,(captopril/endothelin-1),21.0,,
+1927,(posaconazole/cyp3a4),12.0,,
+1928,(prazosin/alpha1),0.0,,
+1929,(troglitazone/pai-1),1.0,,
+1930,(candesartan/vegf),24.0,,
+1931,(meloxicam/cox-2),28.0,,
+1932,(meloxicam/cox-1),28.0,,
+1933,(dhea/il-10),27.0,,
+1934,(metformin/aromatase),0.0,,
+1935,(palivizumab/icer),5.0,,
+1936,(rosiglitazone/fgf-21),5.0,,
+1937,(il-2/bcl1),17.0,,
+1938,(halothane/ml-1),9.0,,
+1939,(carbachol/pkc-alpha),21.0,,
+1940,(carbamates/cholinesterase),12.0,,
+1941,(meperidine/il-1),1.0,,
+1942,(cisplatin/jak2),0.0,,
+1943,(formoterol/gm-csf),28.0,,
+1944,(anakinra/il-1ra),0.0,,
+1945,(hydroxyurea/chk1),10.0,,
+1946,(pyridoxal/nifs),20.0,,
+1947,(minocycline/parp-1),25.0,,
+1948,(clarithromycin/cyp2c19),17.0,,
+1949,(pravastatin/statin),28.0,,
+1950,(erlotinib/cyp3a4),17.0,,
+1951,(oxytocin/cpla2),22.0,,
+1952,(fluoxetine/herg),9.0,,
+1953,(clofibrate/l-fabp),22.0,,
+1954,(estriol/lactogen),5.0,,
+1955,(telmisartan/ppar),10.0,,
+1956,(estradiol/fasl),0.0,,
+1957,(thyroxine/lactase),23.0,,
+1958,(imatinib/cyp3a4),12.0,,
+1959,(il-2/lymphokine),0.0,,
+1960,(procaterol/copd),2.0,,
+1961,(il-2/stat6),29.0,,
+1962,(vincristine/mdr1),15.0,,
+1963,(il-2/stat4),21.0,,
+1964,(il-2/stat5),22.0,,
+1965,(forskolin/bdnf),18.0,,
+1966,(ezetimibe/npc1l1),7.0,,
+1967,(budesonide/cyp3a),17.0,,
+1968,(debrisoquine/oct1),15.0,,
+1969,(trastuzumab/erbb-2),7.0,,
+1970,(curcumin/p300),12.0,,
+1971,(thyrotropin/tsh-r),20.0,,
+1972,(exemestane/aromatase),28.0,,
+1973,(estradiol/l-pgds),25.0,,
+1974,(gemcitabine/dlts),5.0,,
+1975,(ketanserin/5-ht-2),16.0,,
+1976,(adalimumab/icer),9.0,,
+1977,(il-2/stat1),3.0,,
+1978,(bortezomib/hif-1alpha),16.0,,
+1979,(il-2/stat3),22.0,,
+1980,(efavirenz/cyp3a4),12.0,,
+1981,(vasopressin/aquaporin-2),0.0,,
+1982,(il-2/ldlr),17.0,,
+1983,(dexamethasone/muc1),27.0,,
+1984,(creatine/gapdh),12.0,,
+1985,(fk506/fkbp12),6.0,,
+1986,(gemcitabine/vegf),24.0,,
+1987,(amd3100/cxcr4),0.0,,
+1988,(curcumin/inos),1.0,,
+1989,(genistein/cftr),11.0,,
+1990,(tolbutamide/sur1),28.0,,
+1991,(hydrocortisone/lactase),1.0,,
+1992,(losartan/ace2),29.0,,
+1993,(gliclazide/sur1),25.0,,
+1994,(naloxone/adrenocorticotropin),28.0,,
+1995,(ritonavir/cyp3a4),28.0,,
+1996,(sorafenib/b-raf),12.0,,
+1997,(dexamethasone/ampk),3.0,,
+1998,(thyroglobulin/megalin),7.0,,
+1999,(curcumin/ppargamma),0.0,,
+2000,(montelukast/leukotriene),0.0,,
+2001,(prostacyclin/il-1),19.0,,
+2002,(mibefradil/cyp3a4),1.0,,
+2003,(doxorubicin/top2a),17.0,,
+2004,(ctla4ig/cd28),16.0,,
+2005,(fulvestrant/aromatase),25.0,,
+2006,(4-methylumbelliferone/udp-glucuronosyltransferase),14.0,,
+2007,(meloxicam/cyclooxygenase-1),5.0,,
+2008,(triamcinolone/vegf),18.0,,
+2009,(forskolin/creb),0.0,,
+2010,(curcumin/ctgf),20.0,,
+2011,(meloxicam/cyclooxygenase-2),12.0,,
+2012,(pitavastatin/enos),11.0,,
+2013,(naproxen/cox-1),28.0,,
+2014,(naproxen/cox-2),28.0,,
+2015,(celecoxib/cox2),1.0,,
+2016,(hyaluronate/cd44),7.0,,
+2017,(perifosine/mtor),28.0,,
+2018,(nadh/ndh2),20.0,,
+2019,(aldosterone/aqp2),8.0,,
+2020,(oxytocin/pla2),5.0,,
+2021,(il-2/ml-1),19.0,,
+2022,(gm-csf/cd14),6.0,,
+2023,(carvedilol/p-gp),15.0,,
+2024,(beta-estradiol/lhrh),21.0,,
+2025,(saxagliptin/dpp-4),28.0,,
+2026,(salbutamol/ifn-gamma),22.0,,
+2027,(rapamycin/folliculin),27.0,,
+2028,(mitomycin/nqo1),20.0,,
+2029,(carbachol/rap1),10.0,,
+2030,(fk506/ryr2),22.0,,
+2031,(haloperidol/penk),18.0,,
+2032,(diltiazem/cyp3a4),1.0,,
+2033,(il-1rn/il-1),0.0,,
+2034,(estradiol/gfap),0.0,,
+2035,(collagenase/mmp13),26.0,,
+2036,(leuprolide/lhrh),29.0,,
+2037,(felbamate/cyp3a4),18.0,,
+2038,(naloxone/dynorphin),25.0,,
+2039,(cisplatin/mad2),22.0,,
+2040,(hydroxyurea/ifn-alpha),19.0,,
+2041,(sildenafil/abcb1),20.0,,
+2042,(felodipine/cyp3a4),17.0,,
+2043,(paclitaxel/g-csf),18.0,,
+2044,(streptozocin/niddm),25.0,,
+2045,(cisplatin/ghrelin),1.0,,
+2046,(trastuzumab/vegf),4.0,,
+2047,(dexamethasone/cd40l),22.0,,
+2048,(gm-csf/cd40),26.0,,
+2049,(sr141716a/cb1r),25.0,,
+2050,(il-1ra/il-1),0.0,,
+2051,(bupivacaine/trek-1),28.0,,
+2052,(gm-csf/cd34),7.0,,
+2053,(etoposide/cyp3a4),17.0,,
+2054,(melatonin/aromatase),25.0,,
+2055,(fluvastatin/enos),29.0,,
+2056,(curcumin/prl-3),10.0,,
+2057,(rapamycin/hif-1alpha),27.0,,
+2058,(imatinib/pdgfr),1.0,,
+2059,(neomycin/inositol),0.0,,
+2060,(cetuximab/her1),12.0,,
+2061,(il-2/il-1ra),0.0,,
+2062,(oltipraz/gsta2),19.0,,
+2063,(gm-csf/factor-1),18.0,,
+2064,(calcitriol/fgf23),25.0,,
+2065,(trifluoperazine/calmodulin),0.0,,
+2066,(collagenase/timp-1),4.0,,
+2067,(g-csf/vegf),8.0,,
+2068,(collagenase/timp-2),7.0,,
+2069,(letrozole/aromatase),12.0,,
+2070,(il-2/pthrp),18.0,,
+2071,(zd1839/egfr),23.0,,
+2072,(troleandomycin/cyp3a4),28.0,,
+2073,(cyclosporin/il-5),22.0,,
+2074,(dantrolene/ryr1),10.0,,
+2075,(valspodar/p-gp),0.0,,
+2076,(gw572016/egfr),23.0,,
+2077,(atra/apr3),24.0,,
+2078,(2-methoxyestradiol/comt),20.0,,
+2079,(allopurinol/oxidoreductase),1.0,,
+2080,(troglitazone/hmcs),0.0,,
+2081,(rimonabant/srebp-1c),21.0,,
+2082,(dexamethasone/osteopontin),22.0,,
+2083,(diazoxide/sur1),29.0,,
+2084,(g-csf/flt-3),18.0,,
+2085,(isoniazid/inha),1.0,,
+2086,(metformin/g6pase),0.0,,
+2087,(alemtuzumab/cd52),7.0,,
+2088,(hydrocortisone/icam-1),3.0,,
+2089,(dasatinib/epha2),27.0,,
+2090,(voriconazole/cyp3a4),17.0,,
+2091,(fluconazole/ml-1),2.0,,
+2092,(ceftazidime/g-csf),13.0,,
+2093,(indomethacin/nur77),25.0,,
+2094,(curcumin/trxr1),25.0,,
+2095,(genistein/bcl-2),18.0,,
+2096,(indomethacin/mcp-1),22.0,,
+2097,(thyroxine/shbg),16.0,,
+2098,(troglitazone/e-cadherin),5.0,,
+2099,(ara-c/bcl-2),15.0,,
+2100,(collagenase/mmp-8),20.0,,
+2101,(cyclosporin/p-gp),15.0,,
+2102,(collagenase/mmp-9),2.0,,
+2103,(carbachol/mucin),21.0,,
+2104,(tamoxifen/cyp2c9),23.0,,
+2105,(forskolin/phospholipase),23.0,,
+2106,(omeprazole/adenosinetriphosphatase),12.0,,
+2107,(imatinib/nqo2),6.0,,
+2108,(sulfasalazine/etanercept),2.0,,
+2109,(debrisoquine/cyp2d6),20.0,,
+2110,(collagenase/mmp-2),20.0,,
+2111,(simvastatin/hmgb1),1.0,,
+2112,(tamoxifen/cyp2d6),17.0,,
+2113,(methotrexate/rfc1),15.0,,
+2114,(gm-csf/g-csf),18.0,,
+2115,(g-csf/gm-csf),18.0,,
+2116,(tamoxifen/appd),2.0,,
+2117,(estradiol/comt),20.0,,
+2118,(formoterol/pp2a),7.0,,
+2119,(capsaicin/beta-endorphin),5.0,,
+2120,(ribavirin/ifn-alpha),2.0,,
+2121,(gm-csf/cd80),22.0,,
+2122,(quinidine/cyp3a),8.0,,
+2123,(hyaluronan/ec-sod),24.0,,
+2124,(ethosuximide/cyp3a),4.0,,
+2125,(gm-csf/cd86),19.0,,
+2126,(lovastatin/bcl-2),9.0,,
+2127,(atorvastatin/vegf),8.0,,
+2128,(doxorubicin/pten),29.0,,
+2129,(cysteamine/cystinosis),2.0,,
+2130,(budesonide/vegf),0.0,,
+2131,(ketamine/bdnf),9.0,,
+2132,(naringenin/herg),12.0,,
+2133,(nimesulide/cox-2),1.0,,
+2134,(g-csf/il-10),8.0,,
+2135,(curcumin/cyclooxygenase-2),0.0,,
+2136,(nimesulide/cox-1),1.0,,
+2137,(g-csf/il-11),18.0,,
+2138,(il-11/g-csf),18.0,,
+2139,(spermine/trna),9.0,,
+2140,(propofol/pkc-alpha),29.0,,
+2141,(corticosteroids/aqp1),8.0,,
+2142,(rapamycin/pi3-kinase),27.0,,
+2143,(curcumin/egfr),17.0,,
+2144,(g-csf/il-17),18.0,,
+2145,(zolpidem/cyp3a),1.0,,
+2146,(desferrioxamine/hif-1),22.0,,
+2147,(atazanavir/p-gp),13.0,,
+2148,(clofibrate/acyltransferase),22.0,,
+2149,(chloramphenicol/hsp70),20.0,,
+2150,(su11248/vegf),0.0,,
+2151,(aldosterone/k-ras),0.0,,
+2152,(fk506/il-13),3.0,,
+2153,(colchicine/gm-csf),4.0,,
+2154,(dobutamine/mcp-1),3.0,,
+2155,(dexamethasone/runx2),23.0,,
+2156,(tacrolimus/egfr),28.0,,
+2157,(atorvastatin/adiponectin),19.0,,
+2158,(ctla4ig/cd80),7.0,,
+2159,(estradiol/bmp-7),9.0,,
+2160,(pge2/fmlp),3.0,,
+2161,(rapamycin/rheb),15.0,,
+2162,(procainamide/dnmt1),28.0,,
+2163,(tiotropium/copd),2.0,,
+2164,(fibrates/pltp),3.0,,
+2165,(streptokinase/pai-1),24.0,,
+2166,(berberine/ampk),29.0,,
+2167,(clomipramine/cyp2d6),12.0,,
+2168,(quinidine/cyp2d),28.0,,
+2169,(curcumin/stat1),23.0,,
+2170,(curcumin/stat3),7.0,,
+2171,(salmeterol/beta2),7.0,,
+2172,(vinorelbine/bcl-2),5.0,,
+2173,(saquinavir/p-gp),15.0,,
+2174,(pioglitazone/ppar-gamma),7.0,,
+2175,(simvastatin/icam-1),0.0,,
+2176,(norepinephrine/alpha1),16.0,,
+2177,(phosphatidylserine/pssa),20.0,,
+2178,(fk506/ppiase),0.0,,
+2179,(naltrexone/pomc),3.0,,
+2180,(abx-egf/egfr),7.0,,
+2181,(itraconazole/mtor),28.0,,
+2182,(gefitinib/bcrp),8.0,,
+2183,(gemfibrozil/statin),2.0,,
+2184,(lapatinib/egfr),1.0,,
+2185,(propofol/inos),20.0,,
+2186,(resveratrol/icam-1),1.0,,
+2187,(ofatumumab/cd20),7.0,,
+2188,(urokinase/vegf),20.0,,
+2189,(cyclosporin/col6a1),24.0,,
+2190,(rosiglitazone/mcp-1),5.0,,
+2191,(lovastatin/rhoa),0.0,,
+2192,(lovastatin/survivin),22.0,,
+2193,(amiloride/asic),25.0,,
+2194,(estradiol/cort),24.0,,
+2195,(maraviroc/ccr5),0.0,,
+2196,(noradrenaline/lhrh),16.0,,
+2197,(vorinostat/ctcl),15.0,,
+2198,(clofibrate/cyp2e1),25.0,,
+2199,(cerulenin/fasn),28.0,,
+2200,(diuretics/copd),2.0,,
+2201,(bortezomib/survivin),15.0,,
+2202,(buspirone/s100b),18.0,,
+2203,(medetomidine/gastrin),24.0,,
+2204,(oxytocin/oxtr),20.0,,
+2205,(metformin/pten),12.0,,
+2206,(dhea/dhea-st),22.0,,
+2207,(dexamethasone/mtor),28.0,,
+2208,(curcumin/cyp1a1),22.0,,
+2209,(losartan/a-ii),7.0,,
+2210,(lidocaine/egfr),21.0,,
+2211,(fluoxetine/mao-a),28.0,,
+2212,(fluconazole/cdr1),20.0,,
+2213,(2-methoxyestradiol/hif-1alpha),25.0,,
+2214,(naloxone/tlr4),0.0,,
+2215,(artemisinin/cyp2c19),18.0,,
+2216,(betaine/bgt-1),26.0,,
+2217,(phenytoin/ml-1),24.0,,
+2218,(mecamylamine/nachr),0.0,,
+2219,(simvastatin/apom),0.0,,
+2220,(terfenadine/cyp3a4),20.0,,
+2221,(flutamide/cyp1a2),9.0,,
+2222,(pge2/bfgf),8.0,,
+2223,(pge2/cgrp),8.0,,
+2224,(hyaluronan/layilin),7.0,,
+2225,(paclitaxel/ap-1),27.0,,
+2226,(nortriptyline/cyp2d6),17.0,,
+2227,(estrone/bcrp),26.0,,
+2228,(amiloride/u-pa),12.0,,
+2229,(rapamycin/eef2),27.0,,
+2230,(forskolin/ifn-gamma),24.0,,
+2231,(bexarotene/ctcl),2.0,,
+2232,(clotrimazole/aromatase),23.0,,
+2233,(curcumin/tlr2),9.0,,
+2234,(leuprorelin/lhrh),16.0,,
+2235,(curcumin/tlr4),23.0,,
+2236,(celecoxib/caspase-3),3.0,,
+2237,(cisplatin/mrp2),7.0,,
+2238,(imatinib/pc-3),21.0,,
+2239,(hydroquinone/nadph),8.0,,
+2240,(sorafenib/mtor),28.0,,
+2241,(forskolin/aromatase),25.0,,
+2242,(ticlopidine/p2y12),0.0,,
+2243,(curcumin/vegf),0.0,,
+2244,(methotrexate/etanercept),2.0,,
+2245,(disulfiram/cyp2e1),12.0,,
+2246,(amlexanox/s100a12),7.0,,
+2247,(atra/eotaxin),21.0,,
+2248,(estradiol/ampk),10.0,,
+2249,(abciximab/mac-1),7.0,,
+2250,(estradiol/sulfatase),0.0,,
+2251,(paclitaxel/dppiv),15.0,,
+2252,(cilostazol/nf-kappab),22.0,,
+2253,(estrone/mrp1),26.0,,
+2254,(curcumin/trpa1),10.0,,
+2255,(rosiglitazone/pparg),16.0,,
+2256,(simvastatin/mmp-3),18.0,,
+2257,(betaine/nf-kappab),21.0,,
+2258,(dexamethasone/myocilin),13.0,,
+2259,(simvastatin/mmp-9),21.0,,
+2260,(resveratrol/mmp-9),1.0,,
+2261,(genistein/mcp-1),27.0,,
+2262,(thyroglobulin/calcitonin),9.0,,
+2263,(resveratrol/mmp-2),17.0,,
+2264,(hyaluronate/ghap),6.0,,
+2265,(pyrimethamine/dhfr),28.0,,
+2266,(suramin/afgf),7.0,,
+2267,(mivacurium/pseudocholinesterase),9.0,,
+2268,(rabeprazole/cyp2c19),15.0,,
+2269,(doxorubicin/parp),19.0,,
+2270,(tacrolimus/vegf),3.0,,
+2271,(mupirocin/ilers),25.0,,
+2272,(curcumin/egr-1),25.0,,
+2273,(octreotide/ho-1),22.0,,
+2274,(isoproterenol/rap1),7.0,,
+2275,(pioglitazone/lox-1),4.0,,
+2276,(indomethacin/ppar),7.0,,
+2277,(estradiol/hoxa10),22.0,,
+2278,(atorvastatin/ldlc),24.0,,
+2279,(carnitine/pparalpha),20.0,,
+2280,(oxytocin/reticulum),17.0,,
+2281,(glcnac/chia),25.0,,
+2282,(mianserin/5-ht2c),0.0,,
+2283,(mianserin/5-ht2a),23.0,,
+2284,(pge2/lhrh),21.0,,
+2285,(dhea/enos),10.0,,
+2286,(cyclosporine/reticulum),18.0,,
+2287,(fenofibrate/pcsk9),29.0,,
+2288,(g-csf/jak2),5.0,,
+2289,(pargyline/mao-b),1.0,,
+2290,(g-csf/jak1),5.0,,
+2291,(methotrexate/g-csf),18.0,,
+2292,(ouabain/caspase-3),25.0,,
+2293,(betaine/bgt1),26.0,,
+2294,(lucanthone/ape1),0.0,,
+2295,(midazolam/cyp3a4),15.0,,
+2296,(chloramphenicol/ifn-gamma),14.0,,
+2297,(aldosterone/nhe3),29.0,,
+2298,(probucol/ho-1),22.0,,
+2299,(cyclophosphamide/sargramostim),2.0,,
+2300,(estradiol/cd40l),9.0,,
+2301,(collagenase/stromelysin-2),9.0,,
+2302,(collagenase/stromelysin-1),0.0,,
+2303,(dhea/igf-i),24.0,,
+2304,(collagenase/mt1-mmp),26.0,,
+2305,(pargyline/mao-a),22.0,,
+2306,(paclitaxel/s100p),22.0,,
+2307,(forskolin/gastrin),5.0,,
+2308,(minocycline/inos),25.0,,
+2309,(prednisone/il-10),2.0,,
+2310,(biguanides/alpha-glucosidase),12.0,,
+2311,(g-csf/socs3),24.0,,
+2312,(pravastatin/mcp-1),11.0,,
+2313,(g-csf/socs1),25.0,,
+2314,(dextran/u-pa),29.0,,
+2315,(dexamethasone/sr-bi),22.0,,
+2316,(noradrenaline/cgrp),19.0,,
+2317,(isoproterenol/mucin),8.0,,
+2318,(prednisolone/amyloidosis),17.0,,
+2319,(rapamycin/raptor),23.0,,
+2320,(indomethacin/survivin),3.0,,
+2321,(calcitriol/ifn-gamma),20.0,,
+2322,(gm-csf/ifn-alpha),18.0,,
+2323,(ndga/phospholipase),12.0,,
+2324,(carboplatin/g-csf),18.0,,
+2325,(nadh/nadph),18.0,,
+2326,(calcitriol/aromatase),1.0,,
+2327,(ritonavir/hsp90),7.0,,
+2328,(doxorubicin/reticulum),10.0,,
+2329,(amiloride/nhe-1),12.0,,
+2330,(ketoconazole/p-gp),17.0,,
+2331,(meloxicam/vegf),13.0,,
+2332,(efavirenz/cyp2b6),17.0,,
+2333,(menadione/sod1),10.0,,
+2334,(capsaicin/cgrp),19.0,,
+2335,(doxorubicin/hsp27),9.0,,
+2336,(hyaluronan/habp1),6.0,,
+2337,(telmisartan/pparalpha),10.0,,
+2338,(gemcitabine/nfkappab),1.0,,
+2339,(prostacyclin/edrf),18.0,,
+2340,(atorvastatin/resistin),4.0,,
+2341,(cerivastatin/enos),22.0,,
+2342,(rosiglitazone/adipor2),18.0,,
+2343,(norethindrone/aromatase),28.0,,
+2344,(rosiglitazone/ppar),7.0,,
+2345,(amiodarone/phospholipase),28.0,,
+2346,(fluoxetine/cyp2c19),28.0,,
+2347,(irinotecan/cyp3a4),22.0,,
+2348,(phosphatidylserine/atp8a2),26.0,,
+2349,(norepinephrine/creb),1.0,,
+2350,(cisplatin/trpv1),10.0,,
+2351,(atra/aqp3),22.0,,
+2352,(thyrotropin/autoantigen),7.0,,
+2353,(doxorubicin/pc-3),5.0,,
+2354,(fluorescein/mrp1),17.0,,
+2355,(tropisetron/nachr),7.0,,
+2356,(loperamide/p-gp),15.0,,
+2357,(fluoxetine/darpp-32),10.0,,
+2358,(verapamil/abcb1),28.0,,
+2359,(glcnac/rft1),9.0,,
+2360,(diuretics/ncct),27.0,,
+2361,(atra/mmp-9),27.0,,
+2362,(estradiol/brca1),2.0,,
+2363,(phosphatidylserine/lactadherin),5.0,,
+2364,(rizatriptan/cgrp),5.0,,
+2365,(gp120/cxcr4),7.0,,
+2366,(buspirone/5ht1a),16.0,,
+2367,(atra/ddah),4.0,,
+2368,(pentagastrin/cck-b),16.0,,
+2369,(pge2/15-pgdh),20.0,,
+2370,(carrageenan/cox-2),25.0,,
+2371,(rapamycin/mtor),1.0,,
+2372,(atazanavir/ugt1a1),28.0,,
+2373,(mianserin/5-ht1c),0.0,,
+2374,(gemcitabine/cox-2),17.0,,
+2375,(amprenavir/p-gp),28.0,,
+2376,(mesalazine/cdc25a),12.0,,
+2377,(hesperetin/herg),24.0,,
+2378,(dexamethasone/cort),1.0,,
+2379,(pge2/ifn-alpha),25.0,,
+2380,(rifampin/cyp3a4),22.0,,
+2381,(octreotide/ifn-alpha),2.0,,
+2382,(pyridoxal/palp),9.0,,
+2383,(gentamicin/pi-plc),0.0,,
+2384,(donepezil/butyrylcholinesterase),6.0,,
+2385,(trastuzumab/egfr),15.0,,
+2386,(indomethacin/timp),28.0,,
+2387,(docetaxel/cyp3a4),17.0,,
+2388,(melatonin/mtnr1b),20.0,,
+2389,(capecitabine/her2),2.0,,
+2390,(melatonin/mtnr1a),20.0,,
+2391,(betaine/prox),6.0,,
+2392,(gemcitabine/hcnt1),17.0,,
+2393,(fluoxetine/sert),26.0,,
+2394,(flecainide/cyp2d6),28.0,,
+2395,(pyridostigmine/cholinesterase),12.0,,
+2396,(ticlopidine/cyp2c19),28.0,,
+2397,(cyclosporin/mdr1),20.0,,
+2398,(oltipraz/cyp1a1),22.0,,
+2399,(g-csf/stat1),5.0,,
+2400,(g-csf/stat3),29.0,,
+2401,(olanzapine/cyp1a2),17.0,,
+2402,(tropisetron/5-ht4),0.0,,
+2403,(phenytoin/cyp3a),9.0,,
+2404,(oestriol/lactogen),26.0,,
+2405,(theophylline/mfgm),19.0,,
+2406,(minocycline/glur1),29.0,,
+2407,(amodiaquine/cyp2c8),17.0,,
+2408,(mirtazapine/comt),5.0,,
+2409,(halothane/ryr1),10.0,,
+2410,(lornoxicam/cyp2c9),17.0,,
+2411,(omeprazole/cyp3a),17.0,,
+2412,(desmopressin/aqp2),11.0,,
+2413,(propofol/trpc5),21.0,,
+2414,(rapamycin/torc1),0.0,,
+2415,(cilostazol/pai-1),1.0,,
+2416,(tacrolimus/il-10),5.0,,
+2417,(doxorubicin/bcl-xl),5.0,,
+2418,(rapamycin/torc2),1.0,,
+2419,(creatine/slc6a8),26.0,,
+2420,(anxiolytics/5-ht1a),16.0,,
+2421,(l-glutamine/ppargamma),3.0,,
+2422,(bezafibrate/pparalpha),29.0,,
+2423,(lamotrigine/glur1),29.0,,
+2424,(resveratrol/ckii),13.0,,
+2425,(valacyclovir/pept1),17.0,,
+2426,(norepinephrine/phospholipase),29.0,,
+2427,(aminophylline/copd),0.0,,
+2428,(calcitriol/cyp27b1),5.0,,
+2429,(g-csf/stat5),29.0,,
+2430,(dexamethasone/gnrh),1.0,,
+2431,(estradiol/sf-1),18.0,,
+2432,(curcumin/ccl2),20.0,,
+2433,(sulfasalazine/nf-kappab),12.0,,
+2434,(celecoxib/ho-1),28.0,,
+2435,(dhea/ppargamma),11.0,,
+2436,(ketoconazole/herg),12.0,,
+2437,(curcumin/mpges-1),21.0,,
+2438,(digoxin/mdr1),17.0,,
+2439,(paclitaxel/p-gp),15.0,,
+2440,(pyrazinamide/nicotinamide),16.0,,
+2441,(camptothecin/tdp1),5.0,,
+2442,(pge2/nf-kappab),23.0,,
+2443,(voriconazole/cyp2c9),17.0,,
+2444,(etanercept/amyloidosis),2.0,,
+2445,(atra/evi-1),13.0,,
+2446,(fenofibrate/apoa-i),27.0,,
+2447,(pitavastatin/pon1),23.0,,
+2448,(staurosporine/gnrh),0.0,,
+2449,(g-csf/cox-2),5.0,,
+2450,(hemin/inos),22.0,,
+2451,(atra/ifn-gamma),5.0,,
+2452,(methylprednisolone/il-10),8.0,,
+2453,(estradiol/mcp-1),13.0,,
+2454,(phenylephrine/alpha1),16.0,,
+2455,(resveratrol/pkm2),8.0,,
+2456,(nifedipine/dhps),24.0,,
+2457,(tamoxifen/cyp3a4),22.0,,
+2458,(paclitaxel/nf-kappab),7.0,,
+2459,(gonadorelin/gnrh),5.0,,
+2460,(captopril/sar1),11.0,,
+2461,(propofol/beta2),19.0,,
+2462,(genistein/ampk),10.0,,
+2463,(pge2/il-1),0.0,,
+2464,(ara-a/ampk),1.0,,
+2465,(fk-506/fkbp-12),6.0,,
+2466,(metformin/oct3),6.0,,
+2467,(memantine/cholinesterase),17.0,,
+2468,(melatonin/cry1),8.0,,
+2469,(pge2/caspase-3),20.0,,
+2470,(cisplatin/cited2),24.0,,
+2471,(etoposide/parp),21.0,,
+2472,(fentanyl/cyp3a),17.0,,
+2473,(sulindac/beta-catenin),22.0,,
+2474,(doxorubicin/dnmt1),21.0,,
+2475,(methotrexate/dhfr),12.0,,
+2476,(methacholine/gastrin),5.0,,
+2477,(paclitaxel/caspase-3),19.0,,
+2478,(fk506/igf-i),22.0,,
+2479,(cilostazol/ho-1),22.0,,
+2480,(lidocaine/trpv1),25.0,,
+2481,(ropivacaine/ml-1),2.0,,
+2482,(il-2/vegf),18.0,,
+2483,(cyclosporine/hsp47),10.0,,
+2484,(antivirals/neuraminidase),1.0,,
+2485,(noradrenaline/alpha-msh),16.0,,
+2486,(fluvastatin/pon1),23.0,,
+2487,(rapamycin/4e-bp1),0.0,,
+2488,(metformin/pepck),1.0,,
+2489,(pioglitazone/apoe),24.0,,
+2490,(cyclosporin/cypa),20.0,,
+2491,(staurosporine/bcl-2),23.0,,
+2492,(cyclosporin/g-csf),18.0,,
+2493,(tacrolimus/cyp3a),15.0,,
+2494,(vincristine/p-gp),15.0,,
+2495,(cilostazol/pde4),28.0,,
+2496,(nelfinavir/vegf),22.0,,
+2497,(aripiprazole/p-gp),15.0,,
+2498,(verapamil/gastrin),13.0,,
+2499,(ru486/gnrh),13.0,,
+2500,(metformin/pmat),15.0,,
+2501,(gemcitabine/xiap),21.0,,
+2502,(ampicillin/acylase),5.0,,
+2503,(vasopressin/endothelin-1),2.0,,
+2504,(flurbiprofen/cgrp),21.0,,
+2505,(genistein/nkcc1),3.0,,
+2506,(halothane/beta2),23.0,,
+2507,(cinacalcet/cyp2d6),13.0,,
+2508,(indomethacin/leukotriene),16.0,,
+2509,(varenicline/copd),2.0,,
+2510,(benzbromarone/adiponectin),19.0,,
+2511,(theophylline/cyp2e1),9.0,,
+2512,(decitabine/p53r2),22.0,,
+2513,(aminopterin/dhfr),28.0,,
+2514,(il-2/il2rg),20.0,,
+2515,(torcetrapib/cetp),1.0,,
+2516,(metyrapone/cyp11b1),6.0,,
+2517,(fenofibrate/apoprotein),28.0,,
+2518,(colchicine/amyloidosis),17.0,,
+2519,(gemcitabine/egfr),10.0,,
+2520,(norepinephrine/bdnf),18.0,,
+2521,(urokinase/uparap),7.0,,
+2522,(cisplatin/foxo3a),27.0,,
+2523,(tolterodine/cyp2d6),17.0,,
+2524,(gm-csf/cd11c),25.0,,
+2525,(resveratrol/cyp3a4),1.0,,
+2526,(gm-csf/cd11b),26.0,,
+2527,(calcein/p-gp),22.0,,
+2528,(dexamethasone/irs-1),5.0,,
+2529,(sorafenib/braf),28.0,,
+2530,(abciximab/beta3),7.0,,
+2531,(dexamethasone/bcl-x),0.0,,
+2532,(il-2/rantes),25.0,,
+2533,(etoposide/reticulum),24.0,,
+2534,(celecoxib/e-cadherin),24.0,,
+2535,(pitavastatin/adiponectin),18.0,,
+2536,(suramin/il-1),6.0,,
+2537,(simvastatin/cyp3a4),15.0,,
+2538,(il-2/il-10),0.0,,
+2539,(meth/nnos),19.0,,
+2540,(geldanamycin/hif-1alpha),1.0,,
+2541,(methimazole/fmo1),5.0,,
+2542,(il-2/il-13),4.0,,
+2543,(danazol/escs),17.0,,
+2544,(il-2/il-16),24.0,,
+2545,(il-2/il-15),0.0,,
+2546,(tamoxifen/maspin),5.0,,
+2547,(prenylamine/calmodulin),0.0,,
+2548,(glibenclamide/cyp2c9),24.0,,
+2549,(il-11/il-1),0.0,,
+2550,(zileuton/5-lox),1.0,,
+2551,(aripiprazole/drd2),16.0,,
+2552,(trastuzumab/p27kip1),19.0,,
+2553,(arsenite/cftr),9.0,,
+2554,(amitriptyline/cyp2d6),17.0,,
+2555,(il-2/il-17),27.0,,
+2556,(sorafenib/tace),19.0,,
+2557,(il-2/il-18),2.0,,
+2558,(il-2/il-22),11.0,,
+2559,(imatinib/hsp90),1.0,,
+2560,(il-2/il-21),2.0,,
+2561,(gm-csf/il-1),18.0,,
+2562,(vasopressin/inos),9.0,,
+2563,(il-2/il-27),4.0,,
+2564,(cimetidine/ifn-alpha),7.0,,
+2565,(chlorpropamide/niddm),2.0,,
+2566,(il-2/gm-csf),18.0,,
+2567,(ritonavir/cyp2d6),28.0,,
+2568,(gm-csf/il-5),0.0,,
+2569,(simvastatin/ifn-gamma),28.0,,
+2570,(indacaterol/copd),6.0,,
+2571,(docetaxel/abcb1),17.0,,
+2572,(g-csf/psgl-1),3.0,,
+2573,(olanzapine/ghrelin),24.0,,
+2574,(amiodarone/cyp2d6),1.0,,
+2575,(sertraline/cyp2d6),28.0,,
+2576,(resveratrol/aromatase),23.0,,
+2577,(genistein/brca1),23.0,,
+2578,(neratinib/abcb1),24.0,,
+2579,(etoposide/pc-3),5.0,,
+2580,(doxorubicin/tgfbeta),10.0,,
+2581,(ezetimibe/statin),2.0,,
+2582,(estradiol/dheas),3.0,,
+2583,(phentolamine/alpha1),16.0,,
+2584,(pentagastrin/gastrin),16.0,,
+2585,(sunitinib/hif-1alpha),21.0,,
+2586,(il-2/ccr6),25.0,,
+2587,(il-2/ccr5),20.0,,
+2588,(carbachol/trpc6),20.0,,
+2589,(carbachol/trpc5),22.0,,
+2590,(paracetamol/udp-glucuronosyltransferase),14.0,,
+2591,(oxaliplatin/kras),19.0,,
+2592,(biguanides/ampk),10.0,,
+2593,(simvastatin/ecnos),22.0,,
+2594,(ng-monomethyl-l-arginine/edrf),12.0,,
+2595,(il-11/nf-kappab),11.0,,
+2596,(forskolin/mmp-2),22.0,,
+2597,(vasopressin/inositol),24.0,,
+2598,(urokinase/u-pa),0.0,,
+2599,(carbachol/egr-1),13.0,,
+2600,(papain/neuraminidase),2.0,,
+2601,(hyaluronan/cd44),7.0,,
+2602,(piroxicam/cox-1),28.0,,
+2603,(piroxicam/cox-2),28.0,,
+2604,(isoflurane/nnos),28.0,,
+2605,(fludarabine/stat1),25.0,,
+2606,(atorvastatin/enos),8.0,,
+2607,(diazepam/cyp2c19),15.0,,
+2608,(rosiglitazone/nachr),1.0,,
+2609,(nefazodone/cyp3a4),12.0,,
+2610,(cisplatin/tnfr1),13.0,,
+2611,(resveratrol/sir2),27.0,,
+2612,(donepezil/cholinesterase),28.0,,
+2613,(atorvastatin/cox-2),13.0,,
+2614,(vasopressin/atriopeptin),21.0,,
+2615,(fenoterol/copd),2.0,,
+2616,(procainamide/napa),19.0,,
+2617,(aldosterone/phospholipase),29.0,,
+2618,(cerivastatin/inos),22.0,,
+2619,(primaquine/methemoglobin),25.0,,
+2620,(cisplatin/tlr4),26.0,,
+2621,(varenicline/nachr),7.0,,
+2622,(trimethoprim/cyp2c8),28.0,,
+2623,(olanzapine/5-ht2c),16.0,,
+2624,(curcumin/mrp1),23.0,,
+2625,(pindolol/5-ht1a),7.0,,
+2626,(cisplatin/vegf),3.0,,
+2627,(l-citrulline/nnos),5.0,,
+2628,(aldosterone/g6pd),22.0,,
+2629,(dhea/cyp1a1),22.0,,
+2630,(rapamycin/tsc1),24.0,,
+2631,(acarbose/niddm),2.0,,
+2632,(aldosterone/k-ras2a),25.0,,
+2633,(il-2/hdac1),8.0,,
+2634,(oxytocin/phospholipase),10.0,,
+2635,(erythromycin/cyp3a4),28.0,,
+2636,(verapamil/cyp3a4),1.0,,
+2637,(pentamidine/herg),23.0,,
+2638,(pgi2/il-1),18.0,,
+2639,(dexamethasone/l-pgds),8.0,,
+2640,(cyclosporin/cd28),19.0,,
+2641,(tamoxifen/aromatase),1.0,,
+2642,(curcumin/sult1a1),13.0,,
+2643,(indinavir/cyp3a4),15.0,,
+2644,(hyaluronidase/hyal3),20.0,,
+2645,(hyaluronidase/hyal2),26.0,,
+2646,(lidocaine/acat),12.0,,
+2647,(oxaliplatin/survivin),1.0,,
+2648,(rasagiline/bcl-2),13.0,,
+2649,(pioglitazone/visfatin),13.0,,
+2650,(dexamethasone/fasl),13.0,,
+2651,(lidoflazine/herg),12.0,,
+2652,(bromocriptine/gnrh),24.0,,
+2653,(temozolomide/msh6),0.0,,
+2654,(gm-csf/csf-1),18.0,,
+2655,(gefitinib/vegf),0.0,,
+2656,(hemin/cyp1a1),25.0,,
+2657,(gefitinib/hoct1),17.0,,
+2658,(rapamycin/p27kip1),10.0,,
+2659,(roflumilast/copd),6.0,,
+2660,(losartan/ctgf),11.0,,
+2661,(finasteride/vegf),18.0,,
+2662,(propranolol/cyp2d6),15.0,,
+2663,(forskolin/bfgf),22.0,,
+2664,(paracetamol/udpgt),20.0,,
+2665,(forskolin/ap-1),22.0,,
+2666,(nadh/lambda-crystallin),6.0,,
+2667,(dicumarol/nqo1),1.0,,
+2668,(propofol/bcl-2),9.0,,
+2669,(rofecoxib/cox-1),25.0,,
+2670,(rofecoxib/cox-2),1.0,,
+2671,(metformin/caspase-3),3.0,,
+2672,(cilomilast/copd),6.0,,
+2673,(hyaluronan/behab),20.0,,
+2674,(daunorubicin/nfkappab),3.0,,
+2675,(fluvoxamine/5-ht2c),27.0,,
+2676,(losartan/jak2),1.0,,
+2677,(calcitriol/cd14),21.0,,
+2678,(capsaicin/oxidoreductase),28.0,,
+2679,(tacrine/cholinesterase),1.0,,
+2680,(genistein/glut1),24.0,,
+2681,(atorvastatin/mcp-1),11.0,,
+2682,(g-csf/cxcr4),27.0,,
+2683,(etoricoxib/cox-2),28.0,,
+2684,(cevimeline/aqp5),24.0,,
+2685,(collagenase/il-1),8.0,,
+2686,(fentanyl/mir-190),5.0,,
+2687,(l-dopa/comt),18.0,,
+2688,(arsenite/arsb),13.0,,
+2689,(evodiamine/nf-kappab),23.0,,
+2690,(estradiol/igfbp-3),7.0,,
+2691,(estradiol/igfbp-4),4.0,,
+2692,(arsenite/arsa),8.0,,
+2693,(indomethacin/il-11),4.0,,
+2694,(estradiol/igfbp-2),19.0,,
+2695,(troglitazone/cyp3a4),5.0,,
+2696,(genistein/cyclooxygenase-2),24.0,,
+2697,(troglitazone/ppar-gamma),7.0,,
+2698,(tolbutamide/cyp2c9),15.0,,
+2699,(daunorubicin/igf-i),25.0,,
+2700,(diazepam/cyp3a4),6.0,,
+2701,(carnitine/cpt1a),26.0,,
+2702,(noradrenaline/alpha1),17.0,,
+2703,(fluvastatin/statin),27.0,,
+2704,(sunitinib/vegf),0.0,,
+2705,(genistein/egfr),7.0,,
+2706,(bevacizumab/vegf),18.0,,
+2707,(haloperidol/pomc),9.0,,
+2708,(indomethacin/il-18),22.0,,
+2709,(carnitine/cpt1b),20.0,,
+2710,(gm-csf/phospholipase),18.0,,
+2711,(etoposide/top2),28.0,,
+2712,(captopril/copd),2.0,,
+2713,(cisplatin/c-abl),9.0,,
+2714,(nadh/inha),22.0,,
+2715,(norepinephrine/lhrh),16.0,,
+2716,(acetanilide/cyp1a2),15.0,,
+2717,(glyburide/niddm),2.0,,
+2718,(dexamethasone/pnmt),27.0,,
+2719,(cephalexin/mate1),24.0,,
+2720,(oseltamivir/sialidase),12.0,,
+2721,(pge2/pghs-2),4.0,,
+2722,(aldosterone/nf-kappab),22.0,,
+2723,(alendronate/hips),5.0,,
+2724,(cisapride/5-ht4),16.0,,
+2725,(rosiglitazone/vegf),0.0,,
+2726,(gemfibrozil/ppar-alpha),16.0,,
+2727,(doxorubicin/nf-kappab),7.0,,
+2728,(melatonin/beta-endorphin),11.0,,
+2729,(lovastatin/inos),3.0,,
+2730,(rosiglitazone/tlr4),3.0,,
+2731,(ropinirole/zif-268),11.0,,
+2732,(cyclophosphamide/gm-csf),18.0,,
+2733,(celecoxib/cyp2c9),15.0,,
+2734,(gentamicin/megalin),6.0,,
+2735,(cyclosporine/calmodulin),26.0,,
+2736,(simvastatin/slco1b1),23.0,,
+2737,(ctla4ig/apcs),2.0,,
+2738,(doxorubicin/p-gp),15.0,,
+2739,(rapamycin/rapa),18.0,,
+2740,(isoflurane/bace),20.0,,
+2741,(verapamil/mdr1),0.0,,
+2742,(aldosterone/p-gp),7.0,,
+2743,(forskolin/fmlp),24.0,,
+2744,(analgesics/trpv1),20.0,,
+2745,(genistein/cyp1a1),0.0,,
+2746,(tamoxifen/jnk1),6.0,,
+2747,(cyclosporine/p-gp),1.0,,
+2748,(artemisinin/cyp2b6),17.0,,
+2749,(haloperidol/vegf),13.0,,
+2750,(rosiglitazone/nefa),3.0,,
+2751,(doxorubicin/caspase-3),17.0,,
+2752,(glucosamine/inositol),18.0,,
+2753,(ouabain/nhe3),13.0,,
+2754,(etomidate/pseudocholinesterase),17.0,,
+2755,(acenocoumarol/cyp2c9),17.0,,
+2756,(terfenadine/herg),1.0,,
+2757,(rosiglitazone/adiponectin),27.0,,
+2758,(tacrolimus/fsgs),6.0,,
+2759,(aldosterone/chif),22.0,,
+2760,(doxorubicin/il-1),24.0,,
+2761,(telmisartan/enos),25.0,,
+2762,(cyclosporine/nf-kappab),13.0,,
+2763,(norepinephrine/slc6a2),26.0,,
+2764,(ornithine/adometdc),5.0,,
+2765,(prazosin/vasa),9.0,,
+2766,(rolipram/pde4b),12.0,,
+2767,(fasudil/nf-kappab),11.0,,
+2768,(pitavastatin/statin),28.0,,
+2769,(gm-csf/apcs),18.0,,
+2770,(capsaicin/tachykinin),16.0,,
+2771,(pge2/phospholipase),7.0,,
+2772,(rosiglitazone/il-10),17.0,,
+2773,(dapsone/pgd2),9.0,,
+2774,(arsenite/parp-1),17.0,,
+2775,(rapamycin/enos),3.0,,
+2776,(flutamide/gnrh),16.0,,
+2777,(etodolac/il-1),2.0,,
+2778,(melatonin/ho-1),22.0,,
+2779,(hyaluronidase/acrosomal),0.0,,
+2780,(rapamycin/skp2),9.0,,
+2781,(n-acetylcysteine/caspase-3),3.0,,
+2782,(fibrates/apoa-i),15.0,,
+2783,(sulphonamide/dhps),1.0,,
+2784,(rapamycin/igf-i),1.0,,
+2785,(amiodarone/herg),0.0,,
+2786,(auranofin/nrf2),10.0,,
+2787,(physostigmine/butyrylcholinesterase),2.0,,
+2788,(gm-csf/shp-1),17.0,,
+2789,(cyclosporine/kallikrein),17.0,,
+2790,(alprenolol/5-ht1a),16.0,,
+2791,(dhea/sulfatase),20.0,,
+2792,(acetazolamide/aqp1),20.0,,
+2793,(risperidone/cyp3a),6.0,,
+2794,(buspirone/cyp3a4),15.0,,
+2795,(leflunomide/bcrp),24.0,,
+2796,(danazol/shbg),28.0,,
+2797,(cltx/mmp-2),28.0,,
+2798,(fexofenadine/oatp),15.0,,
+2799,(sirolimus/mtor),28.0,,
+2800,(aldosterone/pai-1),4.0,,
+2801,(mirtazapine/cyp2d),29.0,,
+2802,(hydralazine/dnmt),23.0,,
+2803,(vasopressin/avpr2),20.0,,
+2804,(n-acetylcysteine/nf-kappab),23.0,,
+2805,(aprotinin/il-10),22.0,,
+2806,(lumiracoxib/cyclooxygenase-2),12.0,,
+2807,(curcumin/cftr),0.0,,
+2808,(dhea/pparalpha),10.0,,
+2809,(atra/hdac),17.0,,
+2810,(creatine/myogenin),20.0,,
+2811,(nifedipine/cyp3a4),20.0,,
+2812,(glcnac/mgat3),9.0,,
+2813,(alendronate/pthrp),18.0,,
+2814,(genistein/ppargamma),20.0,,
+2815,(atra/chmp1a),26.0,,
+2816,(fibrates/mdr2),9.0,,
+2817,(itraconazole/cyp3a),28.0,,
+2818,(celecoxib/pc-3),7.0,,
+2819,(calcitriol/osteocalcin),21.0,,
+2820,(metformin/pai-1),5.0,,
+2821,(domperidone/nicotinamide),19.0,,
+2822,(curcumin/bcl-2),0.0,,
+2823,(estradiol/enos),1.0,,
+2824,(bortezomib/stat3),12.0,,
+2825,(corticosteroids/il-1),21.0,,
+2826,(estradiol/cox-2),22.0,,
+2827,(pyridoxal/pdxk),12.0,,
+2828,(lovastatin/egfr),23.0,,
+2829,(norepinephrine/thermogenin),3.0,,
+2830,(cimetidine/cyp2d6),28.0,,
+2831,(trastuzumab/kip1),27.0,,
+2832,(estradiol/igf-i),0.0,,
+2833,(pegfilgrastim/g-csf),18.0,,
+2834,(gp120/scd4),7.0,,
+2835,(isoflurane/nachr),1.0,,
+2836,(pegvisomant/igf-i),21.0,,
+2837,(degarelix/gnrh),0.0,,
+2838,(genistein/cdk1),1.0,,
+2839,(clozapine/cyp2d6),17.0,,
+2840,(indomethacin/vegf),9.0,,
+2841,(imc-c225/egfr),7.0,,
+2842,(pyridoxal/pdx1),26.0,,
+2843,(corticosteroids/p-gp),15.0,,
+2844,(aldosterone/sgk1),0.0,,
+2845,(bezafibrate/ppar-alpha),22.0,,
+2846,(il-2/p70-75),7.0,,
+2847,(ng-monomethyl-l-arginine/ifn-gamma),7.0,,
+2848,(dexamethasone/cyp3a),15.0,,
+2849,(everolimus/cyp3a4),17.0,,
+2850,(pge2/tgfbeta),8.0,,
+2851,(indomethacin/calcitonin),24.0,,
+2852,(valdecoxib/cyclooxygenase-2),12.0,,
+2853,(melatonin/lhrh),24.0,,
+2854,(glucosamine/stat3),1.0,,
+2855,(docetaxel/g-csf),18.0,,
+2856,(furosemide/kallikrein),5.0,,
+2857,(cyclosporine/foxp3),12.0,,
+2858,(sunitinib/gm-csf),8.0,,
+2859,(lovastatin/ldlr),23.0,,
+2860,(phosphatidylserine/phospholipase),24.0,,
+2861,(suramin/ecto-atpase),12.0,,
+2862,(theophylline/ghrh),16.0,,
+2863,(creatine/crtr),26.0,,
+2864,(berberine/adiponectin),0.0,,
+2865,(simvastatin/klf2),17.0,,
+2866,(simvastatin/oatp1b1),24.0,,
+2867,(propranolol/phospholipase),12.0,,
+2868,(duloxetine/cyp1a2),17.0,,
+2869,(rapamycin/pmr1),5.0,,
+2870,(chloramphenicol/mdr1),9.0,,
+2871,(amitriptyline/p-gp),15.0,,
+2872,(tacrine/butyrylcholinesterase),23.0,,
+2873,(imiquimod/tlr7),7.0,,
+2874,(atra/cd38),6.0,,
+2875,(simvastatin/lfa-1),28.0,,
+2876,(atorvastatin/ampk),10.0,,
+2877,(atra/cd34),5.0,,
+2878,(curcumin/cop9),12.0,,
+2879,(ritonavir/p-gp),15.0,,
+2880,(cisplatin/bcl-2),22.0,,
+2881,(doxycycline/gdnf),5.0,,
+2882,(isoproterenol/mcp-1),4.0,,
+2883,(methoxamine/alpha1),7.0,,
+2884,(trastuzumab/her-2),0.0,,
+2885,(dicumarol/dt-diaphorase),28.0,,
+2886,(estradiol/egfr),9.0,,
+2887,(cisplatin/msh2),27.0,,
+2888,(zosuquidar/p-gp),28.0,,
+2889,(glcnac/lectin),12.0,,
+2890,(ondansetron/p-gp),15.0,,
+2891,(triacetyloleandomycin/cyp3a4),12.0,,
+2892,(dextran/heparan),28.0,,
+2893,(dhea/dheas),0.0,,
+2894,(warfarin/cyp3a4),5.0,,
+2895,(bromocriptine/pomc),22.0,,
+2896,(oxytocin/lhrh),1.0,,
+2897,(udenafil/pde5),28.0,,
+2898,(tetrabenazine/vmat2),28.0,,
+2899,(rosuvastatin/statin),1.0,,
+2900,(pioglitazone/pai-1),1.0,,
+2901,(buserelin/gnrh),0.0,,
+2902,(il-2/fasl),0.0,,
+2903,(pegfilgrastim/filgrastim),0.0,,
+2904,(pemetrexed/egfr),29.0,,
+2905,(irbesartan/ace2),8.0,,
+2906,(fluvoxamine/cyp1a2),28.0,,
+2907,(valdecoxib/cox-2),1.0,,
+2908,(sulindac/fmo3),27.0,,
+2909,(forskolin/alpha-msh),16.0,,
+2910,(bortezomib/skp2),4.0,,
+2911,(chloramphenicol/reca),28.0,,
+2912,(indomethacin/mrp1),25.0,,
+2913,(arsenite/vegf),22.0,,
+2914,(sr141716/cb1r),25.0,,
+2915,(maprotiline/herg),12.0,,
+2916,(sildenafil/pde5),28.0,,
+2917,(resveratrol/sirt1),22.0,,
+2918,(imatinib/ifn-alpha),9.0,,
+2919,(estradiol/stat3),25.0,,
+2920,(melatonin/mao-b),13.0,,
+2921,(telmisartan/ppargamma),22.0,,
+2922,(epirubicin/tace),6.0,,
+2923,(leflunomide/stat6),12.0,,
+2924,(melatonin/ins-1),5.0,,
+2925,(g-csf/interleukin-10),18.0,,
+2926,(protamine/testis-specific),24.0,,
+2927,(genistein/mucin),25.0,,
+2928,(aripiprazole/bdnf),5.0,,
+2929,(cimetidine/e-selectin),1.0,,
+2930,(etoposide/nf-kappab),3.0,,
+2931,(dexamethasone/gm-csf),8.0,,
+2932,(cysteamine/ghrelin),22.0,,
+2933,(cisplatin/rhob),2.0,,
+2934,(alendronate/rankl),5.0,,
+2935,(digoxin/hif-1),10.0,,
+2936,(menadione/dt-diaphorase),20.0,,
+2937,(cisplatin/survivin),21.0,,
+2938,(dexamethasone/il-13),0.0,,
+2939,(dexamethasone/il-10),18.0,,
+2940,(etoposide/p-gp),17.0,,
+2941,(rapamycin/egfr),23.0,,
+2942,(losartan/enos),24.0,,
+2943,(apap/mrp3),5.0,,
+2944,(atorvastatin/cd40l),22.0,,
+2945,(escitalopram/cyp2d6),13.0,,
+2946,(verapamil/fmlp),5.0,,
+2947,(erlotinib/her2),23.0,,
+2948,(erlotinib/her1),20.0,,
+2949,(cetrorelix/gnrh),0.0,,
+2950,(etoposide/caspase-3),29.0,,
+2951,(clonidine/pnmt),25.0,,
+2952,(estradiol/rankl),5.0,,
+2953,(pioglitazone/sgk1),22.0,,
+2954,(cyclosporin/cyp3a4),17.0,,
+2955,(lumiracoxib/cox-2),28.0,,
+2956,(etodolac/fap-1),1.0,,
+2957,(estradiol/cyp1a1),9.0,,
+2958,(bortezomib/amyloidosis),2.0,,
+2959,(paclitaxel/parp),28.0,,
+2960,(rabeprazole/gastrin),8.0,,
+2961,(berberine/pon1),0.0,,
+2962,(estradiol/cyp1a2),1.0,,
+2963,(nafarelin/gnrh),0.0,,
+2964,(paclitaxel/cyp2c8),17.0,,
+2965,(bleomycin/parp),22.0,,
+2966,(cisplatin/hipk2),29.0,,
+2967,(vincristine/traf1),2.0,,
+2968,(norepinephrine/vasa),24.0,,
+2969,(mitoxantrone/gm-csf),18.0,,
+2970,(rapamycin/phas-i),9.0,,
+2971,(il-11/hsp25),18.0,,
+2972,(rapamycin/stat3),1.0,,
+2973,(rifampin/mdr1),20.0,,
+2974,(physostigmine/cholinesterase),0.0,,
+2975,(estradiol/inos),20.0,,
+2976,(thiopentone/ml-1),2.0,,
+2977,(estradiol/kiss1),18.0,,
+2978,(topotecan/abcg2),15.0,,
+2979,(dexamethasone/calcitonin),24.0,,
+2980,(methylprednisolone/fsgs),27.0,,
+2981,(mesalazine/pp2a),12.0,,
+2982,(norepinephrine/kallikrein),13.0,,
+2983,(raloxifene/mmp-2),1.0,,
+2984,(lovastatin/p27kip1),22.0,,
+2985,(atra/klf4),8.0,,
+2986,(halofantrine/herg),12.0,,
+2987,(il-2/bcl-2),4.0,,
+2988,(zileuton/5-lipoxygenase),1.0,,
+2989,(ara-c/bcrp),15.0,,
+2990,(hemin/mcp-1),15.0,,
+2991,(cisplatin/asmase),10.0,,
+2992,(estradiol/ppargamma),13.0,,
+2993,(melatonin/caspase-3),17.0,,
+2994,(etoposide/caspase-7),29.0,,
+2995,(dexamethasone/vegf),0.0,,
+2996,(oxytocin/beta-endorphin),16.0,,
+2997,(mineralocorticoids/sgk1),24.0,,
+2998,(il-1ra/ifn-gamma),0.0,,
+2999,(enalapril/vegf),19.0,,
+3000,(prednisone/copd),17.0,,
+3001,(vincristine/hsp27),24.0,,
+3002,(estradiol/resistin),13.0,,
+3003,(fluvastatin/rhoa),0.0,,
+3004,(carvedilol/alpha1),0.0,,
+3005,(n-acetylcysteine/ho-1),13.0,,
+3006,(estradiol/cyp1b1),18.0,,
+3007,(melatonin/calmodulin),20.0,,
+3008,(leflunomide/inos),25.0,,
+3009,(dexamethasone/tlr2),22.0,,
+3010,(resveratrol/ap-1),27.0,,
+3011,(montelukast/inos),3.0,,
+3012,(saquinavir/cyp3a4),17.0,,
+3013,(bromperidol/cyp3a4),12.0,,
+3014,(pge2/icam-1),1.0,,
+3015,(protamine/vegf),21.0,,
+3016,(paclitaxel/bcl-xl),7.0,,
+3017,(dexamethasone/rantes),1.0,,
+3018,(melatonin/nf-kappab),3.0,,
+3019,(rofecoxib/cyp1a2),28.0,,
+3020,(rapamycin/p70s6k1),28.0,,
+3021,(tamoxifen/med1),5.0,,
+3022,(sulfadoxine/dhps),1.0,,
+3023,(metronidazole/cyp3a4),13.0,,
+3024,(dutasteride/pca3),0.0,,
+3025,(cyclosporine/cyclophilin),7.0,,
+3026,(fk506/cd40l),22.0,,
+3027,(verteporfin/vegf),11.0,,
+3028,(menadione/oxidoreductase),0.0,,
+3029,(cisplatin/fasl),22.0,,
+3030,(hydrocortisone/beta-glucuronidase),23.0,,
+3031,(goserelin/gnrh),29.0,,
+3032,(alendronate/fpps),28.0,,
+3033,(dexamethasone/adiponectin),21.0,,
+3034,(hyaluronan/rhamm),7.0,,
+3035,(gp120/cox-2),8.0,,
+3036,(glucosamine/mucin),18.0,,
+3037,(entacapone/catechol-o-methyltransferase),28.0,,
+3038,(pravastatin/enos),13.0,,
+3039,(rapamycin/inos),8.0,,
+3040,(etoricoxib/cyclooxygenase-2),12.0,,
+3041,(pitavastatin/rhoa),23.0,,
+3042,(sulfasalazine/abcg2),14.0,,
+3043,(gm-csf/b7-1),2.0,,
+3044,(ornithine/samdc),24.0,,
+3045,(oxycodone/cyp3a),28.0,,
+3046,(sorafenib/stat3),1.0,,
+3047,(escitalopram/bdnf),18.0,,
+3048,(paclitaxel/hsp27),3.0,,
+3049,(mineralocorticoids/kallikrein),21.0,,
+3050,(rofecoxib/cyclooxygenase-2),0.0,,
+3051,(glucosamine/furin),5.0,,
+3052,(plx4032/b-raf),23.0,,
+3053,(gm-csf/mt1-mmp),22.0,,
+3054,(celecoxib/hoat3),15.0,,
+3055,(adomet/prmt1),7.0,,
+3056,(atra/g-csf),8.0,,
+3057,(noradrenaline/icat),10.0,,
+3058,(acarbose/alpha-amylase),12.0,,
+3059,(pge2/hsp27),1.0,,
+3060,(metronidazole/oxidoreductase),7.0,,
+3061,(rituximab/fcgr3a),4.0,,
+3062,(dexamethasone/pomc),13.0,,
+3063,(ipratropium/copd),6.0,,
+3064,(atra/cyp26a1),15.0,,
+3065,(ouabain/phospholipase),29.0,,
+3066,(dicumarol/oxidoreductase),28.0,,
+3067,(warfarin/gas6),23.0,,
+3068,(genistein/igf-i),1.0,,
+3069,(flavopiridol/survivin),17.0,,
+3070,(naltrexone/oprm1),23.0,,
+3071,(theophylline/nf-kappab),7.0,,
+3072,(nifedipine/mmp-2),13.0,,
+3073,(terfenadine/p-gp),28.0,,
+3074,(ctla4ig/b7-1),25.0,,
+3075,(vasopressin/avpr1a),20.0,,
+3076,(vasopressin/avpr1b),20.0,,
+3077,(gemfibrozil/inos),12.0,,
+3078,(clomiphene/lhrh),16.0,,
+3079,(tegaserod/5-ht4),16.0,,
+3080,(genistein/enos),22.0,,
+3081,(norepinephrine/mao-a),15.0,,
+3082,(phenylephrine/sirt1),5.0,,
+3083,(paclitaxel/pc-3),24.0,,
+3084,(digoxin/abcb1),15.0,,
+3085,(paclitaxel/ociad1),7.0,,
+3086,(phenothiazine/calmodulin),0.0,,
+3087,(genistein/cox-2),0.0,,
+3088,(dicoumarol/nadph),12.0,,
+3089,(rituximab/nf-kappab),22.0,,
+3090,(almotriptan/5-ht1b),16.0,,
+3091,(il-2/cxcr3),24.0,,
+3092,(lapatinib/her-2),12.0,,
+3093,(melatonin/sert),13.0,,
+3094,(hyaluronan/shap),6.0,,
+3095,(forskolin/pai-1),13.0,,
+3096,(imatinib/cd34),5.0,,
+3097,(azathioprine/gsts),2.0,,
+3098,(dexamethasone/cyclooxygenase-2),22.0,,
+3099,(glucosamine/tgase),28.0,,
+3100,(cyclosporine/etanercept),2.0,,
+3101,(succinylcholine/cholinesterase),28.0,,
+3102,(acamprosate/beta-endorphin),7.0,,
+3103,(dibucaine/cholinesterase),2.0,,
+3104,(forskolin/ghrh),9.0,,
+3105,(zidovudine/il-1),13.0,,
+3106,(rapamycin/il-10),0.0,,
+3107,(il-2/cxcr4),26.0,,
+3108,(rosiglitazone/enos),22.0,,
+3109,(nutlin-3/rita),18.0,,
+3110,(telmisartan/adiponectin),25.0,,
+3111,(paclitaxel/ikappabalpha),10.0,,
+3112,(diclofenac/cox-2),23.0,,
+3113,(diclofenac/cox-1),28.0,,
+3114,(indomethacin/mucin),13.0,,
+3115,(ctla4-ig/cd28),12.0,,
+3116,(rapamycin/gcn2),7.0,,
+3117,(pravastatin/mrp2),7.0,,
+3118,(orlistat/cyp3a4),4.0,,
+3119,(irinotecan/drg1),17.0,,
+3120,(dexamethasone/stat3),9.0,,
+3121,(dhea/p450c17),20.0,,
+3122,(propranolol/gastrin),27.0,,
+3123,(daunorubicin/ryr2),7.0,,
+3124,(primaquine/g6pd),19.0,,
+3125,(probucol/abca1),0.0,,
+3126,(cisplatin/tace),6.0,,
+3127,(nitroprusside/inos),29.0,,
+3128,(dexamethasone/glut4),25.0,,
+3129,(pramlintide/amylin),16.0,,
+3130,(dexamethasone/glut1),17.0,,
+3131,(rapamycin/ccr5),24.0,,
+3132,(curcumin/md-2),7.0,,
+3133,(tiagabine/gat-1),28.0,,
+3134,(haloperidol/proenkephalin),18.0,,
+3135,(pge2/pla2),2.0,,
+3136,(coumarin/cyp2a),20.0,,
+3137,(pge2/mmp-2),27.0,,
+3138,(enoxacin/cyp1a2),15.0,,
+3139,(pge2/mmp-3),27.0,,
+3140,(haloperidol/5-ht1a),16.0,,
+3141,(dhea/g6pdh),28.0,,
+3142,(tetrahydroaminoacridine/cholinesterase),12.0,,
+3143,(fluoxetine/hsert),17.0,,
+3144,(gm-csf/eotaxin),18.0,,
+3145,(rosiglitazone/il-1ra),27.0,,
+3146,(proguanil/cyp2c19),6.0,,
+3147,(geldanamycin/enos),13.0,,
+3148,(cisplatin/pdcd5),2.0,,
+3149,(tamoxifen/lhrh),29.0,,
+3150,(simvastatin/ho-1),27.0,,
+3151,(ceftibuten/pept1),23.0,,
+3152,(spironolactone/ctgf),18.0,,
+3153,(chloramphenicol/pai-1),24.0,,
+3154,(cyclosporine/cypa),28.0,,
+3155,(pioglitazone/afabp),15.0,,
+3156,(cyclosporine/g-csf),18.0,,
+3157,(n-acetylcysteine/ap-1),12.0,,
+3158,(pioglitazone/apoa-i),24.0,,
+3159,(resveratrol/ho-1),4.0,,
+3160,(curcumin/npc1l1),12.0,,
+3161,(terbinafine/cyp2d6),28.0,,
+3162,(filgrastim/sargramostim),2.0,,
+3163,(sargramostim/filgrastim),18.0,,
+3164,(nabumetone/cox-2),28.0,,
+3165,(oseltamivir/neuraminidase),1.0,,
+3166,(pranlukast/cyp3a4),15.0,,
+3167,(pge2/timp-1),4.0,,
+3168,(sn-38/bcrp),15.0,,
+3169,(pge2/beta-induced),8.0,,
+3170,(rapamycin/ppiase),23.0,,
+3171,(gemcitabine/survivin),8.0,,
+3172,(ctla4ig/ctla4),27.0,,
+3173,(ketoconazole/aromatase),12.0,,
+3174,(bezafibrate/rantes),3.0,,
+3175,(erythromycin/herg),25.0,,
+3176,(desipramine/creb),1.0,,
+3177,(pge2/aqp2),29.0,,
+3178,(secretin/gastrin),21.0,,
+3179,(chloramphenicol/camr),20.0,,
+3180,(dexamethasone/cyp1a1),5.0,,
+3181,(curcumin/mtor),1.0,,
+3182,(dexamethasone/rankl),22.0,,
+3183,(clozapine/cyp3a4),28.0,,
+3184,(sorafenib/vegf),0.0,,
+3185,(simvastatin/p-selectin),13.0,,
+3186,(sirolimus/fsgs),18.0,,
+3187,(naringenin/apob),18.0,,
+3188,(ndga/5-lipoxygenase),12.0,,
+3189,(l-citrulline/nadph),8.0,,
+3190,(dexamethasone/resistin),19.0,,
+3191,(indomethacin/ml-1),19.0,,
+3192,(chloramphenicol/il-1),27.0,,
+3193,(fluoxetine/trek-1),28.0,,
+3194,(estradiol/vegf),18.0,,
+3195,(analgesics/cyclooxygenase-2),1.0,,
+3196,(etoposide/filgrastim),2.0,,
+3197,(voriconazole/cyp2c19),17.0,,
+3198,(hyaluronan/erbb2),24.0,,
+3199,(curcumin/ampk),12.0,,
+3200,(dhea/gnrh),23.0,,
+3201,(rapamycin/rps6),27.0,,
+3202,(imatinib/c-fms),1.0,,
+3203,(11beta/hsd1),1.0,,
+3204,(yohimbine/kallikrein),21.0,,
+3205,(betaine/gat2),27.0,,
+3206,(ketoconazole/cyp3a4),1.0,,
+3207,(nateglinide/glp-1),21.0,,
+3208,(genistein/cyp24),28.0,,
+3209,(dexamethasone/inos),0.0,,
+3210,(gm-csf/csf2),20.0,,
+3211,(indomethacin/cox-1),28.0,,
+3212,(indomethacin/cox-2),1.0,,
+3213,(sertraline/sert),12.0,,
+3214,(amprenavir/cyp3a4),28.0,,
+3215,(dexamethasone/p450scc),22.0,,
+3216,(loratadine/leukotriene),16.0,,
+3217,(aldosterone/cyp11b2),20.0,,
+3218,(alendronate/vegf),1.0,,
+3219,(estradiol/adiponectin),9.0,,
+3220,(aldosterone/cyp11b1),20.0,,
+3221,(atorvastatin/statin),1.0,,
+3222,(budesonide/copd),6.0,,
+3223,(glibenclamide/sur1),6.0,,
+3224,(ctla4-ig/cd80),7.0,,
+3225,(irbesartan/mcp-1),21.0,,
+3226,(theophylline/hdac),29.0,,
+3227,(clomipramine/herg),5.0,,
+3228,(auranofin/il-1),13.0,,
+3229,(alendronate/calcitonin),2.0,,
+3230,(dexamethasone/inositol),18.0,,
+3231,(dofetilide/herg),12.0,,
+3232,(hyaluronan/tsg-6),24.0,,
+3233,(topotecan/hif-1),17.0,,
+3234,(genistein/pi3k),25.0,,
+3235,(oltipraz/hif-1alpha),10.0,,
+3236,(phenylephrine/pdha),28.0,,
+3237,(staurosporine/eaat4),23.0,,
+3238,(isoprenaline/endothelin-1),7.0,,
+3239,(telmisartan/at1r),0.0,,
+3240,(norepinephrine/sert),26.0,,
+3241,(suramin/srbc),19.0,,
+3242,(camptothecin/top1),1.0,,
+3243,(rapamycin/vegf),0.0,,
+3244,(docetaxel/p-gp),17.0,,
+3245,(streptokinase/alteplase),0.0,,
+3246,(mk-571/mrp1),12.0,,
+3247,(taurine/cyp7a1),0.0,,
+3248,(mk-571/mrp2),13.0,,
+3249,(collagenase/ap-1),9.0,,
+3250,(imatinib/g-csf),18.0,,
+3251,(staurosporine/pkc-alpha),28.0,,
+3252,(entacapone/comt),23.0,,
+3253,(arsenite/cyp1a1),13.0,,
+3254,(naloxone/copd),2.0,,
+3255,(glcnac/nagk),12.0,,
+3256,(il-2/mcp-1),25.0,,
+3257,(docetaxel/nf-kappab),0.0,,
+3258,(rifampin/p-gp),0.0,,
+3259,(dhea/ppar),16.0,,
+3260,(paracetamol/cyp2e1),15.0,,
+3261,(atra/tsp-1),4.0,,
+3262,(forskolin/il-1),19.0,,
+3263,(corticosteroids/g-csf),11.0,,
+3264,(ouabain/alpha1),1.0,,
+3265,(staurosporine/cdk2),6.0,,
+3266,(terbutaline/gastrin),27.0,,
+3267,(imipenem/oprd),11.0,,
+3268,(mexiletine/cyp1a2),15.0,,
+3269,(indomethacin/nag-1),22.0,,
+3270,(proguanil/dhfr),28.0,,
+3271,(estrone/dheas),5.0,,
+3272,(bumetanide/nkcc1),12.0,,
+3273,(oxaliplatin/egfr),9.0,,
+3274,(amd3100/cxcr-4),16.0,,
+3275,(cimetidine/gastrin),27.0,,
+3276,(taurine/cx26),25.0,,
+3277,(trimethoprim/dhfr),28.0,,
+3278,(docetaxel/caspase-3),7.0,,
+3279,(sulfasalazine/nat2),24.0,,
+3280,(melatonin/mel1c),7.0,,
+3281,(prednisolone/rhoa),17.0,,
+3282,(tolbutamide/gastrin),23.0,,
+3283,(bortezomib/pp2a),17.0,,
+3284,(sulphonamide/calmodulin),0.0,,
+3285,(mannitol/nadph),16.0,,
+3286,(tamoxifen/p-gp),8.0,,
+3287,(risperidone/5-ht2a),16.0,,
+3288,(levamisole/tnap),12.0,,
+3289,(glibenclamide/cgrp),3.0,,
+3290,(gp120/ccr5),7.0,,
+3291,(probenecid/bfgf),4.0,,
+3292,(il-11/gp130),1.0,,
+3293,(danazol/aromatase),23.0,,
+3294,(ivacaftor/cftr),17.0,,
+3295,(cisplatin/smac),26.0,,
+3296,(alprazolam/cyp3a4),15.0,,
+3297,(atra/pai-1),15.0,,
+3298,(atomoxetine/herg),12.0,,
+3299,(anastrozole/aromatase),1.0,,
+3300,(desipramine/cyp2d6),17.0,,
+3301,(dibucaine/butyrylcholinesterase),25.0,,
+3302,(atorvastatin/rhoa),25.0,,
+3303,(adalimumab/etanercept),2.0,,
+3304,(aminopterin/fpgs),17.0,,
+3305,(methacholine/atopy),7.0,,
+3306,(rapamycin/trpm6),19.0,,
+3307,(vasopressin/aqp-2),20.0,,
+3308,(rapamycin/frap),1.0,,
+3309,(creatine/gamt),26.0,,
+3310,(indomethacin/endothelin-1),22.0,,
+3311,(novobiocin/hsp90),26.0,,
+3312,(carbachol/pyk2),10.0,,
+3313,(tamoxifen/calmodulin),0.0,,
+3314,(hydrocortisone/pai-1),13.0,,
+3315,(enoxaparin/tfpi),24.0,,
+3316,(hyaluronan/has1),20.0,,
+3317,(glyburide/bcrp),15.0,,
+3318,(losartan/sar1),11.0,,
+3319,(hyaluronan/has3),20.0,,
+3320,(hyaluronan/has2),20.0,,
+3321,(mitomycin/reca),0.0,,
+3322,(pravastatin/oatp),28.0,,
+3323,(genistein/pi-9),25.0,,
+3324,(losartan/adiponectin),21.0,,
+3325,(basiliximab/cd25),18.0,,
+3326,(capsaicin/tnox),15.0,,
+3327,(formoterol/copd),6.0,,
+3328,(dobutamine/inos),22.0,,
+3329,(dexamethasone/igfbp-1),27.0,,
+3330,(hyaluronan/glycosyltransferase),20.0,,
+3331,(cisplatin/atp7b),17.0,,
+3332,(clarithromycin/cyp3a4),28.0,,
+3333,(gp120/il-10),29.0,,
+3334,(dexamethasone/igfbp-5),23.0,,
+3335,(dexamethasone/igfbp-4),17.0,,
+3336,(indomethacin/indo),18.0,,
+3337,(dexamethasone/igfbp-3),23.0,,
+3338,(6-mercaptopurine/nurr1),25.0,,
+3339,(warfarin/cyp2c9),15.0,,
+3340,(rapamycin/pp2a),17.0,,
+3341,(rosiglitazone/ppargamma),0.0,,
+3342,(rosiglitazone/inos),7.0,,
+3343,(hyaluronidase/mucin),27.0,,
+3344,(gm-csf/gp100),18.0,,
+3345,(aripiprazole/cyp3a4),17.0,,
+3346,(gm-csf/ifn-gamma),0.0,,
+3347,(daclizumab/cd25),17.0,,
+3348,(vincristine/cyp3a4),17.0,,
+3349,(nadh/nox-1),20.0,,
+3350,(vincristine/cyp3a5),17.0,,
+3351,(infliximab/gm-csf),13.0,,
+3352,(estrone/sulfatase),1.0,,
+3353,(rapamycin/fkbp12),7.0,,
+3354,(simvastatin/caspase-3),29.0,,
+3355,(pertuzumab/egfr),12.0,,
+3356,(analgesics/cox-2),28.0,,
+3357,(exenatide/glp-1),7.0,,
+3358,(dobutamine/ctni),20.0,,
+3359,(pimozide/calmodulin),0.0,,
+3360,(resveratrol/caspase-3),3.0,,
+3361,(prednisolone/copd),0.0,,
+3362,(rosiglitazone/resistin),13.0,,
+3363,(plerixafor/cd34),7.0,,
+3364,(hyaluronate/mesoderm),7.0,,
+3365,(etoposide/g-csf),18.0,,
+3366,(gm-csf/m-csf),18.0,,
+3367,(rapamycin/fkbp25),1.0,,
+3368,(galantamine/nachr),16.0,,
+3369,(berberine/cox-2),17.0,,
+3370,(genistein/gm-csf),25.0,,
+3371,(nitroprusside/enos),13.0,,
+3372,(ara-c/gm-csf),2.0,,
+3373,(salmeterol/copd),0.0,,
+3374,(dexamethasone/mucin),3.0,,
+3375,(dexamethasone/p300),5.0,,
+3376,(fluoxetine/bdnf),0.0,,
+3377,(naloxone/gnrh),27.0,,
+3378,(l-dopa/catechol-o-methyltransferase),17.0,,
+3379,(ceftriaxone/eaat2),6.0,,
+3380,(simvastatin/nf-kappab),17.0,,
+3381,(arsenite/cox-2),13.0,,
+3382,(resveratrol/nf-kappab),25.0,,
+3383,(indomethacin/cyclooxygenase-2),12.0,,
+3384,(g-csf/g-csf-r),18.0,,
+3385,(warfarin/vkorc1),2.0,,
+3386,(gemcitabine/rrm1),10.0,,
+3387,(berberine/glp-1),18.0,,
+3388,(rituximab/cd20),7.0,,
+3389,(genistein/il-10),25.0,,
+3390,(indomethacin/cyclooxygenase-1),12.0,,
+3391,(halothane/nadph),8.0,,
+3392,(riluzole/trek-1),22.0,,
+3393,(rituximab/etanercept),2.0,,
+3394,(methotrexate/hoat3),15.0,,
+3395,(aldosterone/alpha-msh),11.0,,
+3396,(desipramine/bdnf),22.0,,
+3397,(norepinephrine/cgrp),5.0,,
+3398,(infliximab/vegf),0.0,,
+3399,(sulindac/nf-kappab),23.0,,
+3400,(pge2/cpla2),22.0,,
+3401,(dexamethasone/amyloidosis),6.0,,
+3402,(dexamethasone/pthrp),1.0,,
+3403,(losartan/at-1),0.0,,
+3404,(meth/amph),2.0,,
+3405,(sn-38/ugt1a),15.0,,
+3406,(flutamide/aadac),24.0,,
+3407,(deferoxamine/hif-1alpha),18.0,,
+3408,(ketamine/nf-kappab),0.0,,
+3409,(il-2/cd40l),2.0,,
+3410,(plerixafor/g-csf),18.0,,
+3411,(dirithromycin/cyp3a),28.0,,
+3412,(camptothecin/caspase-3),16.0,,
+3413,(curcumin/mcp-1),0.0,,
+3414,(mitoxantrone/bcrp),15.0,,
+3415,(simvastatin/pai-1),1.0,,
+3416,(dexamethasone/il-1ra),18.0,,
+3417,(montelukast/cyslt2),11.0,,
+3418,(metformin/mdr1),0.0,,
+3419,(acarbose/alpha-glucosidase),12.0,,
+3420,(montelukast/cyslt1),6.0,,
+3421,(sunitinib/stat3),1.0,,
+3422,(estradiol/cyp19),24.0,,
+3423,(pge2/gastrin),21.0,,
+3424,(octreotide/gastrin),21.0,,
+3425,(melphalan/ifn-gamma),6.0,,
+3426,(phosphatidylserine/gas6),9.0,,
+3427,(forskolin/pde4),28.0,,
+3428,(minocycline/bcl-2),8.0,,
+3429,(aldosterone/p450aldo),20.0,,
+3430,(sorafenib/mrp2),17.0,,
+3431,(daunorubicin/mrp1),26.0,,
+3432,(l-isoleucine/trna),7.0,,
+3433,(docetaxel/sphk1),25.0,,
+3434,(fk506/bcl-2),21.0,,
+3435,(warfarin/apoe),9.0,,
+3436,(plx4032/braf),28.0,,
+3437,(memantine/bdnf),29.0,,
+3438,(oc144-093/p-gp),28.0,,
+3439,(carbamazepine/cyp3a4),15.0,,
+3440,(fluvoxamine/cyp3a),28.0,,
+3441,(melatonin/nrf2),22.0,,
+3442,(voglibose/alpha-glucosidase),12.0,,
+3443,(camptothecin/nf-kappab),29.0,,
+3444,(oxytocin/alpha-msh),11.0,,
+3445,(aminoglutethimide/aromatase),1.0,,
+3446,(bevacizumab/egfr),28.0,,
+3447,(erlotinib/rad51),23.0,,
+3448,(cisplatin/mkk3),3.0,,
+3449,(genistein/vegf),3.0,,
+3450,(fluorescein/cd42b),5.0,,
+3451,(aprepitant/nk-1),0.0,,
+3452,(rapamycin/rictor),5.0,,
+3453,(rapamycin/pi3k),28.0,,
+3454,(diclofenac/cyclooxygenase-2),12.0,,
+3455,(suramin/gp120),7.0,,
+3456,(aldosterone/pkd1),29.0,,
+3457,(resveratrol/foxo1),8.0,,
+3458,(sti-571/c-abl),12.0,,
+3459,(cyclosporine/mdr1),2.0,,
+3460,(dexamethasone/igf-i),22.0,,
+3461,(atra/il-1),2.0,,
+3462,(aldosterone/enacalpha),19.0,,
+3463,(sildenafil/cpap),2.0,,
+3464,(il-1ra/icam-1),5.0,,
+3465,(avastin/vegf),0.0,,
+3466,(dexamethasone/cox-2),13.0,,
+3467,(nadh/pgdh),11.0,,
+3468,(pge2/m-csf),18.0,,
+3469,(aminopterin/hoat1),15.0,,
+3470,(pyridoxine/egot),12.0,,
+3471,(geldanamycin/hsf1),10.0,,
+3472,(decitabine/dnmt),28.0,,
+3473,(flurbiprofen/cyp2c9),22.0,,
+3474,(zanamivir/neuraminidase),12.0,,
+3475,(pravastatin/adiponectin),2.0,,
+3476,(verapamil/calmodulin),28.0,,
+3477,(enalapril/enos),6.0,,
+3478,(abatacept/ctla-4),27.0,,
+3479,(indomethacin/ppargamma),3.0,,
+3480,(daunorubicin/prolidase),23.0,,
+3481,(rosiglitazone/glut4),0.0,,
+3482,(fluoxetine/cyp2d6),28.0,,
+3483,(galanthamine/cholinesterase),28.0,,
+3484,(atorvastatin/fasl),27.0,,
+3485,(atorvastatin/mcm6),17.0,,
+3486,(fibrates/pai-1),15.0,,
+3487,(ritonavir/cd36),9.0,,
+3488,(mitomycin/rad51),0.0,,
+3489,(melatonin/sirt1),10.0,,
+3490,(zidovudine/ifn-alpha),18.0,,
+3491,(losartan/at1r),7.0,,
+3492,(il-2/perlecan),7.0,,
+3493,(ciclosporin/p-gp),17.0,,
+3494,(atra/p-gp),24.0,,
+3495,(disulfiram/5-lipoxygenase),23.0,,
+3496,(verapamil/p-gp),25.0,,
+3497,(cerivastatin/statin),1.0,,
+3498,(carbachol/rgs2),5.0,,
+3499,(doxycycline/vegf),17.0,,
+3500,(collagenase/mmp1),20.0,,
+3501,(ndga/15-lox),28.0,,
+3502,(doxorubicin/mdr1),22.0,,
+3503,(pge2/aromatase),1.0,,
+3504,(erythromycin/p-gp),15.0,,
+3505,(methoxsalen/cyp2a6),28.0,,
+3506,(atra/nf-kappab),23.0,,
+3507,(delavirdine/cyp3a),28.0,,
+3508,(pge2/ifn-gamma),11.0,,
+3509,(dexamethasone/nfkappab),28.0,,
+3510,(propafenone/cyp1a2),28.0,,
+3511,(cisplatin/brca1),28.0,,
+3512,(ndga/nrf2),29.0,,
+3513,(zolmitriptan/5-ht1b),16.0,,
