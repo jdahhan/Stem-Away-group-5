@@ -1,0 +1,60 @@
+---
+title: "Dendrogram"
+output: html_notebook
+---
+
+```{r, warning=F, message=F}
+library(data.table)
+library(ape)
+library(purrr)
+library(protoclust)
+```
+
+```{r, warning=F}
+#Co-occurrence matrix
+itcc_data = fread("Co-occurrency_Matrix.csv")
+
+
+#to compare with DrugBank
+artifact_itcc = fread("artifact_itcc.csv")
+artifact_itcc1 = sapply(artifact_itcc, as.double)
+artifact_itcc1 = artifact_itcc1[,-c(1,2)]
+rownames(artifact_itcc1) <- artifact_itcc$label
+
+```
+
+```{r}
+correlation1 = cor(itcc_data[,2:ncol(itcc_data)])
+
+# distance metric
+input1 = 1 - correlation1
+cluster1 = protoclust(input1, verb = F )
+
+# number of cluster k
+k = 25 #
+cut1 = protocut(cluster1, k = k)
+n1 = nrow(input1)
+h1 = cluster1$height[n1-k]
+```
+ 
+
+```{r}
+{plotwithprototypes(cluster1, imerge = (n1-1), col = 2, cex = .1, font = 0.2, labels = NULL)
+  abline(h=h1, lty=, col ="red")}
+```
+
+
+```{r}
+#jpeg("den.jpeg")
+par(xpd = TRUE)
+{plot(as.phylo(cluster1), "f",  x.lim = c(-2, 2), show.tip.label = F, no.margin = TRUE)
+ring(artifact_itcc1[,1]*0.0001,as.phylo(cluster1),offset = 0.1,  col = "turquoise" ) #count
+ring(artifact_itcc1[,2]*0.03,  as.phylo(cluster1),offset = 0.02,  col = "orange1" )  #pgkp
+ring(artifact_itcc1[,3]*0.03,  as.phylo(cluster1),offset = 0.05,  col = "steelblue3" ) #drugbank 
+
+}
+#dev.off()
+```
+
+
+
