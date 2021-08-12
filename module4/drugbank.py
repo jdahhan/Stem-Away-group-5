@@ -1,9 +1,5 @@
-"""
-Goal: Generate seed and test sets
-"""
-
-
-def ingest_drugbank(path):
+def ingest_drugbank(path) -> None:
+    """Parsing steps to get the drunk bank data from the XML. Makes a saved TSV file"""
     filepath = "full database.xml"
     file = open(filepath, "r", encoding="UTF-8")
     allpairs = []

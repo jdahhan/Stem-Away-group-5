@@ -126,7 +126,7 @@ class ITCC:
     def get_drugbank_artifact(
         self,
         drugbank_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module4/drugbank_pairs.tsv",
-        pairpath_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module3/Pair_Path_Mapping.csv",
+        pairpath_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/module3/Pair_Path_Mapping_Dense.csv",
     ) -> pd.DataFrame:
         """This function uses the drugbank and pairpath CSV file to create a
         consolidated dataframe with the drugbank ground truth column.
@@ -149,7 +149,7 @@ class ITCC:
         )
 
         # checking for matches in the drug gene column and the drugbank genes
-        exists_mask = [i in text_parse for i in pair_paths["drug-gene"]]
+        exists_mask = [i in text_parse for i in pair_paths["Drug-Gene"]]
 
         pair_paths["DrugBank"] = exists_mask  # adding ground truth column
 
@@ -198,6 +198,9 @@ class ITCC:
                     matrix[i][j] += 1
 
         return matrix
+
+    def get_dense_artifact(self, full_artifact: pd.DataFrame, dense_path: str):
+        pass
 
     # Helper methods
     def _peek_matrix(self):

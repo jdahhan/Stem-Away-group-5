@@ -17,7 +17,7 @@ df = i.get_drugbank_artifact()
 df
 
 #%%
-df.to_csv("/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/itcc_artifact.csv")
+df.to_csv("/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/itcc_dense_artifact.csv")
 df.head()
 #%%
 %time
