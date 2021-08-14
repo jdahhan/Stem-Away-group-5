@@ -38,21 +38,6 @@ class EBCScoring:
         not_in_drugbank_sample = not_in_drugbank.sample(n=half_size)
         return drugbank_sample.append(not_in_drugbank_sample)
 
-    def get_N_data(self, low=5, high=12, N=1000):
-        """Get N seed sets"""
-        artifact = self.get_dense_itcc_artifact()
-        lengths = np.random.randint(low, high, N)
-
-        seedsets = []
-        testsets = []
-        # Get seedsets and test sets
-        for l in lengths:
-            seed_set, test_set = self.get_seed_and_test_sets(artifact, l)
-            seedsets.append(seed_set)
-            testsets.append(test_set)
-
-        return seedsets, testsets
-
     def generate_filtered_matrix(self, test_set_pairs: pd.Series):
         """Generates the test set coocurance matrix
         Inputs:
@@ -81,7 +66,7 @@ class EBCScoring:
         matrix["SeedSet"] = [i in seed_pairs for i in matrix.index]
         return matrix
 
-    def score(self, ebc_scoring_artifact, drugbank_pairs):
+    def get_rankings(self, ebc_scoring_artifact):
         """This is where I generate a score for each test set and seed set pair.
 
         Paper description of process:
@@ -92,8 +77,40 @@ class EBCScoring:
         and those that seldom cluster get low ranks. The score for Ti is the ranksum
         of the member sof the seed set, S, within this list
         """
-        for i, j in ebc_scoring_artifact.to_dict("list").items():
-            
+
+        results = {}
+
+        # k is one test set member, v is the coocurances of that test set member
+        for k, v in ebc_scoring_artifact.to_dict("list").items():
+            linked = [(i, j) for i, j in zip(ebc_scoring_artifact.index, v)]
+
+            # Sorting the coocurance counts
+            coocurance_counts = sorted(linked, key=lambda x: x[1], reverse=True)
+
+            # Converting from coocurance counts to ranks. 1 is the most frequent. N is the least frequent.
+            ranks = [i for i in range(1, len(coocurance_counts) + 1)]
+            pairs = [i[0] for i in coocurance_counts]
+            results[k] = dict(zip(pairs, ranks))
+
+        return results
+
+    def count_scores(self, rankings: dict, ebc_scoring_artifact):
+        """Creating the scoring for each test set"""
+        # Filtering to just the seedset members
+        seedset_members: pd.DataFrame = ebc_scoring_artifact[
+            ebc_scoring_artifact["SeedSet"] == True
+        ]
+        seedset_members_pairs = list(seedset_members.index)
+        final = {}
+        for testset_member, scores in rankings.items():
+            seedset_ranks = {}
+            for pair, rank in scores.items():
+                if pair in seedset_members_pairs:
+                    seedset_ranks["pair"] = rank
+            final[testset_member] = sum(seedset_ranks.values())
+        if "SeedSet" in final:
+            final.pop("SeedSet")  # removing uneeded additional entry
+        return final
 
     def get_cooccurance(
         self,
@@ -119,6 +136,40 @@ class EBCScoring:
             index_col=0,
         )
 
-    def main(self):
+    def run_once(self, seed, test):
         """Runthrough of intended usage"""
-        pass
+
+        df = self.generate_filtered_matrix(test["Drug-Gene"])
+
+        scoring = self.generate_ebc_scoring_artifact(
+            filtered_matrix=df, seed_pairs=seed["Drug-Gene"]
+        )
+
+        rankings = self.get_rankings(ebc_scoring_artifact=scoring)
+
+        test_set_scores = self.count_scores(
+            rankings=rankings, ebc_scoring_artifact=scoring
+        )
+
+        return test_set_scores
+
+    def run_R_times(self, low=5, high=12, R=1000) -> list:
+        """Create seed and test sets R times and return
+        a list of dictionaries containing all the test set scores
+        for each seed-testset pair."""
+        artifact = self.get_dense_itcc_artifact()
+        lengths = np.random.randint(low, high, R)
+
+        test_sets = []
+
+        # Get seedsets and test sets
+        for sample_size in lengths:
+            seed_set, test_set = self.get_seed_and_test_sets(
+                artifact=artifact, sample_size=sample_size
+            )
+
+            # Actually implement the scoring
+            test_set_scores = self.run_once(seed=seed_set, test=test_set)
+            test_sets.append(test_set_scores)
+
+        return test_sets
