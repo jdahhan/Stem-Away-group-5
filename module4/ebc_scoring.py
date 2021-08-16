@@ -4,12 +4,16 @@ import numpy as np
 
 
 class EBCScoring:
-    def __init__(self, itcc, seed_set_size: int = 10):
-        self.seed_set_size = seed_set_size
-        self.itcc = itcc  # ITCC object from module 3
+    def __init__(self):
+        # self.itcc = itcc  # ITCC object from module 3
+        pass
 
     def get_seed_and_test_sets(self, artifact: pd.DataFrame, sample_size: int):
-        """Samples the seed set, then the test set. Finally returns both."""
+        """Samples the seed set, then the test set. Finally returns both.
+
+        sample_size: Test set will be have floor(n/2) DrugBank pairs and seed set will be
+            sample_size long
+        """
         filtered = artifact[artifact["DrugBank"] == True]
 
         seed_set_sample = filtered.sample(n=sample_size)
@@ -153,14 +157,16 @@ class EBCScoring:
 
         return test_set_scores
 
-    def run_R_times(self, low=5, high=12, R=1000) -> list:
-        """Create seed and test sets R times and return
+    def run_R_times(self, low=5, high=50, R=1000, save_artifacts=False) -> list:
+        """This is the most important function in this class
+
+        Create seed and test sets R times and return
         a list of dictionaries containing all the test set scores
         for each seed-testset pair."""
         artifact = self.get_dense_itcc_artifact()
         lengths = np.random.randint(low, high, R)
-
-        test_sets = []
+        seed_test_sets = []
+        all_test_set_scores = []
 
         # Get seedsets and test sets
         for sample_size in lengths:
@@ -168,8 +174,27 @@ class EBCScoring:
                 artifact=artifact, sample_size=sample_size
             )
 
+            # Logging the seed and test sets of the particular run
+            seed_test_sets.append((seed_set, test_set))
+
             # Actually implement the scoring
             test_set_scores = self.run_once(seed=seed_set, test=test_set)
-            test_sets.append(test_set_scores)
+            all_test_set_scores.append(test_set_scores)
 
-        return test_sets
+        if save_artifacts:
+            self.to_pickle(obj=all_test_set_scores, file_name="trials")
+            self.to_pickle(obj=seed_test_sets, file_name="seed_test_sets")
+
+        return seed_test_sets, all_test_set_scores
+
+    def to_pickle(self, obj, file_name) -> None:
+        """Save the artifacts to pickle files with dates attached"""
+
+        import pickle
+        from datetime import datetime
+
+        time = datetime.now().strftime("%Y-%m-%d,%H:%M")
+        with open(
+            f"../data/artifacts/scores/{file_name}" + f"_{time}.txt", "wb"
+        ) as fp:  # Pickling
+            pickle.dump(obj, fp)
