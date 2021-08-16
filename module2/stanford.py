@@ -448,10 +448,12 @@ def get_common_path_example(sp):
     """This is the what you actually want to modify"""
     tmpl = 'Least common node for "%s" and "%s": "%s"'
     print("Common path:")
-    text = "The quick brown fox jumped over a lazy dog."
+    # text = "The quick brown fox jumped over a lazy dog."
+    text = "The method has been applied to the solitary histidine residue of lysozyme, alpha-lytic protease, and Streptomyces griseus (S.G.) trypsin, as well as to the amino terminus of the latter protein."
     print("Text:", text)
-    i = 4
-    j = 9
+    # i = 4
+    # j = 9
+    i, j = 9, 15
     sentence = sp.parse(text)
     lcn, shortest_path = sentence.get_least_common_node(i, j)
     print(tmpl % (sentence.word[i], sentence.word[j], sentence.word[lcn]))
