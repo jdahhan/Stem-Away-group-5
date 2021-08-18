@@ -4,4 +4,5 @@ This project is about replicating and extending the research of Percha and Altma
 
 ### Our Pipeline:
 
-![STEM Away - Pipeline Version 2](https://user-images.githubusercontent.com/44710581/129503251-b0122ddb-cb30-44e9-b53f-5a279cea805c.png)
+![STEM Away - Pipeline Version 3](https://user-images.githubusercontent.com/44710581/129920146-f5107736-62c3-49db-98f8-a0bd2a1830ee.png)
+
