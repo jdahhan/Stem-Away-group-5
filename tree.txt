@@ -1,0 +1,991 @@
+
+| |____tests
+| | |____sample-matrix-file.txt
+| | |____test_clusters.py
+| | |____test_sanitycheck.py
+| | |____test_ebc.py
+| | |____test_benchmark_ebc.py
+| | |____test_benchmark_ebc2d.py
+| | |____test_matrix.py
+| |____ebc.py
+| |______init__.py
+| |______pycache__
+| | |______init__.cpython-38.pyc
+| | |____ebc.cpython-38.pyc
+| | |____matrix.cpython-38.pyc
+| |____README.md
+| |____.gitignore
+| |____ebc2d.py
+| |____.ipynb_checkpoints
+| |____clusters-repeat.py
+| |____.git
+| | |____config
+| | |____objects
+| | | |____info
+| | |____HEAD
+| | |____info
+| | | |____exclude
+| | |____logs
+| | | |____HEAD
+| | | |____refs
+| | | | |____heads
+| | | | | |____master
+| | | | |____remotes
+| | | | | |____origin
+| | | | | | |____HEAD
+| | |____description
+| | | |____heads
+| | | | |____master
+| | | |____tags
+| | | |____remotes
+| | | | |____origin
+| | | | | |____HEAD
+| | |____index
+| | |____packed-refs
+| | |____FETCH_HEAD
+| |____LICENSE.txt
+|____.DS_Store
+|____LICENSE
+|____module4
+| |____test_ebc_scoring.py
+| |____implement_ebc_scoring.py
+| |____ebc_scoring_walkthrough.ipynb
+| |____ebc_scoring.py
+| |____drugbank_pairs.tsv
+| |______pycache__
+| | |____ebc_scoring.cpython-38.pyc
+| | |____auc.cpython-38.pyc
+| | |____visualize.cpython-38.pyc
+| |____visualize.py
+| |____.ipynb_checkpoints
+| |____auc_walkthrough.ipynb
+| |____temp-plot.html
+| |____drugbank.py
+| |____auc.py
+|____module3
+| |____ebc
+| | |____matrix.py
+| | |____ebc.py
+| | |______pycache__
+| | | |____ebc.cpython-38.pyc
+| | | |____matrix.cpython-38.pyc
+| |____Co-occurrency Matrix
+| | |____Co-occurrency.ipynb
+| | |____Co-occurrency_Matrix.csv
+| |____biomedical_eda.py
+| |____implement_itcc.py
+| |______init__.py
+| |______pycache__
+| | |______init__.cpython-38.pyc
+| | |____itcc.cpython-38.pyc
+| | |____visualize.cpython-38.pyc
+| |____visualize.py
+| |____itcc.py
+| |____pair_path_mappings.ipynb
+| |____itcc_test.py
+| |____Pair_Path_Mapping_Sparse.csv
+| |____cXY.csv
+| |____.ipynb_checkpoints
+| |____druggene_mappings.csv
+| |____path_mappings.csv
+| |____Pair_Path_Mapping_Dense.csv
+|____module2
+| |____prepare_pubmed_data.py
+| |____.coverage
+| |______init__.py
+| |______pycache__
+| | |____stanford.cpython-38.pyc
+| | |____prepare_pubmed_data.cpython-38.pyc
+| |____module2attempt.py
+| |____stanford.py
+| |____path_parse.py
+| |____prepare_pubmed_data_test.py
+| |____test_stanford.py
+| |____module2 dependency matrix.ipynb
+| |____depedency_matrix_synthesis.py
+|____module5
+| |____artifact_itcc.csv
+| |____cluster_dendrogram.jpeg
+| |____agglomerative_clustering.py
+| |____dendrogram.jpeg
+| |____Stem dendrogram.Rmd
+|____stanford-parser-full-2014-10-31
+| |____edu
+| | |____stanford
+| | | |____nlp
+| | | | |____models
+| | | | | |____lexparser
+| | | | | | |____xinhuaPCFG.ser.gz
+| | | | | | |____xinhuaFactoredSegmenting.ser.gz
+| | | | | | |____englishPCFG.ser.gz
+| | | | | | |____wsjFactored.ser.gz
+| | | | | | |____englishRNN.ser.gz
+| | | | | | |____germanFactored.ser.gz
+| | | | | | |____chinesePCFG.ser.gz
+| | | | | | |____chineseFactored.ser.gz
+| | | | | | |____germanPCFG.ser.gz
+| | | | | | |____englishPCFG.caseless.ser.gz
+| | | | | | |____englishFactored.ser.gz
+| | | | | | |____frenchFactored.ser.gz
+| | | | | | |____xinhuaFactored.ser.gz
+| | | | | | |____wsjRNN.ser.gz
+| | | | | | |____wsjPCFG.ser.gz
+| | | | | | |____spanishPCFG.ser.gz
+| | | | | | |____arabicFactored.ser.gz
+| | | | | |____parser
+| | | | | | |____nndep
+| | | | | | | |____CTB_CoNLL_params.txt.gz
+| | | | | | | |____PTB_Stanford_params.txt.gz
+| | | | | | | |____PTB_CoNLL_params.txt.gz
+| |____lexparser.bat
+| |____DependencyParserDemo.java
+| |____biomedical_typed_dependencies.txt
+| |____.DS_Store
+| |____stanford-parser-3.5.0-sources.jar
+| |____ejml-0.23.jar
+| |____bin
+| | |____makeSerialized.csh
+| | |____run-tb-preproc
+| |____lexparser-gui.command
+| |____stanford-parser-3.5.0-javadoc.jar
+| |____build.xml
+| |____demo_dependency_output.txt
+| |____.jython_cache
+| | |____packages
+| | | |____sunec.pkc
+| | | |____jfr.pkc
+| | | |____jsse.pkc
+| | | |____jfxrt.pkc
+| | | |____rt.pkc
+| | | |____nashorn.pkc
+| | | |____cldrdata.pkc
+| | | |____localedata.pkc
+| | | |____stanford-parser.pkc
+| | | |____sunjce_provider.pkc
+| | | |____dnsns.pkc
+| | | |____charsets.pkc
+| | | |____resources.pkc
+| | | |____jaccess.pkc
+| | | |____sunpkcs11.pkc
+| | | |____jython.pkc
+| | | |____zipfs.pkc
+| | | |____jce.pkc
+| | | |____packages.idx
+| |____first_dependency_output.txt
+| |____ParserDemo2.java
+| |____Makefile
+| |____target
+| | |____test-classes
+| | |____classes
+| |____lexparser-lang-train-test.sh
+| |____stanford-parser-3.5.0-models.jar
+| |____lexparser-gui.sh
+| |____pom.xml
+| |____META-INF
+| | |____MANIFEST.MF
+| |____.classpath
+| |____ParserDemo.java
+| |____demo_dependency.txt
+| |____README_dependencies.txt
+| |____.settings
+| | |____org.eclipse.jdt.core.prefs
+| | |____org.eclipse.jdt.apt.core.prefs
+| | |____org.eclipse.m2e.core.prefs
+| |____dependency_parsing_instructions.txt
+| |____.project
+| |____lexparser-gui.bat
+| |____stanford-parser.jar
+| |____README.txt
+| |____lexparser-lang.sh
+| |____ShiftReduceDemo.java
+| |____ejml-0.23-src.zip
+| |____LICENSE.txt
+| |____data
+| | |____pos-sentences.txt
+| | |____english-onesent.txt
+| | |____german-onesent.txt
+| | |____testsent.txt
+| | |____chinese-onesent-unseg-gb18030.txt
+| | |____french-onesent.txt
+| | |____chinese-onesent-gb18030.txt
+| | |____chinese-onesent-unseg-utf8.txt
+| | |____arabic-onesent-utf8.txt
+| | |____chinese-onesent-utf8.txt
+| |____conf
+| | |____ftb-latest.conf
+| | |____atb-latest.conf
+| |____lexparser.sh
+| |____lexparser_lang.def
+| |____StanfordDependenciesManual.pdf
+|____stem_away.egg-info
+| |____PKG-INFO
+| |____SOURCES.txt
+| |____top_level.txt
+| |____dependency_links.txt
+|____README.md
+|____utilities
+|____visualizations
+| |____.DS_Store
+| |____Biomedical Data Lengths.png
+|____setup.py
+|____embeddings.py
+|____.gitignore
+|____.gitattributes
+|____stemaway.egg-info
+| |____PKG-INFO
+| |____SOURCES.txt
+| |____top_level.txt
+| |____dependency_links.txt
+|____history.txt
+|____.ipynb_checkpoints
+|____.git
+| |____ORIG_HEAD
+| |____config
+| |____objects
+| | |____61
+| | | |____dd5b290add2dbac48087dd3487272a63adb416
+| | |____0d
+| | | |____b103610cc86e0b22dd98b065c236d58d02fad3
+| | | |____6f7892ef347f5de8f54885b2024c7085282285
+| | | |____3dc0e16e6cb5fc350c95cdeb4d153fa9add8fb
+| | |____95
+| | | |____23635b9dd9099b2a0c887b0d730120affa745b
+| | |____59
+| | | |____c382fea63cead5d32eb24fa92f2ccaa0326214
+| | |____92
+| | | |____85691db02696bfe39bf54d44f98b024f26297d
+| | |____0c
+| | | |____dd4a455d140a7aa1468f2ed7f69379043b08b3
+| | | |____e3c798c0fd2b4230722f61c5357e1cab10d5f2
+| | |____66
+| | | |____21ec4531de36b26ae60fea26c3666e7f27666c
+| | | |____0f78fcd5265157ae901df0e064e976e93318bc
+| | |____50
+| | | |____56c0295018208958733021daf0a7ed3f0ee6d3
+| | |____68
+| | | |____803214802c3caf2fb9825b077d89ec426c1c90
+| | | |____2fae3e509b5eb08d26dbbb3d8042fa3dd2e77f
+| | | |____7865c5f29f1ce4796baecbf032fc31852e254a
+| | |____57
+| | | |____eea4d8657d083a5c25a12108832dd91a11fed7
+| | | |____bd210f238ba058232c9bac1a3b517fa02e2e1e
+| | | |____11a1eac2d96c2ad856608ff499b280d0162519
+| | |____3b
+| | | |____9be18003b1e463b81c442da428e601cf63f459
+| | | |____181cc651d5ed9a347f5a81c094863ef15fe81c
+| | |____6f
+| | | |____9509c88bed7080d496fc5e1d87a9315e30549d
+| | | |____8677deebb3a8954af9658dd37d55e6f3b340bc
+| | |____9b
+| | | |____56a35f7f51a1c935b1b54fdb6da9a18c4e61f2
+| | |____04
+| | | |____0a15a4003bce8c1fd78c6e0eead0d428498408
+| | | |____0f9c11d069af723997491a460b58d00fcc8b4f
+| | | |____b11db92f9de437ca1091c9929f4b32f3113e90
+| | | |____f425956d2f4e6d60a5cc34c82f20645a72ce55
+| | | |____b755ab542be2f6e98e5734607d9f5e5a74eee6
+| | | |____72b0d09e661d21b3154bd28333b80f760375c9
+| | |____6a
+| | | |____2be252c7b99f14f2feed3f544f4a0152b06e03
+| | | |____70a20c160d9648dac22bcce9ceb91323a477a8
+| | | |____7652d22dfec487c8e3b7c81f58f9b222992c07
+| | |____35
+| | | |____dda04a71715b01a8856d09f2f7198b76ae1f0b
+| | | |____7658be5f2a09230b0f7b611fe71dc595f07857
+| | |____69
+| | | |____f268cef127f25c64f70925990aad01ba7d2a92
+| | | |____bab7451a5dced09f4626aa7bb95c211dce235b
+| | | |____320662c4ce214b24eeb78868da69d0c15125bf
+| | | |____1cf523d400b403ec50fa18ad821e61815e8dd7
+| | |____3c
+| | | |____c508b34372ad3c24e1e095f6404a71d697fd97
+| | |____56
+| | | |____ae116f9f47cf2845cdde73cd262a08ae6ecaaa
+| | |____3d
+| | | |____fc386ab4d244277242711b8527f417a1912984
+| | | |____80015da560fa8c667c592ddef87c477017eb5c
+| | |____58
+| | | |____37aa6125146fdf1859fd24babe5202c6cbc3f9
+| | | |____2f6644a652d19c2e6abcf24ee3ee543afd3cb7
+| | | |____07be22042f3f8afb4238bb7a7377048a5d2907
+| | | |____620f0d5a64669d5143720371551a799cc91027
+| | | |____072cad9d6dd9fb594f7123ed8aae7f89b59c76
+| | | |____1730b6f9796ce8c2f0984a37819c407b7a4d5e
+| | |____0b
+| | | |____1e3a2946c785a04c67595d4c0e9420939a436f
+| | |____93
+| | | |____123b863bd408db2f6f3c1c67eb2a082f81e02f
+| | |____94
+| | | |____a3d17b80347702b5296a7e050f595bf4664f93
+| | | |____53c09cc844d9fc5bb5a6b1a57cd627fea706c4
+| | |____60
+| | | |____965b898a2cfdc0ef1b598ea330bd35aba62688
+| | | |____7cc3558c6b707d2cc8438db1598689410ffc89
+| | | |____1b547ca4522178553ec7dfa314342988d537a1
+| | | |____40ab651587aa2c2478ff45e5f19dcc51341272
+| | |____34
+| | | |____faa727b0cb1f02ee413b7ad727b09490c91fc6
+| | | |____0587c31854778223fe48583fa4bc592a96f2d1
+| | | |____0afc5ace5f98e986ab7385a7e46015815a629f
+| | |____5f
+| | | |____5fc2e14db9fb54f16bc5cf442cfec9e18851b8
+| | | |____22253609e76f16cf560784b0cc46d76794330e
+| | |____33
+| | | |____3f72d77cd7a44fcf5f187f1857f854e19a393d
+| | | |____1b34f7d6082d56b5114533b5b130f55c425154
+| | | |____1598f923ba6bfa0f79c948020e6d7b756660c8
+| | | |____f7fbc5df6af7912b1c2c306bcf5f8d60e6e581
+| | |____05
+| | | |____8226cac8efd3e0fa66e7780153518380e0db7a
+| | | |____7ebf977c6ed36566c4eb54ac3a8592f9c48a77
+| | | |____241c7ddc92d384c1bfc035b64befc6c84236e7
+| | |____9d
+| | | |____83d02f765f760e6e13133110e62e542693a681
+| | |____9c
+| | | |____d2d5ed8d8093c221c76ded900278f8bac3a8d1
+| | |____a4
+| | | |____be45d1c80fff55723c2ee0a2011c0bbac7629b
+| | | |____c4086048ddd1d33e8d18a69131eaae25460d2f
+| | |____a3
+| | | |____cc9ba18e1d0ed56ea2f9748bc430692eae37ff
+| | | |____6e398325d8b24a91b10ac4200f1a1fbab4a359
+| | |____b2
+| | | |____389dc0d29c89adf5c94c1faaddfdaec8e4b095
+| | | |____bfac9b8309e2dcd4ab82a7415b2699f95a9c17
+| | |____d9
+| | | |____d9205a9c356c4479952e687c47ee032776fc57
+| | | |____cda45a90213d3d675c5a9c07ad8f1e3a4c0700
+| | | |____15c122741258f4a042abedc32acf74fda2fb2d
+| | |____ac
+| | | |____aa22e829db5eadb296619196132ea847b5e61e
+| | |____ad
+| | | |____c7765cbe6d78ec0c1f054808f92ecadbf119ef
+| | |____bb
+| | | |____c64a127c9868096c424ab93484a7c6860767b8
+| | | |____8d2808fb850b200fd01b0f5c7edd2c1b1ace9b
+| | | |____705cb59e4957d93baa059f61c328d1e01c8dbd
+| | |____d7
+| | | |____799f4f4e9f67dfd7378ea451a61e57112e397b
+| | | |____335adc4a50cc4d64e07c28dc2bdb1f49e99fd1
+| | |____d0
+| | | |____6f1331bb72a91561c01db427d8852840a24014
+| | | |____6ef27427e942de0783a0056e0c328ca5727257
+| | |____be
+| | | |____08a2ad76253e341579570d6cbefbc55f8ae030
+| | | |____17e0eaef90d6e059bd26d33bab770bf3b09bb4
+| | |____b3
+| | | |____3c613798287d452c4d3f48ffaf0f21d2358bd9
+| | | |____f78afe3b2818f0ea2896c14a195efd93884cf3
+| | |____df
+| | | |____e0770424b2a19faf507a501ebfc23be8f54e7b
+| | |____b4
+| | | |____720fd1461a99b1b8d999fc15780a401c32d4d2
+| | |____a5
+| | | |____16bda96ae39e4cb096d5f65b6cb47f4b6781ea
+| | |____d6
+| | | |____9f4a6b5e3b6b6db05f0015977893840c295a02
+| | |____bc
+| | | |____0a450c6f187513b58f51af000d39a56e87eda0
+| | | |____fedebcf7bdcf55789ea1365ef04ca564f23d22
+| | | |____bfa9780054818aafcdcea90f386a01a0d09b41
+| | |____ae
+| | | |____987b55ca3db941d07c453c76fe125804e50b76
+| | | |____701ff360837a43cff357bd3152af631e417b38
+| | |____d8
+| | | |____9dc208c9e6e34ae2732f5fac5fb939077069e2
+| | |____e2
+| | | |____f809f0190d2c03c161bef15e6f56bec48527e8
+| | | |____1b35d495aa085fea4426becab2de095af38b3f
+| | |____f4
+| | | |____fe58363762de392400edd464100e9c6bbd2a62
+| | |____f3
+| | | |____4be3b3ef879dbe3c7fa0456ca93720c278b3c8
+| | | |____ca5d08c94305c28dc84332267f44f9490759cf
+| | | |____6e5699bccdf810381783efd32a7228914f1142
+| | |____eb
+| | | |____93250064c63afb5254cdb0423e4d6f06a150f7
+| | | |____6a7e644e0fc71a4e7ae9e04c7ae4be3d5babe0
+| | | |____8f0363654f90b3753347dc5e50d1d2f9f846ef
+| | | |____e126ac2b389c10b07fe3424651ca82abbf7143
+| | | |____b61fae6651b1f2201991f0c5b32c4a92727536
+| | | |____a5b108369c2321a2b898c29fb42bea59cb8c8a
+| | | |____bf5c68c7497e12a2180d7ca4ca9258c3a1595b
+| | |____c0
+| | | |____5944b7d0b40b88c6f42c98885501fa6df90e69
+| | | |____9637c7d31b3843edde9ca521939e06cb4ece7d
+| | |____ee
+| | | |____344cad95d2f4f58627efa93d540ecf0d062226
+| | | |____0bd9241e3192491f181b3efa7957f6d6b14108
+| | | |____8dd612a3b41b9a6882b4935c44fb2ed00260b6
+| | |____c9
+| | | |____330231ff10cdc053d26b1c543038eba23f1846
+| | | |____e839ade5b155c45f57e12395d024245ebf2b09
+| | |____fc
+| | | |____4c299f880a970e0c1258b18f72bb61d812062e
+| | |____fd
+| | | |____02ca8357c5795c76609f7332cac3559564489f
+| | | |____daf96dff7f3e8cd7fbedbf6cb3834c788cefa0
+| | |____f2
+| | | |____d5972b51af25f7ea754a5d03f5126a1fa40636
+| | | |____92274d2d000719ef20feb4815c1b3461f2dd9a
+| | |____f5
+| | | |____5783c5142994ffbceb948412af34c2f550e8a4
+| | |____e3
+| | | |____561cd148a639c35a040eeb304182efe6bfb751
+| | | |____7ffdf9bc91a45b0b719d23ed274c898c34326b
+| | |____cf
+| | | |____e7ad4be1ac6f2dd8f97e7a238662155004b9a0
+| | | |____f0de8e181b4600ef523a7eff5f910e76f94dfa
+| | |____ca
+| | | |____22fc9abe7699d13854ead0ae5bedcd0b82550c
+| | |____e4
+| | | |____baeb747ff2d1915ce1be98417f74abc08f02f1
+| | | |____0a8712516e71a6ea878084cba41217ec48826a
+| | |____fe
+| | | |____fb4885d3226a4fc20d4c832f02e5915159cfdd
+| | |____fb
+| | | |____c6603c9ecc381f9b480516b2dc36cedee7090c
+| | | |____9a750faeba4e7d38008a42ed84b3ee534676fe
+| | | |____d6a8ae7426bcffb9a8e2309d87cb70853f7771
+| | |____ed
+| | | |____04b7c6c82052191c95c12ab9a7faf5a152e161
+| | |____c6
+| | | |____02492c2e10eba961bb67965cb42037bdd5c52b
+| | | |____5c5cb7dc754886a86edcda27bbfb68e310a5ef
+| | |____4e
+| | | |____6063fd75cc15a9e131b283d2c2cab5adee5866
+| | | |____02bf96abb74b2ca132be05f6c3bbc4de789ede
+| | | |____0bd1f74841c058decabfd8d1a389acc916ab72
+| | | |____c17afbf487dc19d792f8e6d77dbe0ec1ac3b09
+| | |____20
+| | | |____8569e157ce48a94591c265fd67177eaf015fff
+| | | |____14cd705a42bdc8b20bc8cba9a90698cf451bfd
+| | | |____48e4e23b435290222b193192856f8065c2a071
+| | | |____b92c12f0fa0eafb5f1ef82e9844cc4693f6dda
+| | |____27
+| | | |____311637262e9e296c603e976d11fa809350c800
+| | | |____5930421aa6b32042d79a6ccf416cead5198c40
+| | |____4b
+| | | |____85231945709d5e8e2a2aa7622da25a35ea2456
+| | | |____4858d14c8328bf4642f6dffb1ae82f160a5252
+| | | |____fee245503132c9ea50e592c0d250a90ca94a8f
+| | | |____daa429507d0f3970f2b02306bc7705c7fffed7
+| | |____pack
+| | |____7d
+| | | |____ad71296eff516ae7de9658ccc6768ed9108ec2
+| | | |____f19835fbcf91496ab660f6509a65c622ed60e8
+| | |____7c
+| | | |____cd1c048f5932882c4c725d1400e5c9819ce357
+| | | |____5ebaf3a1d7fc6f950cb37ffa0040c4a2876309
+| | | |____634504a62255f15e1c080270bf705b8b3b2eef
+| | |____16
+| | | |____ad07b131c91e4e128123217d6747a266d4141e
+| | | |____fd2a0a60387b4db99e8d42f41503feca307ffe
+| | | |____fbc77835eec9be004ae8107bc4bf3d1d82bcce
+| | | |____77e121e57255a2e30ae9f9143ac06b8f71ea19
+| | |____42
+| | | |____0d39b782a1a8d5254aa7630cfdd5800e284fcf
+| | | |____925c1ff18a28bff62aef8326d509a38e5bb5b1
+| | | |____873f39b45b1e011aa83a107bede2adf8e2af2d
+| | |____89
+| | | |____00c2a3ccf41415571384897fbbcab6fe592a07
+| | | |____7ade1f6b566e9c205eed45147904840836dcb7
+| | |____45
+| | | |____bc52ee76c7ca31419fd04e23f17fd0930e5658
+| | | |____cec8bcae056dacf9e95d14009fc025d3a2c6c4
+| | | |____6af72c41473411c60dd443694502ed021fbf89
+| | |____1f
+| | | |____357a3e6b1e5de45916dead26b241fa04dbd55a
+| | | |____1c8df945201da32bb17769b4ceb25cede3a658
+| | |____73
+| | | |____2c632c708bcb200d227bce5351bd148fe0cc17
+| | | |____da42678b40dc004f97cab93c29ab4e9cd34db2
+| | | |____f5f41ed46b6d826a26583c7062d71c251cbc5f
+| | |____87
+| | | |____83e6e8ed61099b62816512e8270324a3a9c344
+| | |____80
+| | | |____f83fafbb19509294a85c6e63cba6fb62960cfa
+| | | |____8d601e3e42d6944cb27c54f12072680415ea35
+| | |____74
+| | | |____2451aa87fbcb4009351269d625dd773dc1f486
+| | | |____98e635b776ff9910d632578140f99d92098d17
+| | | |____8193d5e2246afcc27b20676e364a76491747a1
+| | |____28
+| | | |____f58213d160d34f89d9b895ae36519aa070f1ad
+| | | |____a9084e805062d0f941d94f0e2895d0d2e0e7d8
+| | | |____79efdf2cce35be1c5046dbc7eafed15b781310
+| | | |____93b4ddf4e05ec0a763c966b6f6d7e4b0ae5b90
+| | |____17
+| | | |____05d9533955255f44faee69ada0f9101202aef6
+| | |____7b
+| | | |____5ed106e8b2c65f8ee0b54698eb3c129b60023b
+| | |____8f
+| | | |____51d65734b32072088c0d2825965e2608774320
+| | | |____b0c8766c747f1f025f266309d85739f4db1d52
+| | |____8a
+| | | |____26e8f4a132118511aa4f9b7260ead5e7d85000
+| | | |____b86f39ec0025f2197778c67d05f29b58942849
+| | | |____244cca54ded9265a4d456e39ab2f64ba30ddc9
+| | |____7e
+| | | |____d9dfb82726b50d40f049600fe159ce24716733
+| | | |____0ac1ea74daa6c9f7518b0c97d46f8becbbd1cb
+| | |____10
+| | | |____276b8abeca0b815e8ff8ce2a90eda2af315a68
+| | | |____c21a203e56d56689f9f80d458d1081f8d78cde
+| | |____19
+| | | |____e38470d46489d447d2bf152d2fe18850fd78d2
+| | | |____eaba028915e4bd1a70d33b6bdfd9c2cd78e3b7
+| | | |____4660bd3995b27967c2f30776d1f700d7c0ccfb
+| | |____26
+| | | |____25292b34c626d399048889e58a28aad34698f6
+| | |____21
+| | | |____0488c6c9e541a85a27ee44d760fba8c1026466
+| | |____4d
+| | | |____a33070b8ec85e898bbe3f68c677d60b6f67a9d
+| | | |____5f60f312a833c0f57432d64dadbbf4d1576008
+| | |____81
+| | | |____dd76242b782ea3b0555bef1591fa45cd24b3a0
+| | |____86
+| | | |____fe4409ebd69a6117302b59fe0cfae893cfe05c
+| | | |____aa01494c920818f30ced9282e1e0f9d5cf8598
+| | | |____3d583712af7eab11f7307bd6040a882d5ef275
+| | |____72
+| | | |____5d524e4c4387bfbfa317d530ce381bf7bc1a4b
+| | |____44
+| | | |____ce55d150761f83a9052440272bd5c05069b613
+| | | |____e8712cd6f6a7831ab09f70eb2282062521ca40
+| | |____2a
+| | | |____8703a67f5d1e3e7bfd50cdf0ddaa12b452ca92
+| | | |____19438f854218eff44eb8ab22c4fe522a364276
+| | |____2f
+| | | |____b1e634708d5ee101672d172ef27b4056caaf04
+| | |____43
+| | | |____8d0dd2d473ae13e54fc67fdab5e3b77ee6c0b4
+| | |____88
+| | | |____afe082904ceb9669e569e483ad3480848a3acf
+| | | |____273190c34ac56667ec47e63e91f66f69de3497
+| | | |____a436155ecf62a892602311543badfb752a3bea
+| | | |____c3358b43a7d2d9bdb1f31ff1f6c48093fd9ed4
+| | |____9f
+| | | |____991183d9557b46a691cd13306a94b13425c776
+| | |____6b
+| | | |____890a6abc7a286cd3fe7c77203577eb75b0c844
+| | |____07
+| | | |____9f20a46681f01af6ab3a45f1dfcf6b8f6c341a
+| | | |____010e63ca5b907193671c14deacd62fb42babf9
+| | |____38
+| | | |____b2aacdee662630cc9b1c1d4979872e5ca0d18f
+| | | |____58f9e696b4c8baa8a112c4c900214be28f8a0b
+| | |____00
+| | | |____9da18763d880d55f6edbf11f1d0e95863b6dff
+| | | |____b5672e12dbad3b3bd055f1bb14760c382a6cdb
+| | |____6e
+| | | |____376d8b1d7674d57f0fe73b3dbffc4a765c6cd4
+| | | |____db0a2c4dc3166f6685655af8a6b132c16cb223
+| | | |____faa23edd148797f0aca864020ed33922fdc3ba
+| | |____36
+| | | |____c50c4d0c63749628214880400cf450414fdf53
+| | |____5c
+| | | |____e24162c046f2120656045e73f11797928b77f2
+| | | |____53c81c5af70343a29ca2ceff645041725e65f9
+| | |____09
+| | | |____c11b7a12a8c8ec15dc1775d311235d80914bc8
+| | | |____88d5f5473b322be505c3f3f3acba1247e9648f
+| | | |____9aaf20e4cfe2d1a5e505a5df254d67ae99e5ff
+| | | |____79332a66153ee8f12fecd5b6e6d1937723a83c
+| | |____5d
+| | | |____4f84132b9b880390fa01dd3eef2e0f53905943
+| | |____31
+| | | |____b4cde33be798c41d2f17e943c8eb06863899b1
+| | | |____194ae65e3291e8d607ccf344c589eeaa86fb55
+| | | |____6929492d9498abcb55185af72a6f7ffc4de2ee
+| | | |____08beaf420ae2eb66799e344b2811e0637abc3c
+| | |____info
+| | |____91
+| | | |____4d4b78818a19c707fc16718659854280e80b4f
+| | | |____138233bea04604326725d8bc578e312517655d
+| | |____65
+| | | |____0159cc1d7f95d652f0a6146e08df080c4be374
+| | |____62
+| | | |____af2d99d89f236e92cc15866b2baa787730fb14
+| | |____96
+| | | |____9bbc782030caeac0e2890020183427855771c8
+| | | |____e0bd3eb4c6a7dd0af8935ecba03a8de6072c1c
+| | | |____a5452fb38fac60a50eb66e7774881d2a2ac138
+| | |____54
+| | | |____61bc2dfdc4c7c957acbb2afd3ad42a38d3bf57
+| | | |____ff09b087d8720a97839679b0404d4af98eca81
+| | |____98
+| | | |____9711e8f64c295cd6634f4b7fcf0178e138182d
+| | | |____dac732f7907a387a4981e577f2f2522b5133eb
+| | |____53
+| | | |____7a85f4b887b01f37549b3d77d5a597dfa23d93
+| | |____3f
+| | | |____17e3d23b2dfe6a1faa244b99784586919075bb
+| | | |____5f5a6ca7d78eafd2c2660e98c91aa5c1f5f37f
+| | |____30
+| | | |____2d4e993e471b17ac337f5e9dd50a8d393a068a
+| | | |____5ca19bb62b7c6c960dccb94923d0fa4f5cd9c8
+| | |____5e
+| | | |____83f2a54ae1d41b9d383d5dd13c713b0266fc6b
+| | | |____b2442cc76154c384404b15fb5bb5873698738f
+| | |____5b
+| | | |____cf5de2478ea4e7f136f24b668df922a019b4a0
+| | | |____6a3c6eb9e4255ae830383aaac8887c47aba91a
+| | |____37
+| | | |____d805179fa92cada7f96fb7538848398cd75ab0
+| | |____08
+| | | |____3dfecfe9f163847c5365205599f75b210cfb11
+| | | |____5ddfd5fe33d414a55b33e8de636486cff96a51
+| | |____01
+| | | |____562cbf8c789b824aa17b6eb3d5aed77c6e75a4
+| | |____06
+| | | |____dd032702ea95a0c2c8ae50952a4280a7a8ea9f
+| | | |____028e0cb16ba40a7158955b60cfc2398552406c
+| | |____6c
+| | | |____c24604af3b7b5b3906a0b7a0371843d67250ea
+| | | |____d3fa090a520a499386b27db31c120b0928be66
+| | | |____454020bb99e851dc793d37f2285bea0e9717ef
+| | | |____f1a3495879d76b8f78f7ed35425e2fe9b93ee4
+| | |____39
+| | | |____9efe726a57810aaa758f9143d85798014f4e7c
+| | | |____529c93b7bdf56e26e22c475067626708a68fdd
+| | |____99
+| | | |____c35490c595ef771720b13185721aefa7993a00
+| | | |____aa6391d550b5055277b21520b0da9f05f2776a
+| | | |____c98ce09f5bd7b5e0161fac5f49435e60b38c1d
+| | |____52
+| | | |____c848cb56bf9fdb3820fe21bb94eff9f71e7684
+| | |____55
+| | | |____94dd09d4a6008b45a2ab5e511725640e59691c
+| | | |____bf253160423b1aab74031eda68f371f462db65
+| | |____97
+| | | |____873f0e0d1f82c9012508c7d59fa469ae897136
+| | | |____b65e288ca94c5b993abd7e1ce573bd90871c41
+| | | |____91d7c9f5e8ed1d0e9770c265bc21b10eba06ba
+| | |____63
+| | | |____86d1a67da6774932057b3a22a37f6f82611800
+| | | |____a128e9f4620512f71210967e8f58817adc918b
+| | |____0f
+| | | |____b487c55366851e72e96b2c1f58aad336f4b11c
+| | |____0a
+| | | |____a3ce721005f5c74385ef51a2e5c1057afeeae4
+| | |____64
+| | | |____6875e303726ba6ea38088aee69488f9b2adc38
+| | | |____af16c92a445bb0b73cf0bac278573e18195fde
+| | |____90
+| | | |____5b8f2ce924e85cef876960d3d3f46c3b51d040
+| | | |____9ab0e871a2e8e59dafa54b493c1589c1e11848
+| | |____d3
+| | | |____1dd8ad1d2d6143b63a21f8b4300af18f5cd406
+| | |____d4
+| | | |____528ed829ca4f8f3a402ea04acfae90d5b0a679
+| | |____a0
+| | | |____f2357161f14b5d5dfd0dd85d2775d30ae4f06a
+| | | |____27795d5dbca31034bef8c3059d4edeb2b7213d
+| | |____a7
+| | | |____d3c7e37bcb79994959ad61fcb2ce6d33ade528
+| | |____b8
+| | | |____2546f215978d3383c3be5cb188cefab967c993
+| | |____b1
+| | | |____3d78740a89ab4b775a286b37dbd5298968e2ac
+| | | |____68351ea8163e385806f7cfc8b41549602eb757
+| | |____dc
+| | | |____f3fd6cf372fed977e0b0234a7a5291a97edb46
+| | | |____ac530b515b395458103192bc6e0d074ffaa62c
+| | |____b6
+| | | |____c51ad17a8d09659e4d64379fa5226d3913cdd7
+| | |____a9
+| | | |____becf0fecfdc03b5056ae865f42aa5b06b02c3e
+| | | |____beca8799616d5172b7665d7a38ac21c2ca7b5e
+| | |____d5
+| | | |____7ade18a8792763496176831a9f0ab45f83a6d7
+| | |____d2
+| | | |____21f27eb35b70537a8b03410876343867511ec8
+| | |____aa
+| | | |____f705e1858c971c3c52729834ff099f4705fd03
+| | | |____e268947886f5e5aa6bf87986ade53e848e8cbd
+| | |____af
+| | | |____f873cd7b28ae5917a865dc281edcb4b88e7c14
+| | | |____0567389ec3d87f249bb618b02ed31ec5f46470
+| | |____b7
+| | | |____6e6a5a808e5e794f685f07d141d1bd9d5a3ff2
+| | |____db
+| | | |____e225479026642e62fd53396562ec40e4ea0705
+| | | |____3e201641ad593f8d180dceca0f390bdf2a7580
+| | | |____25cde32ec307ddcc44ef9d9655ebf32f93085b
+| | | |____01805ec8ffddac62e9e85e5cb561c85a1732fd
+| | |____a8
+| | | |____9949aff8009b355e1205155ba817eca5c6c24f
+| | | |____37c287ef7641fa2833f99ee82def34187a494e
+| | | |____617ffedc71392ede6b34f4a17e7424367f5ec3
+| | | |____3f28a5e3cdb42d90fd396e7771ff8590eaea0b
+| | | |____c576e5321b3e20f5965674f1bb70a71ba76368
+| | |____de
+| | | |____d45a5207407816564dcaf1f5516e6c1b8a79bc
+| | | |____5bab8060ce24152fbb49b4df7f1cd44d05f03f
+| | |____b0
+| | | |____fcdd150114e2d0fb70a25818b9587d45db02d8
+| | |____a6
+| | | |____e955d40ffe01ced3aef76f36de42584cd9c2f6
+| | | |____63912390476713cbf648de5e625661e269598e
+| | |____b9
+| | | |____47e226e3c00ea07998371eda8c451bd157da13
+| | | |____247914ab562157e0df82250bee71291c8ce062
+| | | |____7b2535aa4d1ce67946198460a6eec92d2cd593
+| | |____a1
+| | | |____9ad6bc8eb2a4ec68c2615e5079ef37b298c189
+| | | |____3181fccd3d4f46bf1031488f4db06abc7c0022
+| | |____ef
+| | | |____949aee7750b28cdcb0b0cbab2c9ee67cf48feb
+| | |____c4
+| | | |____fdff6cfb8ad8cae292432df4a44db86e1bfbdd
+| | | |____e96b1a8f1e0f396fb2b55e15907be12fbfa8c5
+| | | |____168cd8cf7b527a88ed598da7f471d789e8ba53
+| | | |____27f75aa219950ca847e6e559ff48491e3ad858
+| | |____ea
+| | | |____b33ef455152042e7bbf2613a33488423b336e9
+| | | |____34571f37e4cf3c8bd1408f0eb0b59b7eb07301
+| | | |____c7b9b1747a840e92a29dc4b41db941c71381d8
+| | | |____ef6e529b0be91e4b0e105db0e6223061f0d65c
+| | | |____c0a3e8272dfabf9a413d042e0b5e4b133eef84
+| | | |____3513fc45edebc908ee6d0be420f519094f1379
+| | |____e1
+| | | |____29cd1eb80b85d1d3fc86cdaeeff6a9b81c1266
+| | | |____8e0c9a459c26007429dc577246222b3856e702
+| | | |____4a880d9f499043aebf1a57a86451f54e4f0225
+| | | |____a74567018bbfe73b648e326604dc04b5d25826
+| | | |____856f50ea18a637ae8e941ad443d9da46ba74fe
+| | |____cc
+| | | |____c2f7693c59766433881d7a0fa4825eeffd92e6
+| | | |____d17133e29ec26b732a6d1eff3869c37763dd1e
+| | |____e6
+| | | |____1d072f33f1ee1366384701762feb07351df066
+| | | |____46bdafb7ed0309496794d0f4ace8a00263e865
+| | | |____3e15ca60569f54454924dc086990e6b824386f
+| | | |____33e5a8e08b61eb6c475f367045913d78ff6f2a
+| | | |____9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+| | |____f9
+| | | |____274e6b0c9423718d6eda3304828db2dd010f94
+| | | |____4290c2c3995b6ae939bffa458535c698c36472
+| | |____f7
+| | | |____4ed51a56e7205343eba0bf265f36636b5a9fa8
+| | |____e8
+| | | |____f5bcd0efc933525126c22401f037515dec6045
+| | | |____d9f7080c19a2bed113aff8613bb7b220e9dcc8
+| | | |____190d6dd982b481f84d6c766772202dcb82f1f4
+| | |____fa
+| | | |____28ae8ee1e68bedc850413ba083ee2a0e707ed2
+| | |____ff
+| | | |____9068caf5d060b4269f49dddf5e72da4afd8775
+| | | |____0a9ba883500ee484f148659fe0abc12e9983b8
+| | | |____132a51acf4c37850ec65a09d024a7f5a3a178c
+| | |____c5
+| | | |____087ed4d6405dc31686a43daa52bd9f8aba2d78
+| | |____c2
+| | | |____5d7c8add1a1febec461097998bcdcbad38a563
+| | |____f6
+| | | |____fc1f2635876a4d65ea26856f9baf598da3fe57
+| | |____e9
+| | | |____ab577cc3e814cde8665dfa1c38a4c9208aecd1
+| | |____f1
+| | | |____e367bbe27fde53ecf0d27f155a6dce1965ba4d
+| | | |____468d82252e3732cb76957bb650fe3792509b1e
+| | |____cb
+| | | |____f1515fa599ed447cad7407fc21054220a53ef1
+| | |____f8
+| | | |____54be28f41a5bd1a692f4bcd95931b10baf1e97
+| | |____ce
+| | | |____61d8123e8d5ef9b660cf8b1326c724a3ae9898
+| | | |____21659609ceebe5a2d1ff2dc0c3006927fd192c
+| | |____2c
+| | | |____f7b10e84b6e3fde219b6674aa13443a48ffb9b
+| | | |____4ec814871e922a507103f9c9a7989639935d95
+| | |____79
+| | | |____f4b6a307434d5708b2b4d5bb1064fc97e077e3
+| | |____2d
+| | | |____91f630f9ddd5cba1b2073ce94b0f87e2ab6600
+| | |____41
+| | | |____b1e4274acf2fddcaeed5dcc57ce3ec2cbf77e6
+| | | |____6699a871058e9af025203fd4444083387b1ad7
+| | |____83
+| | | |____be806590910f3a31fc55b2ddb08db36a508485
+| | |____1b
+| | | |____0ae025b46f2f46c1314d619b08cc6dd0332c46
+| | |____77
+| | | |____7cca0257aacfa47bc3ee0b63f984f969aaa509
+| | |____70
+| | | |____794a5ba3632ea8ec84dd208c590c11b67df82c
+| | |____1e
+| | | |____964ac076b3b931dac94990d9e37e34c7aa8b23
+| | | |____12e1afc75bb48ae6757639742b4bbb6b057570
+| | |____84
+| | | |____87056108fb6dcab2731b059278b124d644b1a6
+| | | |____fcd00a3d9204e200d555284410876581db097b
+| | |____4a
+| | | |____24e5056a6e2bdabbe7d85fa77823c65e9d8c86
+| | | |____a1a7f8569fc15fe9cc99835d287e7e158f48bd
+| | | |____b5119436c374f56c9f49a4d33ea95d76e4138c
+| | | |____94c30b45c195081d3d5f7ad65571bc1a7c12e4
+| | |____24
+| | | |____b8d20898c9f4fd86f3d6bfe0a64b9c7c97e581
+| | |____23
+| | | |____dd77fc3fee404c25903f0936b7cf3b23c585ef
+| | | |____83bf152aabe6e6553778e462301b6ceea2850c
+| | |____4f
+| | | |____73f1669e0a032843780ca68b8b6ce24743d9f3
+| | |____8d
+| | | |____265840cd75de9b73a7ddef67627d25677ea0f6
+| | | |____2527f607aafe8dc1b81ef91ead0e2a6e339767
+| | |____12
+| | | |____03283929306f4b3a8bfbddb3e91a36cb2bf880
+| | | |____f4acb72dec19671389c3f8264d54006052eee1
+| | |____8c
+| | | |____334c49327bb2cef70ec368191af82727700191
+| | | |____c96d58887e5884c86f833583f8d6dea23bdfe9
+| | |____85
+| | | |____14e59ded968023e5e188a3365f4af6732c7705
+| | |____1d
+| | | |____6b1b784c6aa101d9643566df5ede5035af5889
+| | | |____d8e278c6980f28ffe7476d909efa5f0ecb0291
+| | | |____66dd8eb0c81566055ec142b6e9727000943d55
+| | |____71
+| | | |____73e1d88196296690dca22f1e3c6750c9afb7ff
+| | | |____77232736a25758176a9919f2082241d231a9b2
+| | | |____0b1192d2179650d15a375f69f68a70498604ea
+| | |____76
+| | | |____5713fd966adbd87ee841fcc16f70ca05da5681
+| | | |____5d36f30c8739fc45a6552f6cd54ab4ed2de488
+| | | |____4e1187ecabd081fc26439060d1d21e2f9308de
+| | | |____9c67715b5fcb5dbba16129b82ad7f108485e36
+| | |____1c
+| | | |____f58d82f811b9e2d1e114d95bfb9d128a1645c6
+| | | |____b7c109d56c6b701baf1b4054832c325ac4d5f8
+| | |____82
+| | | |____9e60771dd3018d2d9aeff4eefa297d745eb402
+| | | |____0c62b899c1d3a2dd6c50bf771f2defcbf89b56
+| | |____49
+| | | |____8f86505e8446f9c117fb376468e23c96218d65
+| | | |____345d163bca81c0daba462e435a6f3fbf448c66
+| | |____40
+| | | |____ff2686dadecb1f193f7f535e5ee4b59ade054a
+| | |____2e
+| | | |____b93f7c66ff855198bf46b763bcd7f89c76d386
+| | | |____54341003cc50e83353391576d7cccfcfd1da3f
+| | | |____02aae1b3bd2aad49c38a70048d3cd0b4158233
+| | | |____e7ee4333ed0866960f6750cf8b35c222c060b5
+| | |____2b
+| | | |____d5fc0acd68bc18c1bbe993a2b925091a16ad5e
+| | | |____042480a0a7e8da25fbf503339d5eefbd4849df
+| | | |____4182d22d8b43f50b77ef31c5aa38cbea48362c
+| | | |____916b10f201796e1141b9f4f5dcbb790ecc0131
+| | |____47
+| | | |____c7f30382086cebdf223a7be9736db4218c20d1
+| | |____78
+| | | |____949549ef349f17de9d9820d04077d0221ec866
+| | | |____2c9f988ee3ac1550b02cc21dabcdd826365c01
+| | |____8b
+| | | |____45911e537281d49c7f95dcea22d646b9210bc4
+| | | |____639e892bdef739acc83796b0c98b3fe4c00622
+| | | |____137891791fe96927ad78e64b0aad7bded08bdc
+| | | |____119e5f626e4d090815bb7ae35e89c2b1807f2b
+| | |____7a
+| | | |____104622145f7602207d0e53e40ae8f75d5ec5b7
+| | | |____38b49912e2905b68fedf065adc3fc1e3341f28
+| | |____14
+| | | |____d8bf3393dcf10bf9da327d7f3a2b6e00da79d2
+| | | |____3c84dfa52585fe0cba8f92c2241d2ea247e423
+| | |____8e
+| | | |____c6c0aded30d06e8bfd5d7eef8258c9cdf1beb9
+| | | |____597b3b0bc38b65c798860f73eff4d5c917d0be
+| | | |____a2fd1873c2bbeff0e5503703c825c9790ffb9d
+| | | |____72f5c231de9330170ec40b7033030b0006caf4
+| | |____22
+| | | |____7a245123f7409f4425947c925d911968607c53
+| | | |____11c2f58f8e476239a9ba94453c86c97d5f1a4b
+| | |____25
+| | | |____84e3b0673ae3754caece5dfe18746adb723f3f
+| | | |____172c92bcf15c84798fbe6a0b3edce5aed4bbf7
+| | | |____d0ed554d0f9d4eca621744dfe7bf55fdfca20d
+| |____HEAD
+| |____info
+| | |____exclude
+| |____logs
+| | |____HEAD
+| | |____refs
+| | | |____heads
+| | | | |____main
+| | | |____remotes
+| | | | |____origin
+| | | | | |____main
+| |____description
+| |____hooks
+| | |____commit-msg.sample
+| | |____pre-rebase.sample
+| | |____pre-commit.sample
+| | |____applypatch-msg.sample
+| | |____fsmonitor-watchman.sample
+| | |____pre-receive.sample
+| | |____prepare-commit-msg.sample
+| | |____post-update.sample
+| | |____pre-merge-commit.sample
+| | |____pre-applypatch.sample
+| | |____pre-push.sample
+| | |____update.sample
+| |____refs
+| | |____heads
+| | | |____main
+| | |____tags
+| | |____remotes
+| | | |____origin
+| | | | |____main
+| |____index
+| |____packed-refs
+| |____COMMIT_EDITMSG
+| |____FETCH_HEAD
+|____temp-plot.html
+|____module1
+| |____module1.py
+| |____Frederick's task (1).ipynb
+|____data
+| |____drug-gene_pairs.txt
+| |____sample_dependency_output.txt
+| |____biomedical_sentences.csv
+| |____artifacts
+| | |____itcc_artifact.csv
+| | |____filtered_matrix.csv
+| | |____ebc_artifact.csv
+| | |____scores
+| | | |____test_sets_2021-08-14,08:29.txt
+| | | |____seed_test_sets_2021-08-16,21:27.txt
+| | | |____seed_test_sets_2021-08-18,19:00.txt
+| | | |____trials_2021-08-18,19:00.txt
+| | | |____test_sets_2021-08-16,21:27.txt
+| | |____itcc_dense_artifact.csv
+| | |____matrix-ebc-paper-sparse.tsv
+| | |____matrix.csv
+| | |____druggene_mappings.csv
+| | |____path_mappings.csv
+| |____.DS_Store
+| |____drugs
+| | |____drugs.tsv
+| | |____drugs.zip
+| | |____drugbank vocabulary.csv
+| |____biomedical_output.txt
+| |____updated_dependency_output.txt
+| |____models
+| |____out.csv
+| |____biomedical sentences.tsv
+| |____genes
+| | |____genes.tsv
+| | |____genes.zip
+| |____cXY_output.csv
+| |____sample_data.txt
+| |____relationships
+| | |____relationships.tsv
+| | |____CREATED_2021-06-05.txt
+| | |____LICENSE.txt
+| |____usable_sentences.tsv
+|____tree.txt
+|____dependency_matrix.txt
+|____findings.txt

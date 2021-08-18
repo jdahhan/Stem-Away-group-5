@@ -4,14 +4,21 @@ This is where I generate the AUC metrics for a given dataset.
 Helpful Resource: https://towardsdatascience.com/understanding-the-roc-curve-and-auc-dd4f9a192ecb
 """
 
+from os import setgroups
 from module4.ebc_scoring import EBCScoring
 from sklearn.metrics import roc_auc_score
 import pickle
 
 
 class AUC:
-    def __init__(self):
+    def __init__(
+        self,
+        trials_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/scores/test_sets_2021-08-16,21:27.txt",
+        seed_test_sets_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/scores/seed_test_sets_2021-08-16,21:27.txt",
+    ):
         self.ebc = EBCScoring()
+        self.trials_path = trials_path
+        self.seed_test_sets_path = seed_test_sets_path
 
     def calculate_TPR(self, TP, FN):
         """Calculates True Positive Rate/Recall/Sensitivity"""
@@ -44,9 +51,14 @@ class AUC:
 
     def ingest_data(
         self,
-        trials_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/scores/test_sets_2021-08-16,21:27.txt",
-        seed_test_sets_path="/Users/mtaruno/Documents/DevZone/Stem-Away-group-5/data/artifacts/scores/seed_test_sets_2021-08-16,21:27.txt",
+        trials_path=None,
+        seed_test_sets_path=None,
     ):
+        if trials_path is None:
+            trials_path = self.trials_path
+        if seed_test_sets_path is None:
+            seed_test_sets_path = self.seed_test_sets_path
+
         with open(trials_path, "rb") as fp:  # Unpickling
             trials = pickle.load(fp)
         with open(seed_test_sets_path, "rb") as fp:  # Unpickling
@@ -75,11 +87,11 @@ class AUC:
             tp_rates.append(tpr)
             fp_rates.append(fpr)
 
-        auc = self.calculate_auc_score(tp_rates, fp_rates)
+        auc = self.calculate_auc_score(fp_rates, tp_rates)
 
         return tp_rates, fp_rates, auc
 
-    def plot_roc(self, tp_rates, fp_rates, auc):
+    def plot_roc(self, tp_rates, fp_rates, auc, test_set_size: str, trial_number: str):
         import matplotlib.pyplot as plt
 
         plt.style.use("seaborn")
@@ -99,7 +111,7 @@ class AUC:
         )
         plt.xlabel("False Positive Rate")
         plt.ylabel("True Positive Rate")
-        plt.title("ROC Curve")
+        plt.title(f"Trial {trial_number}, Test Set Size: {test_set_size}")
         plt.legend(loc="lower right")
         plt.show()
 
@@ -112,12 +124,19 @@ class AUC:
         """Entire walkthrough"""
         trials, seed_test_sets = self.ingest_data()
         test_sets = [i[1] for i in seed_test_sets]  # Getting just the test sets
+        seed_sets = [i[0] for i in seed_test_sets]
         auc_scores = []
 
-        for trial, test_set in zip(trials, test_sets):
+        for trial_num, (trial, test_set) in enumerate(zip(trials, test_sets), start=1):
             print("Test Set Size: %d" % (len(test_set)))
             tp_rates, fp_rates, auc = self.process_trial_roc(trial, test_set)
-            self.plot_roc(tp_rates, fp_rates, auc)
+            self.plot_roc(
+                tp_rates,
+                fp_rates,
+                auc,
+                test_set_size=str(len(test_set)),
+                trial_number=str(trial_num),
+            )
 
             auc_scores.append(auc)
 
@@ -126,3 +145,23 @@ class AUC:
 
         print("REPORT")
         print(f"Proportion of trials with AUC > 0.7: {proportion}")
+
+        return [len(i) for i in test_sets], [len(i) for i in seed_sets], auc_scores
+
+    def plot_seed_test_set_sizes(self, seed_set_sizes, test_set_sizes):
+
+        import plotly.figure_factory as ff
+        import numpy as np
+
+        group_labels = ["Seed", "Test"]
+        colors = ["rgb(0, 0, 100)", "rgb(0, 200, 200)"]
+
+        # Create distplot with custom bin_size
+        fig = ff.create_distplot(
+            [seed_set_sizes, test_set_sizes], group_labels, colors=colors
+        )
+
+        fig.update_layout(
+            title_text="Distribution of Seed Sets and Test Sets After 100 EBC Trial Runs"
+        )
+        fig.show()
