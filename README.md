@@ -28,3 +28,4 @@ That is the power of outsourcing complexity to a computer.
 ![STEM Away - EBC Scoring Rule-2](https://user-images.githubusercontent.com/44710581/130164649-7176240f-6717-4bf7-9437-6213f764be95.png)
 
 ### AUC Scoring
+![STEM Away - AUC-3](https://user-images.githubusercontent.com/44710581/130165695-f97b2edb-8c2e-458d-9459-1cc99443c621.png)
