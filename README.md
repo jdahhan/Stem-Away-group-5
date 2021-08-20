@@ -6,7 +6,7 @@ This project replicates and extends the bioinformatic research at Stanford Unive
 
 Her hypothesis is:
 
-  Distributional techniques can partially or completely replace human curated lexicons and ontologies for normalization in biomedical text mining.
+    Distributional techniques can partially or completely replace human curated lexicons and ontologies for normalization in biomedical text mining.
   
 Furthermore, these distribtional techniques will enable us to do:
 1) `Prediction`: New drug-drug and other bioinformatic interactions
