@@ -20,7 +20,7 @@ That is the power of outsourcing complexity to a computer.
 
 ## Our Pipeline:
 
-The modularization in this pipeline diagram maps 1-1 to the actual code above. It is our entire pipeline condensed into one diagram. 
+The modularization in this pipeline diagram maps 1-1 to the actual code development above. It is our entire pipeline condensed into one diagram. 
 
 ![STEM Away - Pipeline Version 3](https://user-images.githubusercontent.com/44710581/129920146-f5107736-62c3-49db-98f8-a0bd2a1830ee.png)
 
