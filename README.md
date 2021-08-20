@@ -33,6 +33,6 @@ A little deeper dive into how each EBC trial is being scored.
 
 ## AUC Scoring
 
-Closer look at the inner workings of how EBC trial is being evaluated (how AUC scoring can be applied to this particular bioinformatic problem)
+Closer look at the inner workings of how EBC trial is being evaluated (how AUC scoring can be applied to this particular bioinformatic problem).
 
 ![STEM Away - AUC-3](https://user-images.githubusercontent.com/44710581/130165695-f97b2edb-8c2e-458d-9459-1cc99443c621.png)
