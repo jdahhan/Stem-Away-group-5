@@ -5,6 +5,7 @@ We are now a society not with too little information, but too much information. 
 This project replicates and extends the bioinformatic research at Stanford University of Percha and Altman 2015 titled “Learning the Structure of Biomedical Relationships from Unstructured Text.”
 
 Her hypothesis is:
+
   Distributional techniques can partially or completely replace human curated lexicons and ontologies for normalization in biomedical text mining.
   
 Furthermore, these distribtional techniques will enable us to do:
